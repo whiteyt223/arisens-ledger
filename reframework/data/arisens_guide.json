@@ -1,0 +1,3089 @@
+[
+ {
+  "id": 10030,
+  "name": "Gaoled Awakening",
+  "how": "Opening quest at the Excavation Site gaol. Create your character and vocation, follow Fiska and the prisoners to Rook, pick up a boulder near the scaffolding and carry it to Rook. When the gorgon attacks, fight it until it flees, then run for the cliff and jump. The griffin is shot down; the quest ends when you wake at Ultramarine Waterfall.",
+  "decision": false,
+  "choices": [],
+  "best": "Stay out of the gorgon's gaze (it petrifies) and use ranged attacks; it flees once its health bar is empty.",
+  "rewards": "None (trophy First Taste of Freedom)",
+  "warnings": [
+   "During the escape keep running to the cliff edge; dying to the guards fails the escape and you retry."
+  ],
+  "follow_ups": "Unlocks Tale's Beginning.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Gaoled+Awakening"
+  ]
+ },
+ {
+  "id": 10040,
+  "name": "The Hand That Guides",
+  "how": "Listed in the quest index but only a stub on the wiki; its one line describes the same prologue scene as Gaoled Awakening (labor at the Excavation Site, a serpentine creature attacks). In a normal playthrough there is nothing separate to do: finish Gaoled Awakening by escaping on the griffin.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "Not listed",
+  "warnings": [
+   "Wiki page is an unfinished stub; may be a leftover/unused entry, so do not hunt for extra steps."
+  ],
+  "follow_ups": "Leads into Tale's Beginning and the rest of the main story.",
+  "confidence": "low",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Hand+That+Guides",
+   "https://dragonsdogma2.wiki.fextralife.com/Gaoled+Awakening"
+  ]
+ },
+ {
+  "id": 10050,
+  "name": "Tale's Beginning",
+  "how": "Wake at Ultramarine Waterfall and follow the soldier Justinn, killing two goblin groups on the way. At Borderwatch Outpost touch the Riftstone to create your main pawn (you can hire more there). To finish, talk to attendant Warrick in the Borderwatch Lounge and rest (free); resting completes the quest, and you can wake at morning or night.",
+  "decision": false,
+  "choices": [],
+  "best": "Loot the chest by the start (Salubrious Draught), the wood pile after the ravine (150 G) and the outpost crates on the way.",
+  "rewards": "200 XP, Riftstone unlocked",
+  "warnings": [],
+  "follow_ups": "Unlocks In Dragon's Wake; Phill at the main gate offers Ordeals of a New Recruit.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Tale's+Beginning"
+  ]
+ },
+ {
+  "id": 10060,
+  "name": "In Dragon's Wake",
+  "how": "Leave Borderwatch south to Melve; the dragon flashback plays and you wake in Ulrika's house. Talk to Lennart at the inn, then tell Gregor at the village entrance \"I'm ready now\" and follow him north through the Northern Vermund Checkpoint (cyclops at the river). The quest ends when you reach Vernworth and the guards vet you; Brant takes over.",
+  "decision": false,
+  "choices": [],
+  "best": "Before telling Gregor you are ready, accept the Melve side quests: Brothers Brave and Timid (Ian), Medicament Predicament (Flora), Nesting Troubles (Lennart).",
+  "rewards": "6000 G (trophy Arisen)",
+  "warnings": [
+   "Keep Gregor alive on the road: if he dies, Till Death Do Us Part (his wife Margit) is lost, and passing the checkpoint without him is unreliable.",
+   "Brothers Brave and Timid is cancelled if you leave Melve without accepting it.",
+   "Nesting Troubles is cancelled once Brant's main quests trigger the dragon attack on Melve."
+  ],
+  "follow_ups": "Triggers One-Eyed Interloper at the river; Seat of the Sovran begins in Vernworth.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/In+Dragon's+Wake",
+   "https://dragonsdogma2.wiki.fextralife.com/Brothers+Brave+and+Timid",
+   "https://dragonsdogma2.wiki.fextralife.com/Nesting+Troubles",
+   "https://dragonsdogma2.wiki.fextralife.com/Till+Death+Do+Us+Part"
+  ]
+ },
+ {
+  "id": 10070,
+  "name": "One-Eyed Interloper",
+  "how": "Triggers automatically while escorting Gregor to Vernworth: the rocks damming the shallow river are a camouflaged cyclops. Kill it (hit the eye). Optionally carry the powder kegs from the path you came along and throw them at the rock dam to flood and hurt it. Afterwards Gregor talks to you; the quest ends when you reach Vernworth.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Kill the cyclops with Gregor",
+    "outcome": "If Gregor and his men all live, he apologizes, gives the Missive to the Captain and offers an oxcart ride to Vernworth.",
+    "rewards": "Cyclops XP, Missive to the Captain, oxcart ride"
+   },
+   {
+    "option": "Blow the dam and run",
+    "outcome": "Path clears without killing the cyclops; no missive, Gregor and his men keep a poor view of you, and you walk to Vernworth.",
+    "rewards": "None"
+   }
+  ],
+  "best": "Blow the dam early so the party is out of the water, then kill the cyclops with nobody dying for the missive and the oxcart ride.",
+  "rewards": "",
+  "warnings": [
+   "Keep Gregor alive (avoid needing a Wakestone on him); he is needed for Till Death Do Us Part later.",
+   "If any of Gregor's men die, you may not get the missive and must vouch for yourself at the gate.",
+   "The fight seems not to trigger if Gregor is not with you."
+  ],
+  "follow_ups": "No new quests; Gregor alive keeps Till Death Do Us Part available.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/One-Eyed+Interloper"
+  ],
+  "item_hints": {
+   "Missive to the Captain": "Key item handed to you by Gregor after the river cyclops dies, only if he and his men all survive. Vouches for you at the capital; not given with casualties or if you run."
+  }
+ },
+ {
+  "id": 10080,
+  "name": "Seat of the Sovran",
+  "how": "Reach Vernworth and get vetted; Brant explains your past and asks to meet at the tavern at night. Brant is only there at night: sit on a bench and Doze Off until night. Talk to him at the bar of the Stardrop Inn; accepting any one of his three tasks completes the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "Accept all three tasks (Monster Culling, the queen regent, the magistrate); after the first, ask Brant again for the others.",
+  "rewards": "None listed",
+  "warnings": [
+   "Guard Norman asks where a fleeing youth went; lie or tell the truth. The youth is Sven (The Ornate Box); no confirmed lasting effect.",
+   "Doing Brant's main quests soon triggers a dragon attack on Melve that cancels Lennart's Nesting Troubles if not yet accepted."
+  ],
+  "follow_ups": "Unlocks Monster Culling, Disa's Plot, The Caged Magistrate (Gaol Key); Vocation Frustration (Klaus) and The Ornate Box nearby.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Seat+of+the+Sovran",
+   "https://dragonsdogma2.wiki.fextralife.com/Nesting+Troubles",
+   "https://samurai-gamers.com/dragons-dogma-2/dd2-dialogue-choices-guide"
+  ],
+  "item_hints": {
+   "Gaol Key": "Handed to you by Captain Brant at the Stardrop Inn (Vernworth) at night when you agree to help the imprisoned magistrate. Used in The Caged Magistrate; you return it to Brant at the end."
+  }
+ },
+ {
+  "id": 10090,
+  "name": "Monster Culling",
+  "how": "From Brant at the Stardrop Inn bar at night. Help soldiers at three sites: goblins deep in Trevo Mine (talk to Alex after), saurians in Stormwind Cave by Harve Village (find Dylan, then Thurston; rescue Hollis and escort him out), and a goblin/saurian attack on a shipment at the Eastern Edge of Vermund. To finish, report to Brant at the bar at night (Doze Off on a bench).",
+  "decision": false,
+  "choices": [],
+  "best": "Talk to Klaus at the Vocation Guild first so Vocation Frustration progresses during the Trevo Mine task.",
+  "rewards": "3000 XP, 7000 G, Expeditioner's Cloak",
+  "warnings": [
+   "Bring Wakestones: reviving the dead soldier in Stormwind Cave gives the trophy The Savior; escort survivors out.",
+   "Do the eastern shipment fight by day for an easier battle."
+  ],
+  "follow_ups": "Brant then offers The Stolen Throne (masquerade, Eventide Mask) and The Nameless Village; spy quest The Arisen's Shadow triggers when you leave the tavern.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Monster+Culling"
+  ]
+ },
+ {
+  "id": 10100,
+  "name": "Disa's Plot",
+  "how": "From Brant (queen regent). Between midnight and dawn go to the castle's rear gate; a guard recognizes you, stay close and he leads you into the Guardhouse. Sneak through the main hall up the spiral stairs to the 2F Castle Offices and take the Torn Letter from the desk. Sven catches you (harmless); climb out the window, slide down the roof, then give the letter to Brant at night.",
+  "decision": false,
+  "choices": [],
+  "best": "Grab the Marcher's set from the Guardhouse chest (guard disguise for the gaol) and the Courtly Tunic and Breeches from the 2F Guest Chambers chest (needed for the coronation).",
+  "rewards": "1 Wakestone, 6500 G, 1200 XP",
+  "warnings": [
+   "Guards who spot you in restricted areas attack and gaol you; punch the breakable cell wall and follow the sewer out.",
+   "Discontinued if you start the coronation (Feast of Deception) first."
+  ],
+  "follow_ups": "Unlocks An Unsettling Encounter (Allard) from Brant. You meet Sven, Disa's son, here.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Disa's+Plot",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/walkthrough/vernworth/disas-plot-walkthrough"
+  ],
+  "item_hints": {
+   "Torn Letter": "Quest item you steal from the desk at the end of the Vernworth Castle Offices (2F). Grabbing it triggers Sven; escape out the window, then give it to Captain Brant at the Stardrop Inn at night.",
+   "Marcher's Armor": "Optional guard disguise (with Marcher's Helm and Marcher's Cuisses), taken free from a chest inside the castle Guardhouse. Not required here."
+  }
+ },
+ {
+  "id": 10110,
+  "name": "An Unsettling Encounter",
+  "how": "After Disa's Plot, ask Brant at night about rumors of Allard. At night enter via the rear Guardhouse (Doze Off on the bench outside the castle gate), go up to Allard's chambers and wait for Allard and Sven to leave. Walk into the corner wall near the desk to open the hidden room, take the Battahli-Crested Letter, exit the west window onto the carriages, then report to Brant at night.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "Ring of Accrual, 5500 G",
+  "warnings": [
+   "You cannot leave through the hidden room's door (Allard and Sven are outside); use the west window.",
+   "Stealth section: guards who see you gaol you. At the exit arch Wilhelmina covers for you; that scene is scripted."
+  ],
+  "follow_ups": "Required for Feast of Deception, which starts when you talk to Brant next.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/An+Unsettling+Encounter",
+   "https://www.powerpyx.com/dragons-dogma-2-an-unsettling-encounter-walkthrough"
+  ],
+  "item_hints": {
+   "Battahli-Crested Letter": "Quest item taken from the table in a hidden room off Allard's chambers (castle 2F). The room opens when you walk against the wall in the corner near the desk, after Sven and Allard leave."
+  }
+ },
+ {
+  "id": 10120,
+  "name": "The Caged Magistrate",
+  "how": "Brant gives you the Gaol Key. Guard Otto lets you into the castle Gaol Tower; sneak past guards to Waldhar (first cell on right), say you are the Arisen, show the mark, urge him to escape. He wants books: finish The Heel of History to find the Gracious Hand vaults, tell him, unlock the gates down the spiral stairs and lead him outside. Return the key to Brant at night.",
+  "decision": false,
+  "choices": [],
+  "best": "Before returning the Gaol Key, pay Ibrahim's Scrap Shop (Checkpoint Rest Town) 5000 G for a reusable forged copy; forgery takes about a day.",
+  "rewards": "7000 G, 1200 XP, 1 Ferrystone",
+  "warnings": [
+   "Wear the Marcher's set so gaol guards treat you as one of them; if arrested, punch the breakable cell wall to escape.",
+   "Start The Heel of History by donating food to Kendrick outside the Gracious Hand (twice).",
+   "Discontinued if you start the coronation first; players report Waldhar will not leave once Convergence starts."
+  ],
+  "follow_ups": "Tied to The Heel of History; Waldhar relocates to the Gracious Hand vaults.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Caged+Magistrate",
+   "https://www.powerpyx.com/dragons-dogma-2-the-caged-magistrate-walkthrough/",
+   "https://dragonsdogma2.wiki.fextralife.com/Feast+of+Deception"
+  ],
+  "item_hints": {
+   "Gaol Key": "Given by Captain Brant at the Stardrop Inn at night. Opens Waldhar's cell (first on the right) and the gates by the spiral stairs. Hand it back to Brant to finish; a forged copy from Ibrahim's (5000 G) lets you keep one.",
+   "Marcher's Armor": "Optional: the Marcher's set from the castle Guardhouse chest (taken during Disa's Plot) lets you pass as a guard inside the gaol."
+  }
+ },
+ {
+  "id": 10130,
+  "name": "The Arisen's Shadow",
+  "how": "Leave the Stardrop Inn after Monster Culling and your pawns notice a hooded man (Bermudo) tailing you in Vernworth. He is slightly slower than you: chase him down and press Grab to tackle him. He admits to spying and offers a bribe. Taking the gold ends the quest on the spot; refusing starts a short fight that ends when Brant arrives and arrests him.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Accept the bribe (let him go)",
+    "outcome": "Quest ends; he leaves. Later Brant gives only a Beastren Border Entry Permit, so a human needs a Beastren Mask or another route into Battahl.",
+    "rewards": "5000 G, 1000 XP"
+   },
+   {
+    "option": "Refuse and apprehend him",
+    "outcome": "Fight him until Brant arrives and arrests him. A few days later ask Brant about the captured agent; you get a normal Border Entry Permit and a lead on a banished oracle.",
+    "rewards": "4000 G, 1000 XP"
+   }
+  ],
+  "best": "Apprehend him: only 1000 G less, but you get a proper border permit (no mask needed) and extra story info.",
+  "rewards": "",
+  "warnings": [
+   "Do not kill Bermudo; Brant can be slow, so grapple him and keep pawns from finishing him.",
+   "If he dies, revive him with a Wakestone (or carry him to Brant at the inn at night).",
+   "Brant's quests, including this one, are discontinued by Feast of Deception."
+  ],
+  "follow_ups": "Changes Brant's dialogue in Feast of Deception and which permit you get for Nation of the Lambent Flame.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Arisen's+Shadow",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/vernworth/the-arisens-shadow-walkthrough-choices-and-rewards",
+   "https://dragonsdogma2.wiki.fextralife.com/Feast+of+Deception",
+   "https://dragonsdogma2.wiki.fextralife.com/Nation+of+the+Lambent+Flame"
+  ]
+ },
+ {
+  "id": 10140,
+  "name": "Feast of Deception",
+  "how": "After An Unsettling Encounter, equip formal wear (Courtly Tunic and Breeches) and tell Brant at the Stardrop Inn at night that you are ready. Time jumps to morning and the coronation goes wrong. Let at least one day pass (rest or Doze Off), then talk to Brant again at night: he hands you the border permit and the quest ends.",
+  "decision": false,
+  "choices": [],
+  "best": "Finish all Brant quests, Readvent of Calamity and other timed Vernworth quests before saying you are ready.",
+  "rewards": "Border Entry Permit (Beastren Border Entry Permit if you let the spy go, or if you are Beastren)",
+  "warnings": [
+   "POINT OF NO RETURN: unfinished Brant quests are discontinued (Disa's Plot, Caged Magistrate, Stolen Throne, Nameless Village, Arisen's Shadow).",
+   "Ulrika's Readvent of Calamity is also discontinued; check for hourglass-marked timed quests first."
+  ],
+  "follow_ups": "Unlocks Nation of the Lambent Flame. Arisen's Shadow result changes Brant's dialogue and your permit.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Feast+of+Deception",
+   "https://www.powerpyx.com/?p=238181",
+   "https://dragonsdogma2.wiki.fextralife.com/Readvent+of+Calamity",
+   "https://dragonsdogma2.wiki.fextralife.com/Courtly+Tunic"
+  ],
+  "item_hints": {
+   "Courtly Tunic": "Formal wear you take for free, not buy: chest in the castle 2F Guest Chambers (during Disa's Plot), master bedroom of the Comptroller's Home (Vernworth), or The Ornate Box reward. Equip before talking to Brant.",
+   "Courtly Breeches": "Wear with the Courtly Tunic; found in the same castle Guest Chambers chest or noble house as the tunic."
+  }
+ },
+ {
+  "id": 10150,
+  "name": "Nation of the Lambent Flame",
+  "how": "Take an oxcart from West Vernworth to Checkpoint Rest Town and cross the border gate south (show your permit). Follow the road to the Pathfinder by the cliffs, who points you to the Rockmouse's Burrow in Bakbattahl. Near the city Menella stops you and takes you to the tavern; agreeing to help her and Empress Nadinia ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "Battahl Residence Permit from Menella (trophy Across the Border)",
+  "warnings": [
+   "A human with a Beastren permit must wear a Beastren Mask (8700 G, Ibrahim's) or hide in the royal oxcart, take the river pass or Guerco Cavern.",
+   "Do not run through the gate as the royal carriage passes; the guards attack.",
+   "The Griffin near Bakbattahl is tough; damage it until it flees."
+  ],
+  "follow_ups": "Unlocks Flickering Shadows; needed for The Phantom Oxcart. Lyssandro at the stables past the border offers Mercy Among Thieves.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Nation+of+the+Lambent+Flame"
+  ],
+  "item_hints": {
+   "Border Entry Permit": "Given by Captain Brant at the end of Feast of Deception if you turned the spy in during The Arisen's Shadow. Lets you cross the Checkpoint Rest Town gate.",
+   "Beastren Border Entry Permit": "Given by Brant if you let the spy go or skipped that quest. Beastren cross freely; humans must also wear a Beastren Mask.",
+   "Beastren Mask": "Only needed by humans with the Beastren permit. Buy at Ibrahim's Scrap Shop in Checkpoint Rest Town for 8700 G.",
+   "Battahl Residence Permit": "Given by Menella at the Bakbattahl tavern when you pledge to aid her and Empress Nadinia; also comes with buying a Bakbattahl home."
+  }
+ },
+ {
+  "id": 10151,
+  "name": "Flickering Shadows",
+  "how": "Find Ambrosius on the Olta'Battahl Coast (marked) and give him a Small Blue Crystal Shard picked up from the coastal rocks. Then visit Oracle Luz at the Reverent Shrine (oxcart to Checkpoint Rest Town, past Enoa'Battahl Forest); the Dragonforged at Bay Wayside Shrine is optional. To finish, talk to the Rivage Elder at his home in Harve Village; his story ends the quest as a structure rises from the sea.",
+  "decision": false,
+  "choices": [],
+  "best": "Talking to Luz also unlocks the Trickster vocation.",
+  "rewards": "3200 XP, 25000 G (plus 100 G from Ambrosius)",
+  "warnings": [
+   "Talking to the Rivage Elder late in the day skips time to morning."
+  ],
+  "follow_ups": "Triggers Convergence: a shrine rises off Harve and Stormwind Cave opens.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Flickering+Shadows"
+  ],
+  "item_hints": {
+   "Small Blue Crystal Shard": "Not bought: pick one up from the rocks on the Olta'Battahl Coast near Ambrosius. He pays 100 G for it."
+  }
+ },
+ {
+  "id": 10160,
+  "name": "Convergence",
+  "how": "Starts automatically after Flickering Shadows. Enter Stormwind Cave near Harve, take the newly opened drop down, fight past saurians south to the risen Seafloor Shrine, loot the side room and chests, then hop down the ledge into the large chamber. Rothais, Vermund's first Sovran, talks to you and fades after giving you his blade; that ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "4000 XP, 15000 G, Dulled Godsbane Blade",
+  "warnings": [
+   "Finish The Caged Magistrate first; players report Waldhar will not leave his cell once this starts."
+  ],
+  "follow_ups": "Unlocks A New Godsway.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Convergence",
+   "https://dragonsdogma2.wiki.fextralife.com/The+Caged+Magistrate"
+  ]
+ },
+ {
+  "id": 10170,
+  "name": "A New Godsway",
+  "how": "Give the Dulled Godsbane Blade to Ambrosius in the Forbidden Magick Research Lab, Bakbattahl; he wants 15 Wyrmslife Crystals. Ask Luz at the Reverent Shrine where the dragon is, then go through Wyrmsblood Forest to Dragonsbreath Tower (Ogre, harpies, Sigurd joins) and kill the Lesser Drake. Hand over the crystals; he needs a day, so Doze Off on a bench in Bakbattahl and return for the blade.",
+  "decision": false,
+  "choices": [],
+  "best": "If you already hold 15 Wyrmslife Crystals, hand them over and skip the trek.",
+  "rewards": "35000 G, 6000 XP, Wakestone, Empowered Godsbane Blade",
+  "warnings": [
+   "The lab has no bench; go out into Bakbattahl to Doze Off to the next day.",
+   "Stock curatives and a camping kit for Wyrmsblood Forest (Ogre, harpies, drake)."
+  ],
+  "follow_ups": "Unlocks The Guardian Gigantus.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/A+New+Godsway",
+   "https://www.powerpyx.com/dragons-dogma-2-a-new-godsway-walkthrough"
+  ],
+  "item_hints": {
+   "Dulled Godsbane Blade": "Received from Rothais at the Seafloor Shrine at the end of Convergence. Hand it to Ambrosius in the Forbidden Magick Research Lab, Bakbattahl.",
+   "Wyrmslife Crystal": "Ambrosius needs 15. A dragon kill gives 15: the Lesser Drake atop Dragonsbreath Tower (Wyrmsblood Forest, west then north of Bakbattahl) is the intended one."
+  }
+ },
+ {
+  "id": 10180,
+  "name": "The Guardian Gigantus",
+  "how": "Starts when Ambrosius gives you the Empowered Godsbane. Follow Phaesus to the Flamebearer Palace Spellseal Door south of Bakbattahl and examine it; you raise the blade to open it. Talos rises and heads for Volcanic Island; chase it, break the glowing spikes on its body, then kill it. The quest ends at the Moonglint Tower entrance cutscene.",
+  "decision": false,
+  "choices": [],
+  "best": "Break every weak spot yourself before the ballista shot for the full XP and trophy.",
+  "rewards": "19000 XP (only if you help kill Talos)",
+  "warnings": [
+   "Do not petrify Talos with a Medusa Head; it may lock out When Wills Collide.",
+   "Finish side quests now; Legacy follows directly from the tower cutscene.",
+   "Players report softlocks; rest and save before opening the Spellseal Door."
+  ],
+  "follow_ups": "Leads straight into Legacy.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Guardian+Gigantus"
+  ],
+  "item_hints": {
+   "Empowered Godsbane Blade": "Given by Ambrosius after the next-day cutscene in A New Godsway. Carry it south of Bakbattahl; examining the Flamebearer Palace Spellseal Door with it opens the way."
+  }
+ },
+ {
+  "id": 10200,
+  "name": "Legacy",
+  "how": "Rest and stock up at the Excavation Site Camp, then climb Moonglint Tower (elevator, scaffolding, bridge). At the top survive the False Sovran and his guards for about 2 minutes while Phaesus summons the dragon; you do not need to win. The Dragon then offers a choice. The quest ends with an ending: walk away, kill the Dragon, or use the Godsbane on its heart.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Accept the Dragon's offer (walk away)",
+    "outcome": "Bad ending: the NPC with your highest affinity is sacrificed, empty coronation, then back to the title screen.",
+    "rewards": "None"
+   },
+   {
+    "option": "Fight and slay the Dragon",
+    "outcome": "Normal ending with a full coronation. Sit on the throne for NG+, or talk to the Pathfinder at the table to choose again.",
+    "rewards": "New Game+"
+   },
+   {
+    "option": "Use Godsbane on its heart",
+    "outcome": "During the fight, climb to the Dragon's glowing heart and use the Empowered Godsbane from your inventory. Leads to the Unmoored World and the true ending.",
+    "rewards": "Unmoored World, true ending"
+   }
+  ],
+  "best": "Manual save first. Fight, climb to the heart, use the Empowered Godsbane from inventory for the Unmoored World and true ending.",
+  "rewards": "",
+  "warnings": [
+   "Finish side quests first; the Unmoored World changes the world, makes enemies stronger and is timed.",
+   "Raghnall waits on the tower bridge to duel you (Clash and Conclusion) if his quests are done.",
+   "Sitting on the throne starts NG+ and cannot be undone; talk to the Pathfinder first to pick the true path."
+  ],
+  "follow_ups": "True path: Dreams Apart, A Scholarly Pursuit (keep Phaesus alive), Hall of the First Dawn, When Wills Collide.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Legacy",
+   "https://www.pcgamesn.com/dragons-dogma-2/true-ending",
+   "https://www.ggrecon.com/guides/dragons-dogma-2-unmoored-world-true-ending/"
+  ]
+ },
+ {
+  "id": 20010,
+  "name": "Medicament Predicament",
+  "how": "In Melve, Flora stops you on the way to Runne's Apothecary: her mother needs a Fruit Roborant. Buy one at the apothecary (600 G) or craft it, then hand it to Flora at the same spot; that ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "Do it early: Flora is Auriol's daughter, so he gives you 20% off the Ornate Box in Vernworth later.",
+  "rewards": "500 XP, 100 G, Ring of Exultation",
+  "warnings": [
+   "Can reportedly be cancelled if not picked up in time (point unclear); grab it on your first Melve visit."
+  ],
+  "follow_ups": "Flora later appears near Auriol's shop in Vernworth and gives the Chirurgeon's Tome (pawn specialization); discount helps The Ornate Box.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Medicament+Predicament",
+   "https://www.powerpyx.com/dragons-dogma-2-medicament-predicament-walkthrough/",
+   "https://gamesradar.com/dragons-dogma-2-ornate-box"
+  ],
+  "item_hints": {
+   "Fruit Roborant": "Sold at Runne's Apothecary in Melve (600 G), or craft: combine 2 Ripened Fruit into Dried Fruit, then Dried Fruit plus Greenwarish or Morningtide. Hand one to Flora."
+  }
+ },
+ {
+  "id": 20020,
+  "name": "Ordeals of a New Recruit",
+  "how": "Talk to Phill at the Borderwatch Outpost main gate after Tale's Beginning. Follow the dirt path toward Northern Vermund to the marked trees on the right, kill the three harpies attacking recruit Accardo; he comes out of hiding once they are dead. Return to Phill at the gate to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Go straight to Accardo after accepting; bows or ranged pawns ground the harpies fast.",
+  "rewards": "400 XP, Lantern Oil, gold (sources list 1000 G or 100 G)",
+  "warnings": [
+   "Time-sensitive: Accardo can be killed by the harpies if you dawdle; the quest then ends with a failure message."
+  ],
+  "follow_ups": "",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Ordeals+of+a+New+Recruit",
+   "https://www.powerpyx.com/dragons-dogma-2-ordeals-of-a-new-recruit-walkthrough/"
+  ]
+ },
+ {
+  "id": 20030,
+  "name": "The Provisioner's Plight",
+  "how": "At Borderwatch Outpost talk to Geoffrey at the table among the tents; he gives you a note. Hand it to Markus on the hill north of camp. Gather 3 Harspud and 2 Salubrious Draughts in the marked areas and give them to Markus (he hands you Waking Powder and heads back). Talk to Geoffrey in camp to finish. No time limit.",
+  "decision": false,
+  "choices": [],
+  "best": "Deliver the note and all supplies to Markus before reporting to Geoffrey.",
+  "rewards": "400 XP, Dried Fruit, 900 G (Markus also gives Waking Powder)",
+  "warnings": [
+   "Reporting to Geoffrey before delivering the note, or before Markus has all his supplies, gives a lesser ending."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Provisioner's+Plight",
+   "https://www.powerpyx.com/dragons-dogma-2-the-provisioners-plight-walkthrough/"
+  ],
+  "item_hints": {
+   "Harspud": "Need 3. Gather from vine-covered plants on the ground in the marked search areas near camp; a pawn may offer to lead you.",
+   "Salubrious Draught": "Need 2. Combine Greenwarish (leafy green bush) with an Apple or Grape in your inventory, or buy from Kassandra in camp (about 250 G)."
+  }
+ },
+ {
+  "id": 20040,
+  "name": "Nesting Troubles",
+  "how": "Talk to Lennart by the well in Melve. At the river edge northwest of town pick up an explosive cask and throw it across at the saurian nest, kill the saurians from the high ground, and report to Lennart. Then carry the Jar of Poison (outside the northwest gate) to the cliff edge, throw it into the same nest, and talk to Lennart near the gate to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Save before throwing the Jar of Poison; there is only one.",
+  "rewards": "400 XP, 1250 G, Stoutness Extract (full success)",
+  "warnings": [
+   "Only one Jar of Poison: a miss gives a different ending, and dropping it into the river loses it and stalls the quest. Save first.",
+   "Cancelled if not picked up before the dragon attack on Melve later in Brant's story line; take it early."
+  ],
+  "follow_ups": "",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Nesting+Troubles",
+   "https://www.powerpyx.com/dragons-dogma-2-nesting-troubles-walkthrough/"
+  ],
+  "item_hints": {
+   "Jar of Poison": "Only one, on the ground outside Melve's northwest gate on the path to the nest. Carry it to the cliff edge and throw it into the nest; it is not bought or crafted.",
+   "Explosive Cask": "Barrels at the river edge on Melve's northwest side. Pick one up and throw it (hold to aim) across the river at the eggs; not an inventory item."
+  }
+ },
+ {
+  "id": 20050,
+  "name": "Brothers Brave and Timid",
+  "how": "Right after waking in Ulrika's house, talk to Ian outside Tristan's Inn in Melve. Follow him; at the gate decline Gregor's offer to go to the capital. Cross the bridge, take the right fork uphill past the campfire and the breakable bridge, and kill the pack of about five wolves around Norbert. Escort both brothers back; crossing the river into Melve plays the final scene and ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "400 XP, 1500 G, Homespun Cloak",
+  "warnings": [
+   "Accept it before you leave Melve for the capital, or it is cancelled.",
+   "On the way back enemies may wait at the breakable bridge; fight them or take the side route down the cliff. Keep both brothers alive."
+  ],
+  "follow_ups": "Ian reappears in Home Is Where the Hearth Is.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Brothers+Brave+and+Timid",
+   "https://www.powerpyx.com/dragons-dogma-2-brothers-brave-and-timid-walkthrough/"
+  ]
+ },
+ {
+  "id": 20060,
+  "name": "Twixt a Rock and a Hard Place",
+  "how": "Akakios, by the roadside tents at the southwest edge of Bakbattahl's Mercantile Ward, gives you a Letter of Request. Go through Drabnir's Grotto to the Volcanic Island Camp and give it to Ernesto (out the camp's north gate). He rewrites it; take it to Barbas just inside the Agamen Volcanic Ruins on the island's east edge. Handing it to Barbas ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "Place a Portcrystal at the Volcanic Island Camp and carry a Ferrystone for the trip back.",
+  "rewards": "2500 XP, Ferrystone, 20,000 G",
+  "warnings": [
+   "Akakios, Ernesto or Barbas may already be dead from the island fighting. Ask the Battahl Morgue attendant in Bakbattahl for the body and use a Wakestone.",
+   "The road south from Flamebearer Palace is blocked by a Spellseal Door; reach the island through Drabnir's Grotto.",
+   "Unconfirmed player report: became unfinishable after main quest The Guardian Gigantus; finish it before then."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Twixt+a+Rock+and+a+Hard+Place",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/bakbattahl/twixt-a-rock-and-a-hard-place-walkthrough"
+  ],
+  "item_hints": {
+   "Letter of Request": "Given by Akakios, not bought. Ernesto at Volcanic Island Camp alters it and hands it back; deliver that letter to Barbas at the Agamen Volcanic Ruins."
+  }
+ },
+ {
+  "id": 20070,
+  "name": "Till Death Do Us Part",
+  "how": "Needs Seat of the Sovran done. Talk to Oswald at the Noble Quarter fountain first, then Margit outside Watchhead's Home (daytime): ask about Ser Ludolph and accept. Go to Illdoers' Resting Place, an island in the Misty Marshes northwest of Vernworth, at night when the Dullahan appears. Help Gregor until it flees, talk to Gregor, then report to Margit at Watchhead's Home to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Go straight there, arrive at night and keep Gregor alive; the Lustrous Targe is only given if he survives.",
+  "rewards": "2800 XP, 5000 G, Steeled Virtue; plus Lustrous Targe if Gregor survives",
+  "warnings": [
+   "If Gregor dies you lose the Lustrous Targe. Players report that reviving his body with a Wakestone before reporting to Margit still counts.",
+   "Time limited: do not dawdle after accepting. The Dullahan only spawns at night and flees at dawn; it resists ice.",
+   "Margit's dialogue will not advance until you have talked to Oswald.",
+   "Players report killing the Dullahan very fast can leave the quest stuck on 'help Gregor'; returning to Vernworth fixed it."
+  ],
+  "follow_ups": "",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Till+Death+Do+Us+Part",
+   "https://www.powerpyx.com/dragons-dogma-2-till-death-do-us-part-walkthrough/"
+  ]
+ },
+ {
+  "id": 20080,
+  "name": "Scaly Invaders",
+  "how": "Starts on a later Harve visit, after the Harve part of Brant's main quest Monster Culling: Fyoran asks you to clear the saurians. Kill them in the village and talk to Fyoran. Leave Harve (past the campfire north of the village) and let a few days pass, e.g. rest at an inn or camp. Return, kill the bigger second wave with the villagers, and talk to Fyoran to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "1800 XP, 5000 G, 6 Saurian Scale (PowerPyx lists Saurian Hide)",
+  "warnings": [
+   "The second wave only comes after you leave Harve and days pass; waiting inside the village does not advance it.",
+   "Bug reports: the waiting stage sometimes never triggers, and Fyoran can vanish before the first clear."
+  ],
+  "follow_ups": "Required for Ulrika's thread: Trouble on the Cape during Readvent of Calamity.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Scaly+Invaders",
+   "https://www.powerpyx.com/dragons-dogma-2-scaly-invaders-walkthrough/",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/melve/readvent-of-calamity-walkthrough"
+  ]
+ },
+ {
+  "id": 20082,
+  "name": "Trouble on the Cape",
+  "how": "During Readvent of Calamity, after Scaly Invaders, go to Harve. A scene plays (Fyoran and Jonas argue) and Ulrika runs into Stormwind Cave south of the village; the quest starts automatically. Follow her in, kill the saurians, take the left branch to the eastern round room and save Zoran. Walk him back into Harve; the talk where Ulrika is asked to be chief ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "Let Ulrika's scene start it before you rescue Zoran, then report to Lennart in Melve.",
+  "rewards": "1800 XP, 6500 G, Ferrystone",
+  "warnings": [
+   "Do not rescue Zoran before Ulrika's scene triggers. Players report a bad ending (the wiki lists 'Fyoran is exiled', trigger unconfirmed) and Ulrika becoming a generic NPC.",
+   "The wiki marks it time limited (no deadline given); do it as soon as Readvent of Calamity sends you to Harve."
+  ],
+  "follow_ups": "Continues Readvent of Calamity: report to Lennart in Melve (adds about 2000 XP, 4500 G, Ring of Grit).",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Trouble+on+the+Cape",
+   "https://www.powerpyx.com/dragons-dogma-2-trouble-on-the-cape-walkthrough/",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/melve/readvent-of-calamity-walkthrough"
+  ]
+ },
+ {
+  "id": 20090,
+  "name": "A Beggar's Tale",
+  "how": "Hear beggar Albert by the Vernworth fountain and talk to Benton nearby. Tail Albert at night to Walter's Tavern and his home, wait for him to leave in noble clothes, then take the Beggar's Garb from his room and give it to one person.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Return garb to Albert",
+    "outcome": "He admits to a double life with two wives and pays you to stay quiet.",
+    "rewards": "900 XP, 5000 G"
+   },
+   {
+    "option": "Give garb to Celina (tavern)",
+    "outcome": "She confronts him; a day later guard Todd reports Albert murdered and Celina dead by her own hand.",
+    "rewards": "900 XP, 3000 G, Noonbloom"
+   },
+   {
+    "option": "Give garb to Hilda (Baldwin Estate)",
+    "outcome": "She takes a few days, then punishes Albert herself; nobody dies.",
+    "rewards": "900 XP, 3x Onyx"
+   }
+  ],
+  "best": "Albert pays the most gold; Hilda is the ending where nobody dies. Avoid Celina unless you want the tragic ending.",
+  "rewards": "",
+  "warnings": [
+   "Albert only moves at dusk. In the daytime, sit on a bench and pick Doze Off to skip ahead to evening.",
+   "You can only hand the garb to one person.",
+   "Do not follow Albert into his house too closely; players report getting locked inside.",
+   "Forged copies of the garb are not accepted."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/A+Beggar's+Tale",
+   "https://www.powerpyx.com/dragons-dogma-2-a-beggars-tale-walkthrough/"
+  ],
+  "item_hints": {
+   "Beggar's Garb": "Albert's own rags, not sold anywhere. At dusk tail him from Walter's Tavern to his house (Common Quarter, bottom-right by the city wall); once he leaves dressed as a noble, take it from his room. Missed it? Try the next dusk."
+  }
+ },
+ {
+  "id": 20100,
+  "name": "Tolled to Rest",
+  "how": "On the road by the Ancient Battleground's east entrance, kill the monsters attacking Oskar; the quest starts automatically. Escort him north into the castle ruins and beat the Skeleton Lord. Go west up the spiral stairs and ladder, along the rampart, drop down the ladder hole, then hit the west gate to open his shortcut. Follow the marker to the bell room; the quest ends when Oskar rings the bell.",
+  "decision": false,
+  "choices": [],
+  "best": "Do not take the grimoire under the bell until Oskar has rung it; then take it and use the key on the nearby doors.",
+  "rewards": "3000 XP, Ancient Battleground Key, 9000 G",
+  "warnings": [
+   "Taking the Nation's Death Knell before Oskar rings the bell makes him demand a real copy back (forgeries fail); that step is buggy.",
+   "Stay close to Oskar. If he vanishes he may have died; his body goes to the Vermund Charnel House for a Wakestone."
+  ],
+  "follow_ups": "The grimoire is used in Spellbound and The Sorcerer's Appraisal (or read it to learn Meteoron). Key: leave the bell room through the front double doors, turn left, break the crates and open the next doors (Infernal Edge, Ferrystone).",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Tolled+to+Rest"
+  ],
+  "item_hints": {
+   "Nation's Death Knell": "Grimoire lying under the bell in the cenotaph bell room. Take it only after Oskar rings the bell; if taken early you must bring a genuine copy back to that spot."
+  }
+ },
+ {
+  "id": 20110,
+  "name": "The Phantom Oxcart",
+  "how": "After first reaching Bakbattahl, wait by West Vernworth Oxcart Station until two men discuss a phantom oxcart. At night hide at the marked intersection, watch Navil hand pawns to Mansenn unseen, then catch Navil. Show his document to Brant (Stardrop Inn, night). Ride the cart disguised as a pawn or tail it to Bakbattahl, kill the staff guard at the Spellseal Door for the orders, report to Brant at night.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Take Navil's bribe, let him go",
+    "outcome": "Navil goes free; you still get the Merchant's Document and the quest continues the same.",
+    "rewards": "+5000 G"
+   },
+   {
+    "option": "Take Navil to Vernworth",
+    "outcome": "You are moved to the Royal Quarter with him; no extra gold.",
+    "rewards": ""
+   }
+  ],
+  "best": "Take the bribe: +5,000 G and the quest plays out the same.",
+  "rewards": "4000 XP, Ring of Momentum, 14,500 G; riding the cart unarmed earns the 'Are We There Yet?' trophy",
+  "warnings": [
+   "If Mansenn spots you during the first night handoff he flees at every later encounter; stay hidden until the cart leaves.",
+   "Riding: remove all gear incl. cloak and lantern, pawns wait far away, walk to the driver. Punch the goblins without skills; do not resist the guards' beating.",
+   "At the Bakbattahl Spellseal Door the guards attack: re-equip and kill the staff guard first, his staff stops your pawns fighting.",
+   "Player reports: can break if left until late main quests."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Phantom+Oxcart",
+   "https://powerpyx.com/dragons-dogma-2-the-phantom-oxcart-walkthrough"
+  ],
+  "item_hints": {
+   "Merchant's Document": "Handed over by soldier Navil when you catch him after the night handoff, whichever choice you make. Show it to Captain Brant at the Stardrop Inn at night.",
+   "Labor Requisition Orders": "Received automatically when you kill the staff-holding guard at the Flamebearer Palace Spellseal Door in Bakbattahl. Take them to Brant at night."
+  }
+ },
+ {
+  "id": 20120,
+  "name": "The Heel of History",
+  "how": "Outside the Gracious Hand in the Vernworth Slums, give Kendrick food and 1000 G to unlock it. Ask three children about Malcolm: the boy at the rubble opposite the Gracious Hand, the boy on the east lookout facing the sea, and Aimee inside the Gracious Hand lobby. Report to Kendrick, follow him to the broken tower, go down into the Vaults and follow Malcolm; finding the archive ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "Afterwards walk around the archive: Kendrick gives the Logistician's Tome and Malcolm the Forager's Tome.",
+  "rewards": "900 XP, 3000 G, Panacea, Spider Venom Sac",
+  "warnings": [
+   "Unlock requirement differs by source: PowerPyx says food plus 1000 G, Fextralife says donate food twice. Do both if he will not offer the quest.",
+   "Aimee may only walk into the lobby after you talk to the other two children; wait for her.",
+   "The archive found here is needed for main quest The Caged Magistrate."
+  ],
+  "follow_ups": "Resolves The Caged Magistrate's book request; vaults later used in A Veil of Gossamer Clouds.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Heel+of+History",
+   "https://www.powerpyx.com/dragons-dogma-2-the-heel-of-history-walkthrough/"
+  ]
+ },
+ {
+  "id": 20130,
+  "name": "Saint of the Slums",
+  "how": "Help Elena with 3 Miasmite, take the tour, then gather evidence: medicine and records from the basement sickroom (night), Bruno and Jehan at Walter's Tavern, Elena's night meeting in the east square, and Radcliff in Checkpoint Rest Town to test the medicine (wait a day). To finish: at night go down to the Gracious Hand basement and GRAB Elena. That is the arrest; there is no one to report her to. A scene plays and you end up at the castle gaol tower.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Gather all evidence, then pin Elena",
+    "outcome": "Elena is jailed in the Gaol Tower; best ending.",
+    "rewards": "1600 XP, 11,000 G"
+   },
+   {
+    "option": "Arrest without enough evidence",
+    "outcome": "Weaker ending; guards may not act on your word.",
+    "rewards": "unknown"
+   },
+   {
+    "option": "Get spotted at her night meeting",
+    "outcome": "Elena flees.",
+    "rewards": "unknown"
+   }
+  ],
+  "best": "Gather all the evidence first, then grab Elena in the basement at night. Afterwards talk to Lottie and pay Radcliff 3,000 G to save Lubomir and the patients.",
+  "rewards": "",
+  "warnings": [
+   "Finishing: grab and pin Elena in the basement at night; the sentinels take her. You do not report her to anyone.",
+   "The basement is locked by day; only go at night.",
+   "After the arrest, pay Radcliff 3,000 G via Lottie within about 3 days or Lubomir and the sick die.",
+   "Tackling Elena early can end the quest without the good ending."
+  ],
+  "follow_ups": "",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Saint+of+the+Slums",
+   "https://www.powerpyx.com/dragons-dogma-2-saint-of-the-slums-walkthrough/"
+  ],
+  "item_hints": {
+   "Miasmite": "Elena needs 3. Dropped by Phantoms that roam at night (greenish clouds outside Vernworth).",
+   "Records of Treatment": "Gracious Hand basement (night only): left stairs, second door, room past the curtain, on the bookshelf.",
+   "Unlabeled Medicine": "Same curtained basement room, on the medicine shelf. Take it to Doctor Radcliff in Checkpoint Rest Town (SE, up the dirt path) to analyze."
+  }
+ },
+ {
+  "id": 20140,
+  "name": "The Gift of Giving",
+  "how": "Daphne roams the Slums path below the Common Quarter steps in Vernworth. Hand her 1 Bunch of Flowers and 1 Silver Ore. Then let at least a day pass (sleep at an inn once or twice) and find her outside the Gracious Hand: hand over 2 Gold Ore, then 5 blight cures (Detoxifying Decoction or Panacea). The last hand-in ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "Combine with Vocation Frustration: Trevo Mine has silver and gold ore.",
+  "rewards": "900 XP, 100 G, Golden Trove Beetle",
+  "warnings": [
+   "Bunch of Flowers turns into Wilted Flowers if carried for more than about a day; make it right before handing it over.",
+   "Bug reports: Daphne sometimes keeps asking for an earlier item without opening the hand-in window."
+  ],
+  "follow_ups": "Unlocks House of the Blue Sunbright.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Gift+of+Giving",
+   "https://www.powerpyx.com/dragons-dogma-2-the-gift-of-giving-walkthrough/",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/vernworth/the-gift-of-giving-walkthrough"
+  ],
+  "item_hints": {
+   "Bunch of Flowers": "Need 1. Combine two flower types: Sunbloom + Noonbloom, Sunbloom + Moonglow or Noonbloom + Moonglow (fields outside Vernworth; Moonglow only at night). Sometimes on the bed at Shakir's Inn.",
+   "Silver Ore": "Need 1. Mine ore spots, e.g. Trevo Mine west of Vernworth, or buy from a wandering vendor in town.",
+   "Gold Ore": "Need 2. Mine deposits in Trevo Mine (inside the goblin lair and on the mountain outside) or other ore spots; can also be bought.",
+   "Detoxifying Decoction": "Need 5 (Panacea also accepted). Craft Pitywort + Syrupwort Leaf, or buy at Philbert's Sundries, Merchant Quarter, Vernworth (about 500 G each)."
+  }
+ },
+ {
+  "id": 20150,
+  "name": "House of the Blue Sunbright",
+  "how": "After The Gift of Giving, maid Diana (stairs from the Slums to the Common Quarter) sends you to the Townsend Estate. Bring Daphne from outside the Gracious Hand as Sebastian's double, then hand Sebastian supplies for his trip to Melve: one item for poison, one for drowsiness, and something to deal with a cyclops. Wait a few days and return.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "900 XP, 2 Fine Harspud Roborant, 3,000 G",
+  "warnings": [
+   "Supplies are a turn-in with several accepted options per slot, not a trap: e.g. Detoxifying Decoction, Waking Powder, and a Cyclops drop such as a Misshapen Eye."
+  ],
+  "follow_ups": "Revisit the Gracious Hand a few days later for an epilogue with Diana about Daphne.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/House+of+the+Blue+Sunbright",
+   "https://www.powerpyx.com/dragons-dogma-2-house-of-the-blue-sunbright-walkthrough/"
+  ],
+  "item_hints": {
+   "Misshapen Eye": "Guaranteed Cyclops drop; Cyclops roam the roads and forest around Vernworth. Give all 3 items to Sebastian at once.",
+   "Detoxifying Decoction": "Buy at Philbert's Sundries, Merchant Quarter, Vernworth, or craft from Pitywort + Syrupwort Leaf.",
+   "Waking Powder": "Buy at Philbert's Sundries, Merchant Quarter, Vernworth, or craft from 2 Grandpetals."
+  }
+ },
+ {
+  "id": 20160,
+  "name": "Lost Rites",
+  "how": "Dark Arisen content, about level 20. At night ask Captain Brant at the Stardrop Inn 'About the uncovered ruins...'. Go to Darkhorde Cave (Malachite Forest, northwest of Vernworth; West Vernworth oxcart to Arboreal Walkway), meet the Pathfinder and enter Devilkin Hollow, the first trial. In its last room (kneeling statues under a light shaft) empty the white hoard box; taking everything ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "After the hoard, use the Proving Ground Compass from Items to mark the other trials on your map.",
+  "rewards": "Proving Ground Compass, Ferrystone, Offering Flame (hoard also holds Guardian's Tome, Hexfinger, Calycate Scepter)",
+  "warnings": [
+   "Circular rune (Spellseal) doors in the trials only open once you carry the Empowered Godsbane Blade from main quest A New Godsway.",
+   "The quest completes only when the Devilkin Hollow hoard box is completely emptied; check Quests > Completed."
+  ],
+  "follow_ups": "12 Lost Rites trials in all: 1-9 in Vermund and Battahl, 10-12 (Molten Gauntlet, Seafloor Sepulcher, Final Proving Ground) only on the Unmoored World seabed. Offering Flames are spent at Obelisks of Benediction for boons.",
+  "confidence": "medium",
+  "sources": [
+   "https://www.videogameschronicle.com/guide/dd2-dark-arisen-open-the-dlc-spellseal-doors-in-the-lost-rites-quest/",
+   "https://allthings.how/?p=262879",
+   "https://allthings.how/?p=263081",
+   "https://nightlygamingbinge.com/dragons-dogma-ii-ware-the-corrupted-beasts-walkthrough/"
+  ],
+  "item_hints": {
+   "Proving Ground Compass": "Not bought: in the white hoard box in Devilkin Hollow's last room, reached via Darkhorde Cave. Use it from the Items menu to reveal the trials."
+  }
+ },
+ {
+  "id": 20170,
+  "name": "'Ware the Corrupted Beasts",
+  "how": "After buying the house in A Place to Call Home, read the Warning Notice Issued by Vernworthian Guard inside it. At night go northeast of Vernworth (north oxcart from River Bridge - Eastern Vernworth, or walk the northeast road) to the center of the search circle. Kill the corrupted beast and the monsters it summons, then loot it. Back home, read the Additional Warning on the table.",
+  "decision": false,
+  "choices": [],
+  "best": "Bring stun resistance or ranged pawns; the beast stuns often and calls in other monsters.",
+  "rewards": "900 RC, Wakestone Shard (looted from the beast)",
+  "warnings": [
+   "The beast only appears at night. In daytime, sit on a bench and Doze Off until night, or rest at your house."
+  ],
+  "follow_ups": "The second notice points to Darkhorde Cave in Malachite Forest (West Vernworth oxcart, get off at Arboreal Walkway). No beast there; it leads to the Pathfinder and the Lost Rites trial in Devilkin Hollow.",
+  "confidence": "medium",
+  "sources": [
+   "https://nightlygamingbinge.com/dragons-dogma-ii-ware-the-corrupted-beasts-walkthrough/"
+  ],
+  "item_hints": {
+   "Warning Notice Issued by Vernworthian Guard": "A note that appears in your Vernworth house once you own it (A Place to Call Home). Examine it to start the quest."
+  }
+ },
+ {
+  "id": 20180,
+  "name": "Belle of the Bar",
+  "how": "Quest log text only: Adelina, a popular tavern serving girl, is missing. Fextralife and GamerGuides list no start, location, steps or rewards; it may be unobtainable or cut.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "",
+  "warnings": [
+   "No verified way to start or finish it; do not spend time hunting for it."
+  ],
+  "follow_ups": "",
+  "confidence": "low",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Belle+of+the+Bar",
+   "https://www.gamerguides.com/dragons-dogma-2/database/quests/side-quests/belle-of-the-bar"
+  ]
+ },
+ {
+  "id": 20190,
+  "name": "A Noble Exchange",
+  "how": "After main quest Feast of Deception, wear Courtly Tunic, Courtly Breeches and Eventide Mask to the masquerade in Vernworth Hall (castle), held at night every second night. Gunther (red cape, black and gold mask) slips you a Paragon Staff. Mingle until guard Olven announces the theft. To finish, either hide the staff or grab Gunther and hold him; that grab is the arrest.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Hide staff, then grab Gunther",
+    "outcome": "Drop it behind the screen by the chest in the small back-right room, return and grab Gunther. He confesses and is jailed.",
+    "rewards": "900 XP, 7500 G"
+   },
+   {
+    "option": "Grab Gunther while holding staff",
+    "outcome": "He is caught but the staff is taken from you and cannot be bought back.",
+    "rewards": "900 XP, small gold (amount not documented)"
+   },
+   {
+    "option": "Hide staff, then just leave",
+    "outcome": "Guards search everyone and clear you; you are put outside. Ibrahim's Scrap Store later sells the staff for 60,000 G.",
+    "rewards": "900 XP, 3000 G (PowerPyx; Fextralife text says no gold)"
+   },
+   {
+    "option": "Leave or get searched with staff",
+    "outcome": "You are thrown in the gaol.",
+    "rewards": "none"
+   }
+  ],
+  "best": "Drop the staff behind the screen in the back-right changing room, then grab Gunther for 7,500 G.",
+  "rewards": "",
+  "warnings": [
+   "Never leave the hall or get searched while carrying the Paragon Staff: that sends you to gaol with no reward.",
+   "The ball runs only every second night. If none is on, sit on the bench by the castle gate and Doze Off until the next night.",
+   "The full outfit (Courtly Tunic, Courtly Breeches, Eventide Mask) is required to get in."
+  ],
+  "follow_ups": "",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/A+Noble+Exchange",
+   "https://www.powerpyx.com/dragons-dogma-2-a-noble-exchange-walkthrough/"
+  ],
+  "item_hints": {
+   "Courtly Tunic": "Reward from The Ornate Box, or chests in Vernworth: Allard's Estate 2F, Comptroller's Home master bedroom, or a small corner room in Sven's Chambers (castle).",
+   "Courtly Breeches": "Found with the tunic set in Vernworth noble houses (Allard's Estate 2F, Comptroller's Home) or from The Ornate Box.",
+   "Eventide Mask": "Given by Captain Brant (Stardrop Inn, night) during The Stolen Throne: after one of his main quests pick 'Tell me about the Masquerade'.",
+   "Paragon Staff": "Not yours: Gunther hands you the stolen staff at the ball. Drop it from Items behind the screen in the back-right changing room before grabbing him."
+  }
+ },
+ {
+  "id": 20200,
+  "name": "A Game of Wits",
+  "how": "Climb to the Mountain Shrine (north past the Ancient Battleground and Worldsend Cavern) and solve riddles 1-5. She then flies to the Frontier Shrine (follow the river west from Checkpoint Rest Town) for riddles 6-10; 7-10 come in random order. Each riddle is a hand-in or task with one attempt. After the last one she starts to fly off: attack her animal parts at once to fight her.",
+  "decision": false,
+  "choices": [],
+  "best": "Save before every riddle. Answers: Sealing Phial; romanced main pawn; Capcom pawn SphinxParent/Father/Mother; any item; Finder's Token; statues; Ring of Derision kill; amphora to Ser Maurits; Dante or Vergil.",
+  "rewards": "Wakestone, Portcrystal, 1200 RC, item copy, 3 Ferrystones, 100,000 G, Unmaking Arrow, Ring of Ambition, Eternal Bond Ring, Whimsical Daydream; killing her: Key of Sagacity (Eternal Wakestone chest) and gold",
+  "warnings": [
+   "One answer per riddle: a wrong one loses that reward and the trophy, but she keeps going. Hitting her human parts makes her fly off for good.",
+   "Statue riddle: PowerPyx and GameSpot say one statue per riddle answered correctly; Fextralife says per riddle asked.",
+   "Do not drink the Sealing Phial or break the amphora; either fails that riddle.",
+   "To kill her, fire the Unmaking Arrow from a regular bow after her health bar appears; otherwise she escapes at low HP."
+  ],
+  "follow_ups": "",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits",
+   "https://www.powerpyx.com/dragons-dogma-2-all-sphinx-riddles-solutions/",
+   "https://gamespot.com/gallery/dragons-dogma-2-sphinx-riddles-solutions-puzzles-guide/2900-5188/"
+  ],
+  "item_hints": {
+   "Sealing Phial": "Riddle answer: chest above the door of the cave below the Sphinx (path up on the left). Hand it over; do not drink it.",
+   "Finder's Token": "Riddle answer: go back to where you picked up your first Seeker's Token; a token there is now a Finder's Token. Bring it to her.",
+   "Ring of Derision": "The Sphinx gives it for the Contest riddle; it makes your attacks almost useless. Wear it, grab the spawned enemy and throw him off the cliff."
+  }
+ },
+ {
+  "id": 20220,
+  "name": "The Nameless Village",
+  "how": "At night ask Captain Brant at the Stardrop Inn 'Tell me of the false Sovran' and accept. Travel northeast of Vernworth to the Nameless Village; talk to Thief-Maister Flaude in the Old Noble Manor twice (Legend's Opus). Take the ladder hole on the far side of the manor into the Depths; Srail at the end gives Darragh's Bill of Arrest. Give it to Brant at night to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Go through the Depths to Srail: the Bill of Arrest is the better evidence and he also gives the Pilferer's Handbook.",
+  "rewards": "1200 XP, Dragon's Gaze, 7500 G",
+  "warnings": [
+   "Turn-in, not a trap: Brant also accepts the folded note from Darragh's house, but that ending reveals little about the false Sovran.",
+   "Brant only takes reports at night in the Stardrop Inn; by day, Doze Off on a bench until night.",
+   "The Depths have gaps and moving platforms; Levitate helps. Grab the Seeker's Token on the northeast rock first."
+  ],
+  "follow_ups": "Leads to The Stolen Throne.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Nameless+Village"
+  ],
+  "item_hints": {
+   "Darragh's Bill of Arrest": "Given by Srail in the last room of the Nameless Village Depths. Hand it to Captain Brant at the Stardrop Inn, Vernworth, at night."
+  }
+ },
+ {
+  "id": 20230,
+  "name": "A Place to Call Home",
+  "how": "Talk to Mildred in the alley just east of the Stardrop Inn, Vernworth; she shows you her house and leaves. Use the bed's 'Rest till Morning' for 7 days in a row without leaving on trips (Fextralife counts 8 rests). When 'Mildred's week of wandering is up' appears, step outside: she offers the house for 20,000 G. Buying it ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "Buy it: free resting in Vernworth plus a storage chest.",
+  "rewards": "500 XP, Vernworth house (after paying 20,000 G)",
+  "warnings": [
+   "Sleep consecutive nights in the house; leaving on adventures can break the count. Rest an 8th time if the objective has not updated.",
+   "Short of gold? Decline and talk to Mildred again once you have 20,000 G."
+  ],
+  "follow_ups": "Owning the house starts 'Ware the Corrupted Beasts (Dark Arisen) via a warning notice inside.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/A+Place+to+Call+Home",
+   "https://www.gamespot.com/articles/dragons-dogma-2-buy-house-player/1100-6522020/"
+  ]
+ },
+ {
+  "id": 20240,
+  "name": "Vocation Frustration",
+  "how": "Talk to guildhead Klaus at the Vernworth Vocation Guild, then armorer Roderick (shop left of the dragon statue). Leave by the west gate or West Vernworth oxcart to Trevo Mine, the goblin den on the western road. Take the Two-Hander and the Grievous Horns from two black chests inside, then hand both to Klaus to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Combine with The Gift of Giving (ore in the mine). Hand in the mine copies, not gear you want to keep.",
+  "rewards": "1200 XP, 7500 G, Warrior and Sorcerer vocations",
+  "warnings": [
+   "Handing in gives the weapons away permanently; on NG+ do not hand over your own upgraded greatsword or archistaff.",
+   "A Cyclops, goblins and saurians are on the western road."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Vocation+Frustration",
+   "https://www.powerpyx.com/dragons-dogma-2-vocation-frustration-walkthrough/"
+  ],
+  "item_hints": {
+   "Two-Hander": "The greatsword for Klaus: black chest in the large room down the right branch inside Trevo Mine, west of Vernworth.",
+   "Grievous Horns": "The archistaff for Klaus: through the door left of the greatsword chest, down to the bottom of the bridge room, dark east path; black chest at the lower dead end."
+  }
+ },
+ {
+  "id": 20250,
+  "name": "Prey for the Pack",
+  "how": "In Checkpoint Rest Town choose 'Pledge your assistance' while Morris and Lutz talk at Morris's Apothecary. Ask Lutz, then Timothy and Alsa near the market square and well. Follow the blue flowers (they glow at night) east to Putrid Cave, kill the wolves fast and talk to Rodge. Walk him back (carry him if he wanders) and talk to Morris at his shop to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Go straight to Putrid Cave without resting and walk Rodge back on foot.",
+  "rewards": "4000 XP, 11,000 G, 2 Miracle Roborant if Rodge gets home alive (reported 4000 XP, 8000 G otherwise)",
+  "warnings": [
+   "Timed: do not rest, sleep or Doze Off once accepted. Players report Rodge dying, leaving only his remains in the cave.",
+   "Walk the escort; taking an oxcart has broken the quest for players.",
+   "If Morris will not acknowledge the rescue, go inside his shop."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Prey+for+the+Pack",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/checkpoint-rest-town/prey-for-the-pack-walkthrough"
+  ]
+ },
+ {
+  "id": 20270,
+  "name": "The Sotted Sage",
+  "how": "Lamond is the drunk at the hot spring, up the ramps and ladder in Volcanic Island Camp (Geyser Hamlet); he talks to you as you approach. Hand him 3 Newt Liqueur in total (any given at the first meeting count). After the third he grants the Warfarer vocation; talk to him once more to receive the Grandmaster's Path tome, which ends the quest. No waiting or time of day needed.",
+  "decision": false,
+  "choices": [],
+  "best": "Buy all 3 Newt Liqueur from the upstairs merchant at Higgs's Tavern Stand in Bakbattahl (5,000 G each), then hand them to Lamond in one visit.",
+  "rewards": "Warfarer vocation, Grandmaster's Path (Warfarer Maister tome), 980 XP, 500 G, Rotten Soft-Boiled Egg",
+  "warnings": [
+   "Higgs's upstairs shop admits only Beastren: humans wear a Beastren Mask, then carry a satchel from outside into the fenced pen to get invited in.",
+   "Buy from the merchant upstairs (behind the wooden door), not the downstairs vendor. If you cannot talk to him, Doze Off on a bench and come back.",
+   "If the Grandmaster's Path tome does not appear after the third liqueur, talk to Lamond again.",
+   "Finishing this raises Lamond's affinity, which helps persuade him later in The Importance of Aiding Ernesto."
+  ],
+  "follow_ups": "Lamond reappears in The Importance of Aiding Ernesto (Unmoored World evacuation).",
+  "confidence": "high",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-the-sotted-sage-walkthrough/",
+   "https://dragonsdogma2.wiki.fextralife.com/The+Sotted+Sage"
+  ],
+  "item_hints": {
+   "Newt Liqueur": "Need 3 total. Bought from the upstairs merchant at Higgs's Tavern Stand, Bakbattahl (5,000 G each). Players also report one on the table at Windwalker's Home on the island. Craftable: Fruit Wine + Saurian Tail.",
+   "Beastren Mask": "Humans need it to enter Higgs's upstairs shop. Sold at Ibrahim's Scrap Store, Checkpoint Rest Town. Wear it, then carry a satchel from outside the tavern into the fenced pen."
+  }
+ },
+ {
+  "id": 20280,
+  "name": "A Poisonous Proposal",
+  "how": "After Nation of the Lambent Flame, talk to Jarle in his house opposite The Rockmouse's Burrow, Bakbattahl. Get poisoned by an Asp (ravine just NE) and return to him still poisoned; repeat with a Venin Harpy (daytime only). Then meet him NE of the city past the Dye Stores and get the Chimera to poison him. Poisoned, he runs home alone; follow and talk to him at home to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "At the Chimera, grab Jarle and carry him into the purple poison cloud, then keep him alive until he runs home.",
+  "rewards": "5,000 XP, 19,000 G, Ring of Purification (if Jarle survives)",
+  "warnings": [
+   "Do not kill the Chimera before Jarle is poisoned; the poison comes from its snake tail, so leave the snake intact.",
+   "Stay poisoned on the way back: no Panacea, poison-resist gear or pawn cures. Order pawns to Wait so they do not kill Asps or Harpies first.",
+   "Venin Harpies only appear by day; at night, Doze Off on a bench or rest until morning.",
+   "If Jarle dies, revive him with a Wakestone right away; a dead Jarle gives much lower rewards."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://www.powerpyx.com/?p=237629",
+   "https://dragonsdogma2.wiki.fextralife.com/A+Poisonous+Proposal"
+  ]
+ },
+ {
+  "id": 20290,
+  "name": "Short-Sighted Ambition",
+  "how": "Buy anything at Isaac's Wares in Bakbattahl to meet Isaac. Bring him a Ripened Quince, rest a few days (one inn rest is enough), and talk again; he wants grimoire volume 2, and as you leave his wife Esmerelda and daughter beg you not to help. Buy the book from Ibrahim, optionally order a forgery, hand Isaac one book, then follow him home; the scene there ends the quest.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Give the forgery (On the Transit of Souls 2)",
+    "outcome": "The ritual fails; wife and daughter live, Isaac gives up and keeps his shop.",
+    "rewards": "3,000 XP, 16,000 G"
+   },
+   {
+    "option": "Give the real book (On the Transference of Souls 2)",
+    "outcome": "His wife and daughter turn to sand; Isaac abandons the shop.",
+    "rewards": "3,000 XP, Ring of Disfavor (pick it up from the sand pile)"
+   }
+  ],
+  "best": "Order Ibrahim's forgery (2,400 G, ready in about 2 days) and give Isaac 'Transit', not 'Transference': the family lives and you get 16,000 G.",
+  "rewards": "",
+  "warnings": [
+   "Check the title before handing over: Transit = forgery (good ending), Transference = real book (family dies).",
+   "The Quince must ripen first: carry it while resting or dozing in Bakbattahl for about 3 days.",
+   "If the wife or daughter are already dead, revive them at the Bakbattahl morgue with Wakestones before the final scene."
+  ],
+  "follow_ups": "Good ending: Isaac sells volume 1; combining both volumes makes a grimoire that casts Celestial Paean (PowerPyx, Fextralife; some guides say the tomes cannot be reobtained). Bad ending: Hugo (Off the Pilfered Path) can take over the shop.",
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-short-sighted-ambition-walkthrough/",
+   "https://dragonsdogma2.wiki.fextralife.com/Short-Sighted+Ambition",
+   "https://dragonsdogma2.wiki.fextralife.com/Celestial+Paean"
+  ],
+  "item_hints": {
+   "Ripened Quince": "Find a Quince (dropped by Goblins, breakables in caves like Tomb of Am'Ranna, rarely picked in west Battahl). It ripens in your inventory: rest or Doze Off in Bakbattahl about 3 days.",
+   "On the Transference of Souls 2": "The real grimoire. Ibrahim's Scrap Store, Checkpoint Rest Town, 2,000 G. Giving it to Isaac gives the bad ending.",
+   "On the Transit of Souls 2": "Forgery for the good ending. Ask Ibrahim to forge the real volume (2,400 G); collect it about 2 days later. You get both books back."
+  }
+ },
+ {
+  "id": 20310,
+  "name": "A Case of Sculptor's Block",
+  "how": "After Feast of Deception, talk to Klark outside Klark's Estate (Vernworth Noble Quarter). Meet sculptor Fulvio in his Bakbattahl workshop, follow him to the griffin nest marked on your map and keep the griffin fighting until he says the sketch is done. Wait at least a day, talk to Fulvio at his workshop, then go upstairs at Klark's Estate (left room) for the unveiling, which ends the quest.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Full sketch: griffin held long (petrified or asleep)",
+    "outcome": "Fulvio captures every detail; the sculpture is a masterpiece.",
+    "rewards": "4,500 XP, 18,500 G"
+   },
+   {
+    "option": "Partial sketch: moderate fight",
+    "outcome": "Some details captured; decent sculpture.",
+    "rewards": "4,500 XP, about 14,000 G (player report)"
+   },
+   {
+    "option": "Griffin flies off or dies quickly",
+    "outcome": "Fulvio misses the details; the sculpture is carved poorly.",
+    "rewards": "4,500 XP, 7,000 G"
+   }
+  ],
+  "best": "Petrify the griffin with a Medusa head (or put it to sleep), order pawns to Wait, and stay put until Fulvio says he is done.",
+  "rewards": "",
+  "warnings": [
+   "Order pawns to Wait before the griffin: they can shatter a petrified griffin or wake a sleeping one, and a fled griffin gives the worst result.",
+   "Rest at an inn before meeting Fulvio so you can reload a poor result.",
+   "Fulvio can be downed at the nest; revive him.",
+   "A normal Medusa Head decays over time; a Preserved Medusa Head does not."
+  ],
+  "follow_ups": "",
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-a-case-of-sculptors-block-walkthrough/",
+   "https://dragonsdogma2.wiki.fextralife.com/A+Case+of+Sculptor's+Block"
+  ],
+  "item_hints": {
+   "Preserved Medusa Head": "Optional, petrifies the griffin. Cut off Medusa's head in the Caliginous Depths while her health is still high; it does not decay. Equip it and use it like your lantern.",
+   "Medusa Head": "Optional alternative, also from Medusa in the Caliginous Depths, but it decays, so use it soon."
+  }
+ },
+ {
+  "id": 20330,
+  "name": "Shadowed Prayers",
+  "how": "After Nation of the Lambent Flame, Ser Menella (Flamebearer Palace entrance, east Bakbattahl) asks you to catch an assassin. Rest at an inn (not your home) until morning, then go to the palace entrance hall where Menella and the Empress wait. During the prayer, find the assassin among the worshippers on the steps and grab him. A correct grab is the arrest; the chambers scene ends the quest.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Grab the real assassin",
+    "outcome": "Plot foiled; Nadinia lives. The mastermind is still at large.",
+    "rewards": "3,500 XP, 18,000 G, 5 Jasper, Battahl Residence Permit"
+   },
+   {
+    "option": "Grab an innocent worshipper",
+    "outcome": "The assassin strikes and Empress Nadinia dies; Menella takes the blame.",
+    "rewards": "none listed"
+   }
+  ],
+  "best": "Look for a man in a dark blue robe with tied-back hair and a faint dark red band on his right arm. Save at the inn first.",
+  "rewards": "",
+  "warnings": [
+   "Once you talk to Menella and the Empress, finish the ceremony right away; leaving fails that part.",
+   "Rest at an inn, not your own home; resting at home reportedly stops the assassin from appearing.",
+   "Several decoys look similar; if you grab the wrong man, reload the inn save.",
+   "If Nadinia dies, a Wakestone at the Bakbattahl morgue may revive her; she is needed for Crossing in Shadow and Civil Unrest."
+  ],
+  "follow_ups": "Nadinia's survival matters for Crossing in Shadow and Civil Unrest.",
+  "confidence": "high",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-shadowed-prayers-walkthrough/",
+   "https://dragonsdogma2.wiki.fextralife.com/Shadowed+Prayers"
+  ]
+ },
+ {
+  "id": 20340,
+  "name": "Crossing in Shadow",
+  "how": "With a Vernworth home and A Candle in the Storm done, be at home at night; Vera visits (if not, rest at home until night). Escort disguised Nadinia (no pawns) by jogging behind Vera: Philbert's Sundries, the Noble Quarter, then the Rose Chateau, where you wait while Nadinia meets people (time passes automatically). The talk at the Statue of the Arisen ends the quest.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Pay Philbert 1,000 G for the medicine",
+    "outcome": "Give the medicine to the Beastren man Dommel; the escort stays on schedule.",
+    "rewards": "Counts toward on-time ending"
+   },
+   {
+    "option": "Threaten Philbert",
+    "outcome": "Guards intervene and you are jailed; Nadinia arrives late.",
+    "rewards": "Late ending, lower rewards"
+   },
+   {
+    "option": "Refuse the fleeing thief Fiachra",
+    "outcome": "A guard catches him; you stay on time.",
+    "rewards": "Counts toward on-time ending"
+   },
+   {
+    "option": "Help Fiachra",
+    "outcome": "Fight with guards and jail; you cannot reach the chateau before dawn. The quest still completes.",
+    "rewards": "Late ending, lower rewards"
+   }
+  ],
+  "best": "Pay Philbert, give the medicine to Dommel, refuse the thief, and jog (do not sprint) behind Vera.",
+  "rewards": "On time: 4,000 XP, 20,000 G, Sunbloom",
+  "warnings": [
+   "Any arrest or guard fight makes you late and lowers the reward.",
+   "Do not run ahead of Vera; players report the thief scene not triggering and getting jailed anyway.",
+   "Requires Nadinia alive (Shadowed Prayers) and a Vernworth house (A Place to Call Home)."
+  ],
+  "follow_ups": "",
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-crossing-in-shadow-walkthrough/",
+   "https://dragonsdogma2.wiki.fextralife.com/Crossing+in+Shadow"
+  ]
+ },
+ {
+  "id": 20350,
+  "name": "Hunt for the Jadeite Orb",
+  "how": "In Checkpoint Rest Town, merchant Offulve and then Everard both ask for a Jadeite Orb. Buy the real one at Ibrahim's Scrap Store (7,500 G); Ibrahim can also forge a copy (2,000 G, takes about a day; the live countdown shows under the clock and on the tracker).",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Real orb to Everard",
+    "outcome": "Everard has Ibrahim verify it; it passes.",
+    "rewards": "1,000 XP, 12,000 G, Ring of Skullduggery"
+   },
+   {
+    "option": "Real orb to Offulve",
+    "outcome": "Offulve is satisfied.",
+    "rewards": "1,000 XP, 3,000 G, Elite Camping Kit"
+   },
+   {
+    "option": "Fake orb to Offulve",
+    "outcome": "He can't tell it's a fake; you still get his full reward.",
+    "rewards": "1,000 XP, 3,000 G, Elite Camping Kit"
+   },
+   {
+    "option": "Fake orb to Everard",
+    "outcome": "Fraud exposed at Ibrahim's unless you bribe the clerk about 12,000 G.",
+    "rewards": "Bribed: Everard's rewards"
+   }
+  ],
+  "best": "Buy the real orb and a forgery. Real one to Everard (12,000 G + Ring of Skullduggery), fake to Offulve (Elite Camping Kit + 3,000 G): both rewards, no bribe.",
+  "rewards": "",
+  "warnings": [
+   "Giving Everard a fake without the bribe gets you caught.",
+   "Leaving during the bribe scene exposes the fraud."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://www.rpgsite.net/guide/15655-dragons-dogma-2-hunt-for-jadeite-orb-quest-guide-how-to-get-everard-offulve"
+  ],
+  "item_hints": {
+   "Jadeite Orb": "Ibrahim's Scrap Store, Checkpoint Rest Town, 7,500 G. Ibrahim also forges a fake for about 2,000 G (next day); passing a fake to Everard needs about 12,000 G bribe to the clerk."
+  }
+ },
+ {
+  "id": 20360,
+  "name": "Dreams Apart",
+  "how": "Starts automatically when you reach the Unmoored World after Legacy (you wake at Dragonforged's Bay Wayside Shrine, north of Bakbattahl). Go to the Forbidden Magick Research Lab in Bakbattahl and up the stairs above Ambrosius's workshop. Talk to Phaesus and go through his questions; once you tell him what happened, he lets you rejoin your main pawn, which ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "15,000 XP, 30,000 G, 1,000 RC",
+  "warnings": [
+   "In the Unmoored World, days passing spread the red fog. Rest only on the Seafloor Shrine bed, where time does not pass; avoid inns, camps and Doze Off.",
+   "Normal-world side quests are gone from here on until New Game+."
+  ],
+  "follow_ups": "Unlocks the Unmoored World quests: When Wills Collide, A Scholarly Pursuit and Halls of the First Dawn.",
+  "confidence": "high",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-dreams-apart-walkthrough/",
+   "https://dragonsdogma2.wiki.fextralife.com/Dreams+Apart"
+  ]
+ },
+ {
+  "id": 20370,
+  "name": "Halls of the First Dawn",
+  "how": "At the Seafloor Shrine (map center, south of Harve) touch the BLUE pillar and talk to Rothais; Luz asks you to lead everyone there. Finish the five evacuation quests (Bakbattahl, Volcanic Island Camp, Excavation Site, Vernworth, Sacred Arbor) in any order; each group moves to the shrine. Completing the last one ends this quest. Only then use the RED beacon at the shrine, which ends the game.",
+  "decision": false,
+  "choices": [],
+  "best": "Do all five evacuations (Civil Unrest, Aiding Ernesto, Shepherd of the Pawns, Regentkin's Resolve, Wandering Roots) before touching the red beacon.",
+  "rewards": "15,000 XP, 25,000 G, 2 Ferrystones; saving all five gives The Guardian achievement",
+  "warnings": [
+   "The RED beacon at the Seafloor Shrine ends the game and starts New Game+ without further warning. Use the BLUE one to start this quest.",
+   "Red fog swallows regions as days pass. Rest only on the Seafloor Shrine bed, where time does not pass. Start with regions nearest the fog.",
+   "Sources disagree on the deadline: GamerGuides calls it generous; players report the quest failing after about 10 days or several rests.",
+   "Escorted evacuees can die on the way; carry Wakestones."
+  ],
+  "follow_ups": "Gates The Regentkin's Resolve, Wandering Roots, Civil Unrest, The Importance of Aiding Ernesto and Shepherd of the Pawns.",
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-halls-of-the-first-dawn-walkthrough/",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/the-unmoored-world/quests/hall-of-the-first-dawn-walkthrough",
+   "https://dragonsdogma2.wiki.fextralife.com/Halls+of+the+First+Dawn"
+  ]
+ },
+ {
+  "id": 20380,
+  "name": "When Wills Collide",
+  "how": "After Dreams Apart, go to the Talos marker on Agamen Volcanic Island, where you felled the Gigantus. A scene puts your pawn inside Talos and it rises. Ignore the 'Follow Phaesus' objective and just stay nearby: after 2-3 minutes Talos kills a dragon, then fights a giant serpent-worm for 2-3 more minutes. The final cutscene ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "15,000 XP, 32,500 G; I, Talos achievement",
+  "warnings": [
+   "Only available if you defeated the Gigantus in The Guardian Gigantus; petrifying it with a Medusa head there blocks this quest.",
+   "No fighting needed; the 'Follow Phaesus' objective is misleading. Stay near the start point until the final scene."
+  ],
+  "follow_ups": "Phaesus then points you to the trial in Bakbattahl (A Scholarly Pursuit).",
+  "confidence": "high",
+  "sources": [
+   "https://powerpyx.com/dragons-dogma-2-when-wills-collide-walkthrough",
+   "https://dragonsdogma2.wiki.fextralife.com/When+Wills+Collide"
+  ]
+ },
+ {
+  "id": 20390,
+  "name": "The Regentkin's Resolve",
+  "how": "Talk to Brant at The Stardrop Inn, Vernworth, then Sven in his chambers (castle 2F, northwest). Disa's room is at the far end of the same hallway. Either take the Ornate Box from her desk to Sven, or carry Disa to him. For the oxcarts, grab Allard at the west gate oxcart station, pin him a few seconds, then talk to merchant Russell. Report to Sven to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Take the Ornate Box from Disa's desk and give it to Sven; her letter inside convinces him to go to her, so you need not carry her.",
+  "rewards": "20,000 XP, 25,000 G, 35 Wyrmslife Crystals",
+  "warnings": [
+   "Allard will not hand over the carts; grab and pin him briefly. No killing needed. Skip him if Every Rose Has Its Thorn is done.",
+   "If you carry Disa instead, she can wriggle free; keep re-grabbing until you reach Sven.",
+   "Requires Halls of the First Dawn to be started."
+  ],
+  "follow_ups": "One of five evacuations for Halls of the First Dawn; evacuates Vernworth.",
+  "confidence": "high",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-the-regentkins-resolve-walkthrough",
+   "https://dragonsdogma2.wiki.fextralife.com/The+Regentkin's+Resolve",
+   "https://gamerguides.com/dragons-dogma-2/guide/the-unmoored-world/quests/the-regentkin-s-resolve-walkthrough"
+  ],
+  "item_hints": {
+   "Ornate Box": "Disa's box on the desk in her chambers (Vernworth Castle 2F, end of Sven's hallway). Take it; it is not bought. Give it to Sven."
+  }
+ },
+ {
+  "id": 20420,
+  "name": "Civil Unrest",
+  "how": "Ser Menella approaches near the Bakbattahl oxcart station (or find her at Flamebearer Palace). Settle 3 quarrels, each marked by a yellow search area: Grantt vs Abba (Residential Ward), Glint vs Nomos (bazaar), Nabrah vs Scario (Vocation Guild). Report to Menella, then talk to Empress Nadinia in her palace chambers; she agrees to evacuate and the quest ends.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Settle disputes peacefully",
+    "outcome": "Grantt and Abba: take their punches until they tire. Glint and Nomos: 'neither is wrong', give a child food. Duel: agree to witness and watch.",
+    "rewards": "20,000 XP, 10,000-20,000 G, 30-35 Wyrmslife Crystals; GamerGuides adds an Allheal Elixir"
+   },
+   {
+    "option": "Use force",
+    "outcome": "Disputes end and the evacuation still happens; Menella reacts differently.",
+    "rewards": "Same base rewards; no Allheal Elixir per GamerGuides"
+   }
+  ],
+  "best": "Settle all three without violence: do not hit Grantt and Abba, pick 'neither is wrong' and feed a child, and agree to witness the duel.",
+  "rewards": "",
+  "warnings": [
+   "Menella and Nadinia must be alive; revive them at the Bakbattahl morgue with Wakestones if needed.",
+   "Bring any food in good condition for the bazaar children; rotten food gets a different reaction.",
+   "Sources disagree on rewards: Fextralife and PowerPyx list one outcome (10,000 G, 30 crystals); GamerGuides says peaceful adds an Allheal Elixir."
+  ],
+  "follow_ups": "One of five evacuations for Halls of the First Dawn.",
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-civil-unrest-walkthrough",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/the-unmoored-world/quests/civil-unrest-walkthrough",
+   "https://dragonsdogma2.wiki.fextralife.com/Civil+Unrest"
+  ]
+ },
+ {
+  "id": 20440,
+  "name": "A Scholarly Pursuit",
+  "how": "In Bakbattahl, touch the red beacon at the Flamebearer Palace entrance; a dragon statue falls and Phaesus talks to you. Clear the enemies, then follow and protect Phaesus across the city, the dye fields and through the palace. At the statue, go around and enter its purple sphere from behind; it is destroyed automatically. A short talk with Phaesus ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "Carry Phaesus through the dye fields so he does not walk into the falling meteors.",
+  "rewards": "20,000 XP, 10,000-20,000 G, 30-35 Wyrmslife Crystals (PowerPyx and Fextralife differ)",
+  "warnings": [
+   "Entering the sphere from the front just ejects you; go around to the rear of the statue.",
+   "If Phaesus is not there when you touch the beacon, finish the other Unmoored World trials first.",
+   "Pawns are pacified inside the palace and the final hallway has many enemies; you can run straight for the statue."
+  ],
+  "follow_ups": "One of the Unmoored World trials toward the final ending.",
+  "confidence": "medium",
+  "sources": [
+   "https://powerpyx.com/dragons-dogma-2-a-scholarly-pursuit-walkthrough",
+   "https://dragonsdogma2.wiki.fextralife.com/A+Scholarly+Pursuit"
+  ]
+ },
+ {
+  "id": 20450,
+  "name": "Wandering Roots",
+  "how": "Talk to Glyndwr on the round platform at the Sacred Arbor entrance; follow him to his father Taliesin (Arborist's Home). Taliesin gives you an Arborheart Cutting: plant it in the rock-ringed dirt patch in the NW corner of the Seafloor Shrine's sacred grounds, then return and talk to Taliesin. When he agrees to evacuate, the quest ends.",
+  "decision": false,
+  "choices": [],
+  "best": "Use the Arborheart Cutting route; hire a Woodland Wordsmith pawn at the nearby Riftstone so you can understand Taliesin.",
+  "rewards": "20,000 XP, 25,000 G, 30 Wyrmslife Crystals",
+  "warnings": [
+   "The cutting route may need The Ailing Arborheart and Out of the Forest, Into the Forge done first.",
+   "Fallback: talk to Taliesin 3 times, resting between talks. Each rest away from the shrine bed passes a day and spreads the red fog.",
+   "Some players instead carried Taliesin to the Seafloor Shrine by Ferrystone and talked to him there until he agreed."
+  ],
+  "follow_ups": "One of five evacuations for Halls of the First Dawn.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Wandering+roots",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/the-unmoored-world/quests/wandering-roots-walkthrough-dragons-dogma-2",
+   "https://www.powerpyx.com/?p=239523"
+  ],
+  "item_hints": {
+   "Arborheart Cutting": "Given by Taliesin in the Sacred Arbor during this quest. Plant it in the rock-ringed dirt in the NW corner of the Seafloor Shrine's sacred grounds, then return to Taliesin."
+  }
+ },
+ {
+  "id": 20460,
+  "name": "The Importance of Aiding Ernesto",
+  "how": "Talk to Ernesto at the north gate of Volcanic Island Camp. At Windwalker's Home west of camp, talk to Gautstafr and Cliodhna and escort them back (Gautstafr has a bad back; carrying him is faster). Ernesto then sends you after Lamond: take the wooden ladder up to Geyser Hamlet, talk him into leaving, then speak to Ernesto right away to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Shortcut: set a Portcrystal at camp, grab Gautstafr and Ferrystone back (Cliodhna comes too). With Lamond, pick 'Request guard for smith and wife'.",
+  "rewards": "20,000 XP, 15,000 G, 40 Wyrmslife Crystals",
+  "warnings": [
+   "Lamond may refuse without high affinity; finishing The Sotted Sage or giving him gifts fixes this.",
+   "Clear enemies on the path before escorting the couple; they can die. Carry a Wakestone.",
+   "Players report the camp being lost to the red fog if you wait too long."
+  ],
+  "follow_ups": "One of five evacuations for Halls of the First Dawn.",
+  "confidence": "high",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-the-importance-of-aiding-ernesto-walkthrough",
+   "https://dragonsdogma2.wiki.fextralife.com/The+Importance+of+Aiding+Ernesto"
+  ]
+ },
+ {
+  "id": 20470,
+  "name": "Shepherd of the Pawns",
+  "how": "At the Excavation Site gate (Agamen Volcanic Island, near Volcanic Island Camp), help Henrique defeat the Magick Golem, then talk to him. He leads you to the gaol and gives the Overseers' Lodge Key. Unlock the lodge behind the inn (the hut on the hill near the gate), take the Diminished Godsway, and hand it to Henrique at the gaol; that ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "20,000 XP, 15,000 G, 30 Wyrmslife Crystals",
+  "warnings": [
+   "Henrique can get stuck on the bridge while leading you; grab and carry him along.",
+   "Requires Halls of the First Dawn to be started.",
+   "Do it before the red fog reaches the Excavation Site."
+  ],
+  "follow_ups": "One of five evacuations for Halls of the First Dawn; frees the site's pawns.",
+  "confidence": "high",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-shepherd-of-the-pawns-walkthrough",
+   "https://dragonsdogma2.wiki.fextralife.com/Shepherd+of+the+Pawns"
+  ],
+  "item_hints": {
+   "Overseers' Lodge Key": "Given by Henrique at the gaol after the Golem fight; opens the locked lodge at the Excavation Site.",
+   "Diminished Godsway": "A staff inside the Overseers' Lodge behind the inn at the Excavation Site. Take it with the key and bring it to Henrique at the gaol."
+  }
+ },
+ {
+  "id": 20480,
+  "name": "Oxcart Courier",
+  "how": "After In Dragon's Wake, go to the North Vernworth Oxcart Station by day and wait for a cart; Donovan gives you the Letter to Ser Lennart and 200 G fare. Ride to Melve and help defend the cart if attacked. Find Lennart near the well or the inn; if he starts Nesting Troubles first, talk to him again to hand over the letter. Then report to Donovan to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Start in the morning, ride straight to Melve, hand Lennart the letter, then report to Donovan.",
+  "rewards": "300 XP, 5,000 G, Miner's Hosen (Fextralife lists 400 XP, 500 G)",
+  "warnings": [
+   "Oxcarts only run by day; at night, Doze Off on a bench or rest until morning.",
+   "Where to report differs: PowerPyx and GamerGuides say Donovan back in Vernworth; Fextralife says the Melve oxcart station.",
+   "If Lennart is not at the well, check the inn and his house next to it, or Doze Off on the bench outside the inn and recheck.",
+   "If the cart is destroyed, walk the rest of the way; the quest continues."
+  ],
+  "follow_ups": "Lennart may offer Nesting Troubles if not yet taken.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Oxcart+Courier",
+   "https://powerpyx.com/dragons-dogma-2-oxcart-courier-walkthrough",
+   "https://gamerguides.com/dragons-dogma-2/guide/side-quests/vernworth/oxcart-courier-walkthrough"
+  ],
+  "item_hints": {
+   "Letter to Ser Lennart": "Given by Donovan at the North Vernworth Oxcart Station when you take the quest (not bought). Hand it to Lennart in Melve."
+  }
+ },
+ {
+  "id": 30010,
+  "name": "The Ornate Box",
+  "how": "In Vernworth's market, watch shopkeeper Auriol argue with the boy Sven; the quest starts then. Talk to Sven nearby (red shirt, by the wall opposite the stall) and either buy him the Ornate Box from Auriol or give him 1,000 G. Then visit the Dragon Fountain in the market center by day every day or two; each visit gives a repayment, and the last one ends the quest.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Buy the box and give it to Sven",
+    "outcome": "He repays in gifts over several fountain visits.",
+    "rewards": "Jasper, Ferrystone, Courtly Tunic and Breeches (Fextralife adds Ring of Accrual; GamerGuides adds 4,000 G)"
+   },
+   {
+    "option": "Give Sven 1,000 G",
+    "outcome": "He repays 200, 300 and 500 G over three visits; the last visit includes his final gifts.",
+    "rewards": "1,000 G back, Ferrystone, Courtly Tunic and Breeches, 4,000 G (GamerGuides; Fextralife lists less)"
+   }
+  ],
+  "best": "Either path gives the Courtly Tunic and Breeches you need for The Stolen Throne masquerade; sources disagree on which pays more.",
+  "rewards": "",
+  "warnings": [
+   "Watch the argument before buying anything; buying the box early reportedly breaks the quest.",
+   "Cancelled if you advance the main story too far (e.g. Disa's Plot) before picking it up.",
+   "Sven is not at the fountain every day; if missing, Doze Off on a bench and check again the next day."
+  ],
+  "follow_ups": "The Courtly set is needed for The Stolen Throne and Sven's later Masked Correspondence.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Ornate+Box",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/vernworth/the-ornate-box-walkthrough-choices-and-rewards"
+  ],
+  "item_hints": {
+   "Ornate Box": "Sold by Auriol at his Vernworth market stall after the argument: about 1,000 G, or 800 G with the discount from finishing Medicament Predicament. Give it to Sven."
+  }
+ },
+ {
+  "id": 30020,
+  "name": "Claw Them Into Shape",
+  "how": "Find Beren at his camp on the hill in Moonglow Garden, west of Borderwatch Outpost. Bring him 3 swords and send him a recruit: in Vernworth, Humphrey approaches you south of Clovis's Barberie; pick 'Tell him about Beren'. Turn both in (talk twice), spar at the Borderwatch training ground (win or lose), then follow the soldier and Beren west to the marked campsite; finding the wounded soldier ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "1,200 XP, 4,500 G",
+  "warnings": [
+   "Beren is not always at his camp. If missing, rest at the nearby campfire and recheck (PowerPyx says morning; Fextralife says night).",
+   "Any sword works, including looted ones; they must be in your own inventory.",
+   "The sparring result does not matter; stepping out of the ring forfeits it."
+  ],
+  "follow_ups": "Unlocks Beren's Final Lesson (Warrior Maister skill).",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Claw+Them+Into+Shape",
+   "https://www.powerpyx.com/dragons-dogma-2-claw-them-into-shape-walkthrough/",
+   "https://gamerguides.com/dragons-dogma-2/guide/side-quests/vermund/claw-them-into-shape-walkthrough"
+  ],
+  "item_hints": {
+   "Trusty Sword": "Beren wants 3 swords (any kind). Borderwatch Outpost smithy sells Trusty Sword for 850 G each; Roderick's Smithy in Vernworth sells Iron Sword (about 1,400 G); looted swords also work."
+  }
+ },
+ {
+  "id": 30030,
+  "name": "Beren's Final Lesson",
+  "how": "Wait a day after Claw Them Into Shape, then talk to Beren in Moonglow Garden (SW of Borderwatch). Recruit Randall runs downhill chased by a Cyclops; kill it fast, then talk to Beren for his greatsword Lifetaker. He moves to Beren's Childhood Home south of Checkpoint Rest Town (Battahl); talk to him there for the Champion's Fable, which ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "Rush the Cyclops so Randall survives, and talk to Beren right after the fight before he leaves.",
+  "rewards": "Randall saved: 1,600 XP, 4,500 G, Lifetaker; later Champion's Fable (Arc of Might)",
+  "warnings": [
+   "Talk to Beren right after the fight; if he is gone, sleep at the nearby camp and check the next morning.",
+   "Randall can die if the Cyclops is not killed quickly, giving lower rewards.",
+   "If he withholds the scroll in Battahl, exhaust his dialogue; he may move to a house south of Zeplin's Inn in Checkpoint Rest Town."
+  ],
+  "follow_ups": "Champion's Fable counts toward the Master of the Maisters trophy.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Beren's+Final+Lesson"
+  ],
+  "item_hints": {
+   "Champion's Fable": "Warrior Maister scroll (Arc of Might). Given by Beren at his Childhood Home south of Checkpoint Rest Town once you reach Battahl.",
+   "Lifetaker": "Beren's own greatsword, given by him after the Cyclops fight in Moonglow Garden."
+  }
+ },
+ {
+  "id": 30040,
+  "name": "The Stolen Throne",
+  "how": "At night, talk to Captain Brant at The Stardrop Inn and pick 'Tell me of the masquerade'; he gives the Eventide Mask. Wear it with Courtly Tunic and Courtly Breeches, and at night ask the soldier outside Vernworth Hall (west Royal Quarter). Inside, follow the circular hallway west and walk through the pushed-back wall to the Rose Chateau, where Wilhelmina helps you. Report to Brant at night to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Inside the hall, grab the Exquisite Spectacles (south opening) for A Magisterial Amenity and the Allheal Elixir in the hidden room.",
+  "rewards": "900 XP, 6,500 G, Wakestone Shard, Myrmecoleon Card",
+  "warnings": [
+   "Masquerades are held every other night (PowerPyx). If none tonight, Doze Off on the bench outside the castle in the Noble Quarter until the next night.",
+   "All three pieces (mask, tunic, breeches) must be equipped or the guard turns you away.",
+   "Pawns cannot follow into the Royal Quarter."
+  ],
+  "follow_ups": "Leads to Disa's Plot; the spectacles feed A Magisterial Amenity; the outfit is reused in Masked Correspondence.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Stolen+Throne",
+   "https://www.powerpyx.com/dragons-dogma-2-the-stolen-throne-walkthrough/"
+  ],
+  "item_hints": {
+   "Eventide Mask": "Given by Captain Brant at The Stardrop Inn, Vernworth, at night when the quest starts.",
+   "Courtly Tunic": "Upstairs right bedroom of the Comptroller's Home (Noble Quarter, Vernworth); also a chest in Sven's Chambers in the castle, or a reward from The Ornate Box.",
+   "Courtly Breeches": "Upstairs bedroom at the end of the hallway in the Comptroller's Home (Noble Quarter, Vernworth); also from Sven's Chambers or The Ornate Box."
+  }
+ },
+ {
+  "id": 30041,
+  "name": "Masked Correspondence",
+  "how": "After Seat of the Sovran, talk to Sven in his chambers (Vernworth Castle 2F, NW corner) to get his letter. At nightfall go to Vernworth Hall (Noble Quarter) wearing the Eventide Mask, Courtly Tunic and Courtly Breeches; the door guard tells you if a masquerade is on. Hand the letter to Lord Patrick, then return to Sven and talk to him to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "900 XP, 6000 G, Onyx",
+  "warnings": [
+   "Cancelled if not finished before Feast of Deception (main quest).",
+   "Patrick: blue cape, black-and-gold mask over the eyes only. Other men wear lion masks. GamerGuides warns giving the letter to the wrong noble fails the quest.",
+   "The masquerade starts at nightfall. If the guard says none is running, rest at an inn and try the next night."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Masked+Correspondence",
+   "https://www.powerpyx.com/dragons-dogma-2-masked-correspondence-walkthrough",
+   "https://gamerguides.com/dragons-dogma-2/guide/side-quests/vernworth/masked-correspondence-walkthrough"
+  ],
+  "item_hints": {
+   "Eventide Mask": "Given by Captain Brant during The Stolen Throne (main quest); you wear it. Ibrahim's Scrap Store (Checkpoint Rest Town) sells a replacement if lost.",
+   "Courtly Tunic": "Worn for the masquerade. Reward from Sven's The Ornate Box, or a chest in Vernworth Hall's west hallway; Ibrahim's Scrap Store sells it if lost.",
+   "Courtly Breeches": "Worn with the tunic. Same sources: The Ornate Box reward, Vernworth Hall west hallway chest, or Ibrahim's Scrap Store."
+  }
+ },
+ {
+  "id": 30042,
+  "name": "A Magisterial Amenity",
+  "how": "A few days after The Caged Magistrate, talk to Waldhar in the Gracious Hand's Vaults (under the Vernworth slums). Go to Vernworth Hall in the Noble Quarter; the door guard says there is no masquerade but lets you in at any time. Go left to the end of the hall, take the Exquisite Spectacles from the candle-lit room, and hand them to Waldhar to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "900 XP",
+  "warnings": [
+   "If you already took the spectacles earlier, just deliver them."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/A+Magisterial+Amenity"
+  ],
+  "item_hints": {
+   "Exquisite Spectacles": "Quest item you take, not buy. Vernworth Hall, Noble Quarter: go left to the end of the hall, small room with candles either side of the door, shelf on your immediate left."
+  }
+ },
+ {
+  "id": 30050,
+  "name": "Every Rose Has Its Thorn",
+  "how": "Give Wilhelmina (Rose Chateau) a Bunch of Flowers once a day until she says \"Here I am...\". Leave Vernworth, rest a few days, return at night: Rolf guards the door. Look through the painting peephole in her room, then offer your assistance. Within 3 days get the Murder Report and Bribery Findings, give her the Murder Report, then grab Allard in the next room and jump out the window.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Help Wilhelmina kill Allard",
+    "outcome": "Keep offering aid, follow her, grab Allard; she kills him. Flee via the window (Brant covers you if you secured his aid). Rest a day, return at night for the romance.",
+    "rewards": "1200 XP, 8500 G, Ring of Benevolence"
+   },
+   {
+    "option": "Refuse to help her",
+    "outcome": "She gives an Allheal Elixir, kills Allard anyway and is arrested. No romance. Collect the reward from her attendant a day later.",
+    "rewards": "1200 XP, 7500 G, 3 Tiger Eye, Allheal Elixir"
+   },
+   {
+    "option": "Tell Allard of the plot",
+    "outcome": "Speak to Allard after Patrick summons him. Wilhelmina is arrested, the quest ends, no romance.",
+    "rewards": "1200 XP, 3000 G"
+   }
+  ],
+  "best": "Help her: secure Brant's aid first, give Wilhelmina the Murder Report, grab Allard, escape out the window, then return the next night for the romance.",
+  "rewards": "",
+  "warnings": [
+   "3 in-game days to deliver the evidence or the quest is cancelled. Dissuading her at the peephole locks you out.",
+   "Brant (Stardrop Inn, night): show Bribery Findings first, then the Murder Report, pick \"I'll have any aid you can give\". Begging loses his help.",
+   "Accept Patrick's offer to lure Allard away; do not kill Allard at his estate. If he dies, revive him at the charnel house.",
+   "Start conditions disagree: most guides say after The Stolen Throne and An Unsettling Encounter; PowerPyx says after Feast of Deception."
+  ],
+  "follow_ups": "Helping her adds a job option for Hugo in Off the Pilfered Path; owning the Vernworth house gets a letter from her.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Every+Rose+Has+Its+Thorn",
+   "https://www.powerpyx.com/dragons-dogma-2-every-rose-has-its-thorn-walkthrough/",
+   "https://www.rpgsite.net/guide/15670-dragons-dogma-2-every-rose-has-its-thorn-how-to-romance-wilhelmina-complete-her-quest"
+  ],
+  "item_hints": {
+   "Bunch of Flowers": "Gift for Wilhelmina, one per day (doze on a bench between gifts). A chest to her left in the Rose Chateau holds some.",
+   "Murder Report": "Taken, not bought. Allard's Estate 2F, first room by the stairs: examine the oval flower painting on the left wall at night while Patrick keeps Allard away.",
+   "Bribery Investigation Findings": "Taken, not bought. On a table in a house just south of Clovis's Barberie, Vernworth Merchant Quarter. Show it to Brant; do not give it to Wilhelmina alone."
+  }
+ },
+ {
+  "id": 30060,
+  "name": "Gift of the Bow",
+  "how": "Give Glyndwr (outside Roderick's Smithy, Vernworth) any human-made bow; the cheap Hunter's Bow works. He asks you to meet him at his training ruins past Trevo Mine, NW of Vernworth. Go there, shoot the targets with a bow when he asks, watch him copy you, and the quest ends. No waiting needed.",
+  "decision": false,
+  "choices": [],
+  "best": "Buy the cheapest bow at Roderick's Smithy and be an Archer (Magick Archer/Warfarer reported to work) for the demonstration.",
+  "rewards": "8500 G, Ring of Proximity",
+  "warnings": [
+   "You must be able to fire a bow for the demonstration; guides say Archer. Players report Warfarer and Magick Archer also work, Thief does not.",
+   "He refuses bows not made by humans."
+  ],
+  "follow_ups": "Unlocks A Trial of Archery.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Gift+of+the+Bow",
+   "https://www.windowscentral.com/gaming/dragons-dogma-2-gift-of-the-bow-and-a-trial-of-archery-archer-maister-skill-quest-guide"
+  ],
+  "item_hints": {
+   "Hunter's Bow": "Cheapest bow at Roderick's Smithy, NW Merchant Quarter, Vernworth. Any human-made bow is accepted; elf-made bows are refused. You hand it over, so do not give your main bow.",
+   "Fluted Bow": "Any human-made bow works. Borderwatch Commissary at Borderwatch Outpost sells the Fluted Bow for about 810 G. Elf-made bows are refused."
+  }
+ },
+ {
+  "id": 30070,
+  "name": "A Trial of Archery",
+  "how": "Return to Roderick's Smithy; Glyndwr walks up to you (if not, doze on a bench). Follow him to the Sacred Arbor. Then go to the Ancestral Chamber east of the Arbor, fight through, and when Glyndwr's arrow makes the ogre drop Doireann, grab her and carry her outside. Kill the ogre, then find Taliesin and talk to him to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Grab Doireann the moment she drops and carry her out; then speak to Taliesin again for the Hunter's Secret.",
+  "rewards": "2800 XP, 16,000 G, Repeller Bow, Portcrystal; Taliesin also gives Hunter's Secret (Heavenly Shot)",
+  "warnings": [
+   "Doireann must survive: saving her is required for The Ailing Arborheart.",
+   "Bring a Woodland Wordsmith pawn; other elves speak only Elvish.",
+   "Ring of Percipience: at the large doorway in the chamber, go right to the corner chest before taking the left path."
+  ],
+  "follow_ups": "Saving Doireann leads to The Ailing Arborheart.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/A+Trial+of+Archery",
+   "https://www.powerpyx.com/dragons-dogma-2-a-trial-of-archery-walkthrough/",
+   "https://www.windowscentral.com/gaming/dragons-dogma-2-gift-of-the-bow-and-a-trial-of-archery-archer-maister-skill-quest-guide"
+  ],
+  "item_hints": {
+   "Hunter's Secret": "Maister teaching from Taliesin, not bought. After the quest he heads home; speak to him again in the Arborist's Home (sleep at the Arbor inn if he is not there)."
+  }
+ },
+ {
+  "id": 30080,
+  "name": "The Ailing Arborheart",
+  "how": "Talk to Doireann at the Arborheart in the Sacred Arbor. Learn that gwyfencha means Scalecinder (Woodland Wordsmith pawn, ask Glyndwr, or Gautstafr after Put a Spring in Thy Step). Go to Brokkr's Smithy in Bakbattahl and talk to apprentice Sara, not Brokkr. Talking to her ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "1600 XP",
+  "warnings": [
+   "You need access to Bakbattahl to finish.",
+   "Brokkr dislikes elves; speak to Sara."
+  ],
+  "follow_ups": "Starts Out of the Forest, Into the Forge.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Ailing+Arborheart"
+  ]
+ },
+ {
+  "id": 30090,
+  "name": "Out of the Forest, Into the Forge",
+  "how": "Bring Doireann (Arborheart) a rotten apple and rotten fish; carry fresh ones and rest about a week until they rot. She cooks nutriabh and gives a Ferrystone. Take her to Brokkr's Smithy in Bakbattahl, talk to Sara, follow her to Stragglers' Cave, gather the green Scalecinder piles, tell Sara you are done, then give the Scalecinder to Doireann to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Use the Ferrystone Doireann gives you (Bakbattahl Portcrystal needed) instead of walking or taking the oxcart.",
+  "rewards": "13,000 G, Warbler Capelet",
+  "warnings": [
+   "Doireann follows you; players report harpies or griffins killing her on foot or oxcart. Ferrystone is safest.",
+   "Leave stasis-augment or Logistician pawns out while waiting, or the food may not rot or may be used up.",
+   "Time-sensitive; one player estimates about 12 days. Do not dawdle."
+  ],
+  "follow_ups": "",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Out+of+the+Forest,+Into+the+Forge",
+   "https://www.powerpyx.com/dragons-dogma-2-out-of-the-forest-into-the-forge-walkthrough/"
+  ],
+  "item_hints": {
+   "Rotten Apple": "Not sold rotten. Get an Apple (goblins near the Sacred Arbor, or alchemists for 50 G), carry it and rest about a week (bench Doze Off or inn) until it rots.",
+   "Rotten Fish": "Catch fish in the shallow water north of the Sacred Arbor, then rest in the same way until it rots in your pack.",
+   "Nutriabh": "Quest item Doireann cooks from the rotten apple and fish. Give it to Sara at Brokkr's Smithy.",
+   "Scalecinder": "Quest item: green powder piles in Stragglers' Cave (right up the hill before the bridge outside Bakbattahl). About 6 piles; collect while Brokkr rants."
+  }
+ },
+ {
+  "id": 30100,
+  "name": "Readvent of Calamity",
+  "how": "After Seat of the Sovran, revisit Melve a few days later and a dragon attacks. Break the red growths on its legs and neck until it flies off. Rest (inn or camp), then enter Ulrika's house; after the envoy scene, talk to her and agree to stay the night. You wake and she is gone. Find her in Harve Village, then tell Lennart in Melve to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Repelling is enough; talk to Sigurd after the fight to unlock Mystic Spearhand. Felling it with the watchtower ballista is optional.",
+  "rewards": "2000 XP, 4500 G, Ring of Grit",
+  "warnings": [
+   "Ulrika only appears in Harve once Monster Culling and Scaly Invaders are done.",
+   "Cancelled once Feast of Deception (main quest) begins.",
+   "Do not kill envoy Martin; players report it can break the quest."
+  ],
+  "follow_ups": "Finding Ulrika starts Trouble on the Cape in Harve; leads to Home Is Where the Hearth Is.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Readvent+of+Calamity",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/melve/readvent-of-calamity-walkthrough-dragons-dogma-2"
+  ]
+ },
+ {
+  "id": 30110,
+  "name": "Home Is Where the Hearth Is",
+  "how": "After Readvent of Calamity (Brant points you back after An Unsettling Encounter), enter occupied Melve: bribe the gate guard 5,000 G or climb the wall right of the gate. Bring Lennart (Ulrika's house) 4 swords, then fight the soldiers outside with the villagers for about a minute. Wait a few days, go to Harve, and talk to Ulrika on the docks at night to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Climb the wall instead of bribing, and let Ian and Norbert distract the guards so you can take the swords from the storehouse.",
+  "rewards": "2200 XP, 12,000 G, Ring of Assurance",
+  "warnings": [
+   "Pawns cannot enter Melve; you fight with the villagers only.",
+   "Hitting a villager can break the quest (player report).",
+   "Ulrika only meets you at night: doze on the bench at Bayside Home or rest at the inn. If she never shows, finish Trouble on the Cape first."
+  ],
+  "follow_ups": "Advances Ulrika's romance; Melve villagers relocate to Harve.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Home+Is+Where+the+Hearth+Is",
+   "https://www.powerpyx.com/dragons-dogma-2-home-is-where-the-hearth-is-walkthrough/",
+   "https://gamerguides.com/dragons-dogma-2/guide/side-quests/melve/home-is-where-the-hearth-is-walkthrough"
+  ],
+  "item_hints": {
+   "Trusty Sword": "Confiscated villager swords in the Melve storehouse by the gate: one chest holds 2, another 1. Ian and Norbert (outside Lennart's house) draw the guards away. Or bring any swords you own.",
+   "Iron Sword": "The fourth sword, in the third chest of the same storehouse. Swords bought in Vernworth also count."
+  }
+ },
+ {
+  "id": 30120,
+  "name": "Dulled Steel, Cold Forge",
+  "how": "After Seat of the Sovran, talk to Roman in the Vernworth Castle courtyard (he may only appear at night) and follow him. The Vernworth smith sends you to Brokkr's Smithy in Bakbattahl. Brokkr refuses; leave the room, wait for him to leave the building, then talk to Sara. Mine Glimmercoal in Digger's Ruins (SW of Bakbattahl), bring it to Sara, and accept her offer to repair the sword to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Turn in 25 Glimmercoal (minimum 15) for the full reward. Turn the lantern off: real Glimmercoal glows green.",
+  "rewards": "2800 XP, 12,000 G (with 25 Glimmercoal; fewer reportedly pays less)",
+  "warnings": [
+   "Handing Sara the sword starts Steeled Resolve, Blazing Forge, which runs on in-game time. Do it when you can go to Agamen Volcanic Island soon.",
+   "Glymercole looks similar but is not accepted.",
+   "Keep the sword in your inventory, not storage, or Sara's repair option may not appear. Refusing her leaves the quest open.",
+   "Slimes and goblins drop from above in Digger's Ruins."
+  ],
+  "follow_ups": "Entrusting the sword to Sara starts Steeled Resolve, Blazing Forge.",
+  "confidence": "high",
+  "sources": [
+   "https://powerpyx.com/dragons-dogma-2-dulled-steel-cold-forge-walkthrough",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/vernworth/dulled-steel-cold-forge-walkthrough",
+   "https://dragonsdogma2.wiki.fextralife.com/Dulled+Steel,+Cold+Forge"
+  ],
+  "item_hints": {
+   "Dulled Regalia Sword": "Quest item Roman gives you. Keep it in your inventory and hand it to Sara at Brokkr's Smithy, Bakbattahl.",
+   "Glimmercoal": "Gathered, not bought: green-glowing deposits in Digger's Ruins SW of Bakbattahl (up to about 30). Lantern off to spot them. Glymercole look-alikes are not accepted."
+  }
+ },
+ {
+  "id": 30130,
+  "name": "Steeled Resolve, Blazing Forge",
+  "how": "Spend a few days away, check on Sara at Brokkr's Smithy, and repeat once. Next visit she is gone and Brokkr sends you to Mountain Base Cave (SW of Geyser Hamlet). Clear the plank path, find her at the natural forge, run her back to the entrance before her Blazehammer cools, collect the Restored Regalia Sword at the smithy, and give it to Roman in Vernworth.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Give Roman the real sword",
+    "outcome": "Normal completion; the most gold.",
+    "rewards": "6000 XP, 35,000 G"
+   },
+   {
+    "option": "Give Roman a forgery, sell the real one",
+    "outcome": "Ibrahim forges it for 7,000 G; Roman pays 11,000 G and the original sells for about 18,000 G. Net about 22,000 G, less than the real sword.",
+    "rewards": "11,000 G from Roman plus the sale"
+   }
+  ],
+  "best": "Clear the cave on the way in so the escort back is fast, then hand Roman the genuine sword for 35,000 G.",
+  "rewards": "",
+  "warnings": [
+   "The escort is timed: reach the cave entrance before the Blazehammer cools. Sara's lines hint how much time is left.",
+   "Keep Sara alive; a player reports reviving her counted as a failure and blocked smithy services.",
+   "Passing days between visits is expected, but do not leave her missing for long once Brokkr sends you to the cave."
+  ],
+  "follow_ups": "Completing it opens Brokkr's Smithy services in Bakbattahl.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Steeled+Resolve,+Blazing+Forge",
+   "https://www.powerpyx.com/dragons-dogma-2-steeled-resolve-blazing-forge-walkthrough/"
+  ],
+  "item_hints": {
+   "Restored Regalia Sword": "Quest item: Sara hands it over at Brokkr's Smithy after the cave escort. Give it to Roman (Vernworth Castle courtyard). Ibrahim's Scrap Store can forge a copy for 7,000 G."
+  }
+ },
+ {
+  "id": 30140,
+  "name": "Welcome to Battahl",
+  "how": "Triggers on your first visit to Bakbattahl: turn right at the Oxcart Station corner and pass the tavern, and Roger stops you. Fight his three men in the narrow passage. The quest ends when you win or when Raghnall steps in and settles it.",
+  "decision": false,
+  "choices": [],
+  "best": "Prep gear and items first, then beat all three quickly without taking repeated hits, before Raghnall steps in. That pays the most.",
+  "rewards": "Win 3-on-1: 2800 XP, Fruit Wine, 13,500 G. Win 1-on-1 vs Taleef: 2800 XP, Fruit Wine, 8500 G. Lose 1-on-1: 2800 XP, -3000 G.",
+  "warnings": [
+   "Too little damage or repeated hits and Raghnall turns it into a 1-on-1 vs Taleef for less gold; lose that and you pay 3000 G.",
+   "Pawns cannot join this fight (one player says ordering Go! brings them in).",
+   "Chasing a knocked-back enemy too far may count as a loss (player report)."
+  ],
+  "follow_ups": "Required for Tensions on the Highroad (Raghnall's chain), which leads to Clash and Conclusion.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Welcome+to+Battahl",
+   "https://www.powerpyx.com/dragons-dogma-2-tensions-on-the-highroad-walkthrough/"
+  ]
+ },
+ {
+  "id": 30150,
+  "name": "Spellbound",
+  "how": "At Eini's Home north of Melve, talk to Trysha while her grandparents are out (or carry her outside). Give her 3 original grimoires at once for the Turquoise Ring. Rest a day at the nearby camp and return: during her magick outburst, dodge until she stops casting, then grab her. Rest another day at camp and return for the final scene to finish.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Give 3 original grimoires",
+    "outcome": "Turquoise Ring now; after the outburst, Trysha and Eini each give a Maister teaching.",
+    "rewards": "2000 XP, 3000 G, Cast Stone, Turquoise Ring, Conjurer's Jottings (Meteoron), Enchanter's Almanac (Celestial Paean)"
+   },
+   {
+    "option": "Give forgeries",
+    "outcome": "She doubts her aptitude and the outburst event does not happen properly. No Maister teachings.",
+    "rewards": "2000 XP, 3000 G"
+   },
+   {
+    "option": "Fail to calm her",
+    "outcome": "Fextralife lists a failed outcome where Trysha dies (e.g. if she is attacked); a Wakestone reportedly still allows the good ending.",
+    "rewards": "XP only"
+   }
+  ],
+  "best": "Give Trysha 3 real grimoires and Myrddin 3 forgeries. In the outburst, dodge until she stops casting, then grab her; never attack her.",
+  "rewards": "",
+  "warnings": [
+   "Do not give all 5 originals to one NPC. Trysha needs 3 real ones; Myrddin accepts forgeries.",
+   "Eini or Eino dying can block the outburst. Check the Vernworth charnel house and revive with a Wakestone.",
+   "Time-limited: return after about a day of rest each time; do not wander off for long.",
+   "Dudley leaves after you buy Fulminous Shield; buy his other stock first."
+  ],
+  "follow_ups": "Linked to The Sorcerer's Appraisal (Myrddin wants the same books). Keep the Turquoise Ring for Myrddin.",
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-spellbound-walkthrough/",
+   "https://dragonsdogma2.wiki.fextralife.com/Spellbound",
+   "https://Gamespot.com/gallery/dragons-dogma-2-grimoires-spellbound-sorcerers-appraisal/2900-5199/"
+  ],
+  "item_hints": {
+   "Let There Be Light": "Taken, not bought: desk upstairs in Myrddin's manor, Checkpoint Rest Town. Enter via the outside balcony; using the inside stairs makes him attack.",
+   "Fulminous Shield": "Bought from traveling merchant Dudley near Melve's north entrance for about 5,000 G. Buy his other wares first; he leaves after.",
+   "Nation's Death Knell": "Two originals: red chest on 2F of Waterfall Cave (spawns a Wight), and under the bell in the Ancient Battleground castle; take that one after Tolled to Rest or that quest bugs.",
+   "Howling Blizzard": "Same red chest on 2F of Waterfall Cave, or trade a Fulminous Shield to Wendy in the Nameless Village.",
+   "Towering Earth": "Given by Waldhar after The Caged Magistrate; if missed, talk to him in The Gracious Hand's Vaults under the Vernworth slums.",
+   "Wakestone": "Only needed if Eini, Eino or Trysha dies: use it on the body at the Vernworth charnel house."
+  }
+ },
+ {
+  "id": 30160,
+  "name": "The Sorcerer's Appraisal",
+  "how": "After Seat of the Sovran, go to Myrddin's manor in Checkpoint Rest Town wearing the Courtly Tunic and Breeches; he opens the door, then talk to him inside. He asks for 5 grimoires, but handing over 3 at once finishes it. If he asks about Trysha or Meteoron, answer honestly with the Turquoise Ring on you; he may need you to rest a day and return.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Give him 3 forged grimoires",
+    "outcome": "Usually accepted, and you keep the originals for Trysha. Reports conflict: some got full rewards, others less gold.",
+    "rewards": "2100 XP, 11,000 G, Ares Morpho Robe, Myrddin's Chronicle (Maelstrom)"
+   },
+   {
+    "option": "Tell him about Trysha, show the ring",
+    "outcome": "Keeps the full reward. He may go to ask Eini about her; rest a day or more and return to finish.",
+    "rewards": "Full rewards"
+   },
+   {
+    "option": "Refuse to discuss Trysha or lie",
+    "outcome": "Partial or no reward reported; without the ring he may throw you out.",
+    "rewards": "Reduced or none"
+   }
+  ],
+  "best": "Give Myrddin 3 forgeries from Ibrahim and keep the originals for Trysha. If he asks about Trysha or Meteoron, tell the truth with the Turquoise Ring on you.",
+  "rewards": "",
+  "warnings": [
+   "Without the Courtly Tunic and Breeches he will not let you in, or attacks.",
+   "Give only 3 books; Trysha needs 3 originals for her teachings.",
+   "If he stalls after Spellbound, wear the Turquoise Ring and rest a few days before returning."
+  ],
+  "follow_ups": "Shares grimoires with Spellbound.",
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-the-sorcerers-appraisal-walkthrough/",
+   "https://dragonsdogma2.wiki.fextralife.com/The+Sorcerer's+Appraisal",
+   "https://Gamespot.com/gallery/dragons-dogma-2-grimoires-spellbound-sorcerers-appraisal/2900-5199/"
+  ],
+  "item_hints": {
+   "Let There Be Light": "Taken, not bought: desk upstairs in Myrddin's manor, Checkpoint Rest Town. Enter via the outside balcony; using the inside stairs makes him attack.",
+   "Fulminous Shield": "Bought from traveling merchant Dudley near Melve's north entrance for about 5,000 G. Buy his other wares first; he leaves after.",
+   "Nation's Death Knell": "Two originals: red chest on 2F of Waterfall Cave (spawns a Wight), and under the bell in the Ancient Battleground castle; take that one after Tolled to Rest.",
+   "Howling Blizzard": "Same red chest on 2F of Waterfall Cave, or trade a Fulminous Shield to Wendy in the Nameless Village.",
+   "Towering Earth": "Given by Waldhar after The Caged Magistrate; if missed, talk to him in The Gracious Hand's Vaults under the Vernworth slums.",
+   "Courtly Tunic": "Worn to enter. Reward from Sven's The Ornate Box, a chest in Vernworth Hall's west hallway, or buy at Ibrahim's Scrap Store if lost.",
+   "Courtly Breeches": "Worn with the tunic. Same sources as the Courtly Tunic.",
+   "Turquoise Ring": "Trysha's reward for 3 grimoires in Spellbound. Have it on you (some say equipped) when Myrddin asks about her."
+  }
+ },
+ {
+  "id": 30170,
+  "name": "Put a Spring in Thy Step",
+  "how": "Past Drabnir's Grotto on the road into Agamen Volcanic Island, the dwarf Gautstafr asks for 3 wildflowers or herbs; deliver them to him on the road. Meet him at Windwalker's Home (follow the coast to the connecting islet), then talk again and pick \"Offer to escort him\" to the hot spring in Geyser Hamlet. The quest ends when he reaches the spring and Cliodhna appears.",
+  "decision": false,
+  "choices": [],
+  "best": "Walk, don't run, or carry him; clear magma scales, hobgoblins and the stone golem ahead of him and arrive before nightfall.",
+  "rewards": "4800 XP, 23,000 G, Laurel Circlet, unlocks the Magick Archer vocation",
+  "warnings": [
+   "Afterward, talk to Cliodhna again for Spellbow's Paradox (Martyr's Bolt); easy to miss.",
+   "Keep Gautstafr alive on the escort; at the fork take the right path and enter Geyser Hamlet through the scaffold tunnel.",
+   "The log may stay on \"deliver the wildflowers\"; ignore it and go to his house on the map (player report)."
+  ],
+  "follow_ups": "Cliodhna becomes the Magick Archer maister.",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Put+a+Spring+in+Thy+Step"
+  ],
+  "item_hints": {
+   "Morningtide": "Any 3 wildflowers or herbs are accepted (Morningtide is one). Pick them along the road near Gautstafr; no need to buy."
+  }
+ },
+ {
+  "id": 30180,
+  "name": "A Veil of Gossamer Clouds",
+  "how": "After Feast of Deception, Sven (his castle chambers) gives you Disa's unfinished letter. Waldhar in the Gracious Hand's Vaults reads it as a love letter. For the better ending, take the oxcart to Bakbattahl, go to the south side of Flamebearer Palace, cross the bridge to the Forbidden Magick Research Lab, take the letter from Workshop #2, and show it to Sven (\"See for yourself\") to finish.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Report it as a love letter",
+    "outcome": "After Waldhar's reading, tell Sven \"'Twas a love letter\". The quest ends with the smaller reward.",
+    "rewards": "4000 XP, 14,000 G"
+   },
+   {
+    "option": "Bring the Letter to Lord Phaesus",
+    "outcome": "Taken from Workshop #2 in the Bakbattahl lab and shown to Sven.",
+    "rewards": "4000 XP, 20,000 G, Ferrystone"
+   }
+  ],
+  "best": "Skip the love-letter report: take the Letter to Lord Phaesus from the Bakbattahl lab and show it to Sven.",
+  "rewards": "",
+  "warnings": [
+   "Telling Sven it was a love letter ends the quest with the smaller reward.",
+   "Lab entry: players report guards turning hostile via the palace; the back entrance, a hood or a Beastren Mask reportedly helps. Do not draw weapons.",
+   "The Waldhar route needs The Caged Magistrate and The Heel of History done."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/A+Veil+of+Gossamer+Clouds",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/vernworth/a-veil-of-gossamer-clouds-walkthrough"
+  ],
+  "item_hints": {
+   "Letter to Lord Phaesus": "Taken, not bought: middle of the table in Workshop #2 of the Forbidden Magick Research Lab (eavesdrop on Yglie and Jerome first). If lost, Ibrahim in Checkpoint Rest Town may sell a replacement.",
+   "Unfinished Letter": "Quest item Sven gives you at the start."
+  }
+ },
+ {
+  "id": 30200,
+  "name": "A Candle in the Storm",
+  "how": "After Shadowed Prayers, talk to Menella by the Volcanic Island Armory. Pay brigand Herman in the Bakbattahl Gaol 5,000 G to talk, report to Menella, then tell prisoner Ashe the Empress's fake location. Meet Menella at Bakbattahl's west entrance, follow the marker to the hideout NW of town, and pick a side on the plan. When Irmhild arrives, follow her inside; the quest ends after her reveal.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Support Nadinia's proposal",
+    "outcome": "Irmhild tells you to kill the Empress. Strike once at Nadinia on the bed without hitting Irmhild; Irmhild explains her motive and Menella arrests her.",
+    "rewards": "4800 XP, 25,000 G, Ring of Amplification"
+   },
+   {
+    "option": "Oppose (use a body double)",
+    "outcome": "Irmhild spots the fake and flees. Fight Coral Snakes while protecting Menella, then attack Irmhild; she kills herself and her motive stays hidden.",
+    "rewards": "4800 XP, 19,000 G"
+   },
+   {
+    "option": "Support, but attack Irmhild",
+    "outcome": "Ends the quest without the best ending (player reports).",
+    "rewards": "Less than the best ending"
+   }
+  ],
+  "best": "Support the proposal, save at an inn first, then hit Nadinia on the bed once when Irmhild asks, avoiding Irmhild. Ring plus 25,000 G.",
+  "rewards": "",
+  "warnings": [
+   "Do not advance the main story back to the Excavation Site first; GamerGuides says it keeps the quest and Menella available.",
+   "In the reveal, strike only the Empress once. Hitting Irmhild or delaying spoils the best ending.",
+   "If you freed the brigand earlier, players report he may be missing from the gaol."
+  ],
+  "follow_ups": "",
+  "confidence": "medium",
+  "sources": [
+   "https://earth.gamerguides.com/dragons-dogma-2/guide/side-quests/agamen-volcanic-island/a-candle-in-the-storm-walkthrough",
+   "https://www.powerpyx.com/dragons-dogma-2-a-candle-in-the-storm-walkthrough/",
+   "https://dragonsdogma2.wiki.fextralife.com/A+Candle+in+the+Storm"
+  ]
+ },
+ {
+  "id": 30210,
+  "name": "Mercy among Thieves",
+  "how": "On the Battahl side of Checkpoint Rest Town, give the boy Toumi (tent past the inn) non-rotten food twice. Talk to the two men opposite the Oxcart Station, then Lyssandro (white robes) and agree to help. Ask travelers on the road south about a raid, chase the fleeing bandits SW into the Coral Snakes' Hideout, and fight through. The quest ends when the leader flees and Hugo is captured.",
+  "decision": false,
+  "choices": [],
+  "best": "Loot the hideout's 2F chests: Frosted Edges, Decapitator and Ring of Disfavor.",
+  "rewards": "4000 XP, 8000 G",
+  "warnings": [
+   "Do not kill Hugo; it breaks the chain unless you revive him right away with a Wakestone.",
+   "A bandit cuts the near rope bridge; use the farther bridge or the ladders in the middle area.",
+   "After the quest a Grim Ogre can spawn in the bandit tent area."
+  ],
+  "follow_ups": "Hugo is jailed in Bakbattahl, which unlocks Off the Pilfered Path.",
+  "confidence": "high",
+  "sources": [
+   "https://www.powerpyx.com/?p=237619",
+   "https://dragonsdogma2.wiki.fextralife.com/Mercy+among+Thieves",
+   "https://dragonsdogma2.wiki.fextralife.com/Coral+Snakes'+Hideout"
+  ]
+ },
+ {
+  "id": 30220,
+  "name": "Off the Pilfered Path",
+  "how": "Have a Battahl Residence Permit, then enter Bakbattahl Gaol. Talk to Hugo, guard Dietrich, and Brefft (opposite Hugo) about Hugo's parents and Lanzo. To free Hugo, bribe head gaoler Ekratt 1,000, 2,500 and 5,000 G on three separate days (doze or rest between). Hugo then waits outside the gaol: talk to him and offer a job to finish.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Keep the truth from Hugo, bribe him out",
+    "outcome": "Safest route. He waits outside the gaol for you to offer work.",
+    "rewards": "See job outcome"
+   },
+   {
+    "option": "Tell Hugo the truth",
+    "outcome": "He kills Brefft, escapes and goes after Lanzo at the Ancient Battleground. Kill Lanzo first or Hugo dies and the quest ends.",
+    "rewards": "If he dies: 4500 XP, 7000 G"
+   },
+   {
+    "option": "Offer Hugo a job",
+    "outcome": "Isaac's Wares (after Short-Sighted Ambition with the real book, Isaac gone) or Rose Chateau (after Every Rose Has Its Thorn). Best ending.",
+    "rewards": "4500 XP, 7000 G, White-Leather Kerchief, Frosted Edges"
+   },
+   {
+    "option": "No job available",
+    "outcome": "He sets off on his own (completes the quest). Some players report he gets angry or attacks.",
+    "rewards": "7000 G, White-Leather Kerchief (per PowerPyx)"
+   }
+  ],
+  "best": "Don't tell Hugo the truth. Bribe Ekratt 1,000 / 2,500 / 5,000 G over three days, then offer him a job you set up beforehand.",
+  "rewards": "",
+  "warnings": [
+   "Set up a job first: finish Every Rose Has Its Thorn or Short-Sighted Ambition (real book to Isaac).",
+   "Without a Battahl Residence Permit, gaol guards attack you.",
+   "If Hugo goes after Lanzo, kill Lanzo (castle top floor) quickly; left for days they kill each other.",
+   "Using the gaol key or opening the cell starts a fight with guards and Hugo may die. Bribing is safer."
+  ],
+  "follow_ups": "Hugo works at Isaac's Wares in Bakbattahl or the Rose Chateau in Vernworth.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Off+the+Pilfered+Path",
+   "https://www.powerpyx.com/dragons-dogma-2-off-the-pilfered-path-walkthrough/",
+   "https://allthings.how/dragons-dogma-2/map/makeshift-gaol-key/"
+  ],
+  "item_hints": {
+   "Makeshift Gaol Key": "Bought from Ibrahim's Scrap Store (Checkpoint Rest Town) or Dudley for 3,000 G, or found in chests. Opens Hugo's cell but guards attack; the bribe route is safer.",
+   "Battahl Residence Permit": "From Ser Menella during Nation of the Lambent Flame (main quest), or by buying a Bakbattahl home. Needed to enter the gaol without guards attacking."
+  }
+ },
+ {
+  "id": 30230,
+  "name": "Tensions on the Highroad",
+  "how": "After Welcome to Battahl and a return to Vernworth, soldier Simon approaches near the North Vernworth Oxcart Station (he patrols; check the Pawn Guild stairs if absent). Meet Ser Augustin's oxcart just outside Checkpoint Rest Town. When Raghnall stops it, take a side with one hit, chase Raghnall into Guerco Cavern, beat the Saurians with him, and exit the cave to finish.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Side with Raghnall (hit a guard)",
+    "outcome": "Drive off Simon's men. Raghnall reveals the escort was a trap to kill Augustin and frame you.",
+    "rewards": "4000 XP, 12,000 G, Raghnall affinity"
+   },
+   {
+    "option": "Side with Simon (hit Raghnall)",
+    "outcome": "Same chase and reveal, but Raghnall likes you less. GamerGuides says half the gold; PowerPyx says the reward does not change.",
+    "rewards": "4000 XP, 6,000-12,000 G (sources disagree)"
+   }
+  ],
+  "best": "Side with Raghnall: strike a guard standing far from him, then ignore stray monsters while chasing him into the cave.",
+  "rewards": "",
+  "warnings": [
+   "A floor collapse in Guerco Cavern separates you from your pawns; be ready to fight hobgoblins and Saurians without them.",
+   "Simon asks you to keep the job secret from Captain Brant.",
+   "One player reports the oxcart getting stuck on the incline at the start. Save first."
+  ],
+  "follow_ups": "Required for Clash and Conclusion (Raghnall's duel in Moonglint Tower).",
+  "confidence": "medium",
+  "sources": [
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/vernworth/tensions-on-the-highroad-walkthrough",
+   "https://www.powerpyx.com/dragons-dogma-2-tensions-on-the-highroad-walkthrough/",
+   "https://dragonsdogma2.wiki.fextralife.com/Tensions+on+the+Highroad",
+   "https://dragonsdogma2.wiki.fextralife.com/Clash+and+Conclusion"
+  ],
+  "item_hints": {
+   "Escort Letter": "Quest item Simon gives you when the job starts."
+  }
+ },
+ {
+  "id": 30240,
+  "name": "Clash and Conclusion",
+  "how": "Starts automatically on an upper floor of Moonglint Tower during The Guardian Gigantus, only if Tensions on the Highroad is done. Raghnall demands a solo duel in a narrow corridor; pawns stay out. It ends either when he dies, or, if you deal him no damage (guard, parry, grab or pin) for about 2 minutes, when a cutscene plays and he walks away.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Defeat Raghnall",
+    "outcome": "He dies and the quest completes. A Wakestone revives him, but he only sits and repeats one line.",
+    "rewards": "7,600 XP, 15,000 G"
+   },
+   {
+    "option": "Spare him (no damage ~2 min)",
+    "outcome": "Guard, parry, grab or pin without hurting him until a scene plays. He says his job was not to kill you, hands you a key and leaves.",
+    "rewards": "20,000 G, The Exalted (mace), Moonglint Key"
+   }
+  ],
+  "best": "Spare him: deal no damage for about 2 minutes (guard, parry, grab) until the scene plays, for more gold, The Exalted and a key.",
+  "rewards": "",
+  "warnings": [
+   "Missable: only during The Guardian Gigantus, needs Tensions on the Highroad finished, and is canceled once Legacy starts.",
+   "A single hit from a strong character, or knocking him off the edge, can kill him. Only guard and grab if you want to spare him.",
+   "Killing him and reviving him with a Wakestone does not give the spare rewards.",
+   "Sources differ on sparing: one says parry for about 2 minutes, another says keep grappling or pinning; no exact timer is confirmed."
+  ],
+  "follow_ups": "Continue up the tower toward Legacy. Players report a spared or revived Raghnall turning up in the Unmoored World.",
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Clash+and+Conclusion",
+   "https://www.powerpyx.com/dragons-dogma-2-clash-and-conclusion-walkthrough/",
+   "https://mein-mmo.de/dragons-dogma-2-geheime-cutscene-bei-boss/"
+  ]
+ },
+ {
+  "id": 40010,
+  "name": "Chilling Tidings",
+  "how": "After Seat of the Sovran, talk to Captain Brant, seated in Vernworth's Stardrop Inn (17:00-05:59): 'About the new Arisen...'. Rest at Shakir's Inn until morning for a dream, then see Brant again that night. Go to the fallen griffin by the waterfall in east Malachite Forest and tell Pekdre 'I am ready'. In Norgan, run past the Beorcans, follow Dorin into the settlement and talk to Jiera to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "5,000 XP, 10,000 G, Norgan Portcrystal (paid on reaching the settlement); an Eternal Ferrystone if you lack one; optional Regeneration Elixir from Magistrate Waldhar",
+  "warnings": [
+   "Brant only sits in the Stardrop Inn from 17:00 to 05:59. By day, sit on a bench and Doze Off until evening.",
+   "The marker points near Melve, but the griffin is at the east end of Malachite Forest: cross the river by Trevo Mine and follow the shore to the waterfall.",
+   "Recommended level 40. Beorcans ambush you on landing; run downhill. If you fall, you wake in the settlement and the quest still advances.",
+   "Normal portcrystals cannot be placed in Norgan; you can place up to five Norgan Portcrystals. Vermund portcrystals stay usable from Norgan."
+  ],
+  "follow_ups": "Leads to Rumbles in the North. Opens settlement side quests: Hammer and Tongs (Hal), In for a Hare, in for a Hound (Ilsa), Sticks and Stones (Morgus), Relics of the Past (Jiera).",
+  "confidence": "high",
+  "sources": [
+   "https://allthings.how/?p=253256",
+   "https://allthings.how/?p=253416",
+   "https://allthings.how/?p=262269",
+   "https://www.pcgamer.com/games/rpg/dragons-dogma-2-how-to-start-dark-arisen/"
+  ],
+  "item_hints": {
+   "Regeneration Elixir": "Optional gift from Magistrate Waldhar: in the Vernworth Castle Gaol Tower, or in the archives under the slums after The Caged Magistrate."
+  }
+ },
+ {
+  "id": 40020,
+  "name": "Rumbles in the North",
+  "how": "Leave the settlement through the stone arch and follow Valgr Ravine to Rivercave Campground (cave beside a rune-carved stump; rest and take the Heatstone). Climb to the Mountain Stronghold and enter the summit chamber: the Fallen Dragon crashes in. Survive until it heals itself and a cloaked warrior steps in. You wake in the Norgandian Inn; go outside for a scene, then talk to Dorin to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "100,000 XP, 2,000 RC",
+  "warnings": [
+   "The dragon cannot be killed here and gives no XP or loot. Just survive until the scene; don't burn your best curatives.",
+   "If Dorin won't talk after the scene outside the inn, go back into the inn and out again to retrigger it.",
+   "Ghouls keep spawning during the fight; bring Wakestones and use the pillars for cover."
+  ],
+  "follow_ups": "Leads to Seeking the Sage. Opens The Truant Soldier, The Snatching-Beast, Village Defense, Reaching the Far Shore and Oh, to Be in Vermund. The arena is revisited for the Riddle of the Will.",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/?p=263893",
+   "https://allthings.how/?p=261688",
+   "https://dq7reimagined.com/dragons-dogma-2-dark-arisen/norgan-walkthrough/"
+  ]
+ },
+ {
+  "id": 40030,
+  "name": "Sealed History",
+  "how": "Starts automatically after you consult Polyeidus. Port to Rivercave Campground, talk to Wash and follow the commission to the Mountain Stronghold. Open the frozen inner gate with the stone lever atop the round tower, pass Northwall Campground and North Valgrian Frostgrove to Brinerot Grotto, and go down to the Sealed Study. Wait a full day (Doze Off on the settlement bench), then ask Polyeidus at the study for his results.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "No reward screen; several grimoires lie in the Sealed Study",
+  "warnings": [
+   "Finishing: Polyeidus needs a full in-game day. Doze Off on a bench or rest, then return to the Sealed Study and ask about his research.",
+   "Bring Lantern Oil; the study is underground. Ferrystones do not work inside; activate the portcrystal at the top of the long stairs.",
+   "Brinerot Grotto's first passage is a dead end (portcullis locked from the far side). Backtrack and use the doorway by the damaged purple riftstone."
+  ],
+  "follow_ups": "Polyeidus names Lorade Castle and The Castle in the Ice starts immediately. The study is used again in Soul Searching.",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/sealed-history-walkthrough-in-dragon-s-dogma-2-dark-arisen-sealed-study-location/",
+   "https://allthings.how/?p=264715",
+   "https://dq7reimagined.com/dragons-dogma-2-dark-arisen/norgan-walkthrough/"
+  ],
+  "item_hints": {
+   "Climbing Hook": "Chest in the Northwall Campground cave, reached during this quest. Aymond also sells them."
+  }
+ },
+ {
+  "id": 40040,
+  "name": "Seeking the Sage",
+  "how": "Follow Dorin to the watchtower west of the settlement; the top chest holds the Spirit Compass. Dorin then gives a Climbing Hook. Follow the compass marker past Beorcan Stronghold and through the Cavern of Faith to the Shrine of Wisdom. Ask the Sphinx 'Tell me of the Fallen Dragon' to get her three riddles. After all three are delivered, talk to Polyeidus in the settlement to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "Eye of the Sphinx (given when she poses the riddles); each riddle pays separately",
+  "warnings": [
+   "Finishing: after the third riddle item, return to Polyeidus in the Norgandian Settlement and talk to him; that ends this quest and starts Sealed History.",
+   "Activate the Norgan Portcrystal next to the Shrine of Wisdom; you come back several times.",
+   "Bring about 5 Heatstones. Blizzards cause Chilled (lower max stamina) and blank the minimap; the compass marker still points the way.",
+   "Polyeidus, Dwayne and Jiera give riddle hints. The riddles can be done in any order."
+  ],
+  "follow_ups": "Starts the three Sage's Wisdom riddles and opens When the Culling Gets Tough (Dwayne). Finishing leads to Sealed History.",
+  "confidence": "high",
+  "sources": [
+   "https://allthings.how/?p=260386",
+   "https://allthings.how/?p=260364",
+   "https://allthings.how/?p=265669",
+   "https://nightlygamingbinge.com/dragons-dogma-ii-seeking-the-sage-walkthrough/"
+  ],
+  "item_hints": {
+   "Spirit Compass": "Chest on the top platform of the watchtower west of the Norgandian Settlement (follow Dorin, cross the bridge, climb the inside ladder). Shows a yellow minimap marker toward the Sphinx.",
+   "Climbing Hook": "Dorin gives you a spare after the tower, for the collapsed bridge on the route.",
+   "Eye of the Sphinx": "Given by the Sphinx when she poses the riddles. Use it from Items > Implements to mark strong foes; keep it, Into Rancor needs it."
+  }
+ },
+ {
+  "id": 40041,
+  "name": "Sage's Wisdom - Riddle of the Body",
+  "how": "Talk to Dwayne in the Norgandian Inn until he keeps mentioning the giant, then rest at the inn until morning. A roar wakes everyone and marks the giant. Leave by the north gate to Nival Gorge Collapse (Dorin waits there with supplies), climb the left-hand slope and kill the Mournful Giant at the summit. The tusk drops automatically; deliver it to the Sphinx at the Shrine of Wisdom.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "25,000 XP, 20,000 G plus a Sphinx chest (Norgan Portcrystal per two guides); giant kill about 79,500 XP and 5,000 G",
+  "warnings": [
+   "The giant only appears after you rest at the inn until morning; searching the mountains before that does nothing.",
+   "Use fire (a pawn's Fire Boon), break its tusks to stagger it, dodge the freezing breath and watch for avalanches on the slope.",
+   "Deliver the exact Mournful Giant's Tusk; other loot from it is rejected."
+  ],
+  "follow_ups": "One of three riddles needed to finish Seeking the Sage.",
+  "confidence": "high",
+  "sources": [
+   "https://allthings.how/?p=260364",
+   "https://allthings.how/?p=260386",
+   "https://nightlygamingbinge.com/dragons-dogma-ii-seeking-the-sage-walkthrough/"
+  ],
+  "item_hints": {
+   "Mournful Giant's Tusk": "Drops automatically when the Mournful Giant dies. Rest at the Norgandian Inn until morning, exit the north gate and follow it past Nival Gorge Collapse to the summit."
+  }
+ },
+ {
+  "id": 40042,
+  "name": "Sage's Wisdom - Riddle of the Soul",
+  "how": "Jiera points you to Beorcan Stronghold (northwest, permanent blizzard). Skip the locked main gate: follow the outer wall left past the frozen soldiers to the logs, clear the snow over a hidden ladder, cross underground, climb the far ladder and go past a riftstone up to the courtyard. Kill the frost wyrm Fimbl and deliver its Frozen Wyrmslife Crystal to the Sphinx.",
+  "decision": false,
+  "choices": [],
+  "best": "Use fire enchantments and hit Fimbl's exposed chest heart when it is staggered; finish fast before the late hailstorm wears the party down.",
+  "rewards": "25,000 XP, 20,000 G plus a Sphinx chest (guides list 3,000 or 6,000 RC); killing Fimbl ends the stronghold blizzard",
+  "warnings": [
+   "Fimbl's final phase summons a damaging hailstorm; bring ice resistance or burst it down.",
+   "Bring at least 3 Heatstones for the permanent blizzard.",
+   "The main gate needs two Beorcan's Twinned Keys, but those only open optional rooms; use the hidden ladder instead.",
+   "The crystal is under Valuables on the Sphinx's Deliver screen."
+  ],
+  "follow_ups": "One of three riddles needed to finish Seeking the Sage.",
+  "confidence": "high",
+  "sources": [
+   "https://allthings.how/?p=260364",
+   "https://allthings.how/?p=260386",
+   "https://dq7reimagined.com/dragons-dogma-2-dark-arisen/sage-riddles/",
+   "https://thenerdstash.com/how-to-solve-all-sage-riddles-in-dragons-dogma-2-dark-arisen/"
+  ],
+  "item_hints": {
+   "Frozen Wyrmslife Crystal": "Drops from the frost wyrm Fimbl in the Beorcan Stronghold courtyard. Enter via the hidden snow-covered ladder by the logs. Listed under Valuables.",
+   "Heatstone": "Smash Beorcan firepits, pick them up at campsites like Rivercave Campground, buy from Aymond or Ilda (3,000 G, limited) or craft Sunstone + Molten Ore."
+  }
+ },
+ {
+  "id": 40043,
+  "name": "Sage's Wisdom - Riddle of the Will",
+  "how": "Polyeidus points you back to the Mountain Stronghold arena where you fought the Fallen Dragon (Rivercave Campground portcrystal is close). Pick up the Decorative Brooch near the center by the big floor pattern; ghouls spawn and rubble blocks the arch. Climb the fallen blocks by the wall, drop into the lower courtyard and get out, then deliver the brooch to the Sphinx.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "25,000 XP, 20,000 G plus a Sphinx chest (Eternal Wakestone per two guides)",
+  "warnings": [
+   "Taking the brooch spawns a ghoul horde and seals the way in. You don't need to kill them; just escape with it.",
+   "The escape shows 'No Destination' on the map; find the way out yourself."
+  ],
+  "follow_ups": "One of three riddles needed to finish Seeking the Sage.",
+  "confidence": "high",
+  "sources": [
+   "https://allthings.how/?p=260364",
+   "https://allthings.how/?p=260386",
+   "https://allthings.how/?p=262269",
+   "https://dq7reimagined.com/dragons-dogma-2-dark-arisen/sage-riddles/"
+  ],
+  "item_hints": {
+   "Decorative Brooch": "On the ground near the middle of the Mountain Stronghold arena (where you first fought the Fallen Dragon), by the large floor pattern. Taking it spawns ghouls."
+  }
+ },
+ {
+  "id": 40050,
+  "name": "The Castle in the Ice",
+  "how": "Take the Mountain Stronghold lift east and follow Eir to the dark ice wall. Hook down, pass Icefall Tunnels to Gagana's Grotto, and burn a Nokken body on each of the three altar braziers to summon the gagana; kill it for Firebird Tallow. Load it into the stronghold ballista (Examine) and shoot the ice wall. Reach Lorade Castle's throne, make the choice, then talk to the Sphinx to finish.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Agree not to harm the corpse",
+    "outcome": "Eir explains Rovall became the Fallen Dragon. Talk to the Sphinx (weapon sheathed) to finish; Soul Searching and Where There's a Will start.",
+    "rewards": ""
+   },
+   {
+    "option": "Strike the corpse three times",
+    "outcome": "Eir turns hostile and is killed; the body turns to dust, the Fallen Dragon burns a settlement and 'This tale has ended'. Only reloading undoes it.",
+    "rewards": ""
+   }
+  ],
+  "best": "Agree not to harm the corpse. Striking it three times is a game-ending bad ending.",
+  "rewards": "No quest reward screen; the gagana kill gives about 156,000 XP",
+  "warnings": [
+   "Hard save before the throne room. Striking the body three times turns Eir hostile and ends the game; only a reload undoes it.",
+   "The gagana takes only 0.2x fire damage; use ice and hit its flame sac. Its talons poison and its breath sets the ground alight.",
+   "Each brazier needs a Nokken body burning on it: two Nokken are in the main area, one in nearby caves. Carry bodies with the grab button.",
+   "Only the ballista loaded with Firebird Tallow breaks the ice wall; normal attacks do nothing."
+  ],
+  "follow_ups": "Agreeing leads to Soul Searching and Where There's a Will, There's a Way. Opens Quilt Me Down with a Feather, No Spoils Get Left Behind and Hal's Treasure Hunt.",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-the-castle-in-the-ice-walkthrough-and-gagana-summon/",
+   "https://allthings.how/?p=261500",
+   "https://allthings.how/?p=250695",
+   "https://www.videogameschronicle.com/guide/dd2-dark-arisen-summon-gagana-the-castle-in-ice-quest-guide/"
+  ],
+  "item_hints": {
+   "Spirit Compass": "Reused from Seeking the Sage to navigate the whiteout to Gagana's Grotto.",
+   "Firebird Tallow": "Loot from the gagana after you burn a Nokken body on each of the three altar braziers in Gagana's Grotto and kill it. Cannot be sold. Use it on the stronghold battlement ballista.",
+   "Climbing Hook": "A spare hangs on the winch post in the Mountain Stronghold winch house; needed at the tether post down to the tunnels.",
+   "Gagana Tallow": "Dropped by Gagana after you place Nekkon bodies on the three altar pyres and defeat it. Load it into the stronghold ballista to break the ice wall to Lorade Castle."
+  }
+ },
+ {
+  "id": 40060,
+  "name": "Soul Searching",
+  "how": "With Polyeidus's Transcription Kit, copy three slabs in the cave at the west end of the Norgan Snowfield trench; deliver them, wait a day, talk again. Free Morgus from a Blemmyae in Putrid Copse, blast the castletown gate with explosive casks, reach Abyss Ridge. The quest pauses during Where There's a Will, then ends at Mordria Fault when you pull the glowing sword from the cliff-edge rock.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "240,000 XP, 35,000 G, 3,000 RC (one guide also saw a 180,000 XP version)",
+  "warnings": [
+   "It pauses after Abyss Ridge; continue Where There's a Will (statues, rift). It resumes at Mordria Fault and completes when you wake in the Norgandian Inn.",
+   "The cracked disc in the circular hall cannot be copied or repaired; skip it. Only the three intact slabs count.",
+   "A Blemmyae can swallow party members; hit its mouth to free them. Bring a Climbing Hook (used twice) and a Wakestone.",
+   "At Mordria Fault the Fallen Dragon cannot be killed; helping Eir with the rampart ballistas is optional."
+  ],
+  "follow_ups": "Together with Where There's a Will, There's a Way, leads to Reunion.",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/?p=261581",
+   "https://allthings.how/soul-searching-in-dragon-s-dogma-2-dark-arisen-how-to-repel-the-fallen-dragon-and-beat-the-spectre/",
+   "https://xboxplay.games/dragons-dogma-2-dark-arisen/where-to-find-the-transcriptions-in-dragons-dogma-2-dark-arisen-76602"
+  ],
+  "item_hints": {
+   "Transcription Kit": "Given by Polyeidus at the Sealed Study when the quest starts; use it on the three carved slabs in the snowfield cave.",
+   "Climbing Hook": "Needed twice. Dorin gives one in Seeking the Sage, one is in the Northwall Campground chest, and Aymond sells them."
+  }
+ },
+ {
+  "id": 40070,
+  "name": "Where There's a Will, There's a Way",
+  "how": "With your main pawn, help Eir relight Lorade Castle's barrier statues (she throws you up to raised ladders), then seal the rift by killing three spectres. Later Jiera sends you to the Sphinx: kill the demon attacking her and ride her to Mordria Temple. Descend, take the Temple Key from a dead soldier, beat Willan Barbatos, then choose 'Plunge in the Godsbane blade' and kill him in the portal.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "220,000 XP, 35,000 G, 3,000 RC, Lv 4 Ancient Helm, Plastron x2, Greaves",
+  "warnings": [
+   "The Sphinx won't fly you back and you are committed once you land at the temple; restock and rest before talking to her.",
+   "Main pawn required: Eir won't proceed if you only have hired pawns.",
+   "Skip the temple elevator on the way in; it goes up. Keep descending to the locked portcullis.",
+   "The blemmyae at the gate is weak to lightning; its oil on the floor makes using fire dangerous."
+  ],
+  "follow_ups": "Willan's death returns the heart to the Fallen Dragon; leads to Reunion.",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/?p=261528",
+   "https://allthings.how/?p=265701",
+   "https://dq7reimagined.com/dragons-dogma-2-dark-arisen/norgan-walkthrough/"
+  ],
+  "item_hints": {
+   "Temple Key": "Mordria Temple: touching the locked portcullis summons a blemmyae. After killing it, search the dead soldier by a carved pillar next to a Curvestone ore vein, then choose Open at the gate."
+  }
+ },
+ {
+  "id": 40080,
+  "name": "Reunion",
+  "how": "Starts once Willan Barbatos is dead and Rovall's body, soul and will are restored. Guides disagree on the start point (Eir at the Mordria Temple elevator, or the dragon at Abyss Ridge); follow the quest marker. Kill the Fallen Dragon, which is now mortal. After the scenes you wake in the Norgandian Inn; that completes the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "450,000 XP, 100,000 G, 10,000 RC, Norgan Portcrystal",
+  "warnings": [
+   "Once you go to the dragon you cannot back out; heal, repair, restock and set pawns first.",
+   "The dragon takes extra slash and strike damage, but several of its parts take none; hit exposed spots."
+  ],
+  "follow_ups": "Into Rancor starts when you wake (Ruin-Night). Opens Beyond Ruin-Night and A Keepsake, for Your Sake.",
+  "confidence": "low",
+  "sources": [
+   "https://allthings.how/?p=262277",
+   "https://allthings.how/?p=261528",
+   "https://allthings.how/?p=260597",
+   "https://dq7reimagined.com/dragons-dogma-2-dark-arisen/norgan-walkthrough/"
+  ]
+ },
+ {
+  "id": 40090,
+  "name": "Into Rancor",
+  "how": "Starts on waking after Reunion. Talk to Dorin, then Polyeidus at Castletown Campground; at Abyss Ridge the Pathfinder gives the Soulless Godsbane Blade. Mark Rancor's Vortexes with the Eye of the Sphinx, Examine each and clear its enemy waves. Once the blade becomes the Blade of Rancor (about four vortexes), use 'Proffer the blade' at the Abyss Ridge edge, jump in and kill Satanachia. You wake at the inn; done.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "500,000 XP, 100,000 G, 15,000 RC, Lv 5 Ancient Helm, Ancient Bowstaff, Ancient Light Weaponry",
+  "warnings": [
+   "The Satanachia fight starts the moment you land in Niflhel; stock curatives, Wakestones and buffs before jumping.",
+   "The quest log does not mark vortexes; use the Eye of the Sphinx. You cannot leave a vortex arena until every foe is dead.",
+   "Not a point of no return: Norgan stays open afterwards. Using the Blade of Rancor at Abyss Ridge again restarts Ruin-Night."
+  ],
+  "follow_ups": "Ends the Norgan story ('Dogma Defended' trophy).",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-how-to-get-the-blade-of-rancor-and-open-niflhel-into-rancor-walkthrough/",
+   "https://allthings.how/?p=262277",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-ruin-night-and-the-blade-of-rancor-explained/",
+   "https://allthings.how/?p=265669"
+  ],
+  "item_hints": {
+   "Soulless Godsbane Blade": "Given by the Pathfinder at Abyss Ridge (long staircase east of Lorade Castletown). Fills as you clear vortexes and becomes the Blade of Rancor. Cannot be sold.",
+   "Eye of the Sphinx": "From the Sphinx in Seeking the Sage. Use it from Items > Implements (retrieve it from storage if stored) to show vortexes as purple swirls on the map."
+  }
+ },
+ {
+  "id": 50010,
+  "name": "Hammer and Tongs",
+  "how": "Talk to Hal, the injured smith at the forge by a thatched hut in the Norgandian Settlement (hold the talk button). Go after dark to the abandoned village north then east of the settlement; the Winterweed Blossom glows along the cliff bases facing east and south. Return to Hal, choose Deliver and confirm to finish; no waiting needed.",
+  "decision": false,
+  "choices": [],
+  "best": "Go after dark so the blossom glows. Afterwards choose Manufacture with Hal to craft Norgan gear (5,000-15,000 G each).",
+  "rewards": "6,000 XP, Azure Ore, Snowoak Bark; unlocks Hal's workshop (Manufacture)",
+  "warnings": [
+   "Beorcan raiders often patrol the abandoned village; if underleveled, sneak in or use Smoke Screen to break pursuit.",
+   "Only one blossom is needed; keep one aside for the hand-in."
+  ],
+  "follow_ups": "Hal's Manufacture menu opens (37 items at first) and grows as the main story advances.",
+  "confidence": "high",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-hammer-and-tongs-walkthrough-and-what-hal-can-craft/",
+   "https://criticalhits.com.br/dicas/dragons-dogma-2-dark-arisen-onde-encontrar-flores-de-erva-do-inverno-para-hal/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/"
+  ],
+  "item_hints": {
+   "Winterweed Blossom": "A wild flower, not sold by Hal. Grows in the abandoned village north then east of the Norgandian Settlement, along the cliff bases facing east and south. Petals glow at night; by day they blend in. One is enough."
+  }
+ },
+ {
+  "id": 50020,
+  "name": "In for a Hare, in for a Hound",
+  "how": "After Chilling Tidings, talk to Ilsa, standing with the direwolf Freki just inside the settlement's stone archway gate. Kill an Alpine Hare (Valgr Ravine past the gate, or Norgandian Foothills above Lake Norgan) and loot its meat. Deliver it to Ilsa, follow Freki through Valgr Ravine to a chest among standing stones above Lake Norgan, open it, then tell Ilsa to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Afterwards take Freki on walks and feed her meat; she leads you to treasure chests, better meat gives better chests.",
+  "rewards": "10,000 XP, Scrag of Beast x3; unlocks Freki's treasure walks",
+  "warnings": [
+   "Stay close to Freki; if you stray too far she stops guiding and you must restart the walk from Ilsa.",
+   "Freki won't fight on the walk; clear the serpents and harpies yourself.",
+   "Hares flee; use a bow, spell or pawn (a pawn kill counts). The meat rots over time, so deliver it promptly."
+  ],
+  "follow_ups": "A Direwolf Delicacy (Ilsa approaches you in the settlement), then A Hound and His Bone.",
+  "confidence": "high",
+  "sources": [
+   "https://allthings.how/?p=262708",
+   "https://allthings.how/?p=262651",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/"
+  ],
+  "item_hints": {
+   "Alpine Hare Meat": "Loot from a small white Alpine Hare in Valgr Ravine (just past the settlement gate) or the Norgandian Foothills above Lake Norgan. Put one in Ilsa's 'Specified Delivery Only' slot."
+  }
+ },
+ {
+  "id": 50030,
+  "name": "The Truant Soldier",
+  "how": "Talk to Chrona beside Wash in the Mountain Stronghold hall; it starts automatically. Ride the lift down to the Norgan Snowfield and head northeast from the wooden shack through the whiteout to a ravine rim where Amos calls for help. On his ledge across the ravine, kill every Beorcan and Nokken. Then hold talk on Amos at the back of the Northwall Campground cave to finish; same day is fine.",
+  "decision": false,
+  "choices": [],
+  "best": "Bring a Climbing Hook and cold protection, then talk to Amos at Northwall Campground right after the fight.",
+  "rewards": "25,000 G, 35,000 XP",
+  "warnings": [
+   "Finishing: the quest only completes when you hold the talk button on Amos at the back of the Northwall Campground cave; a tap only hails him.",
+   "One guide says a Climbing Hook is needed to reach Amos's ledge unless your vocation is nimble; there is a tether post there.",
+   "The whiteout blanks the minimap; follow the quest banners."
+  ],
+  "follow_ups": "Amos then asks you to find merchant Aymond, starting The Stranger in the Snowfield.",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-finding-amos-in-the-truant-soldier-walkthrough/",
+   "https://allthings.how/?p=264121",
+   "https://www.videogameschronicle.com/guide/dd2-dark-arisen-where-to-find-amos-the-truant-soldier-quest-guide/",
+   "https://gamersocialclub.ca/2026/10/12/dragons-dogma-2-dark-arisen-where-to-find-the-travelling-merchant-aymond/"
+  ]
+ },
+ {
+  "id": 50040,
+  "name": "Quilt Me Down with a Feather",
+  "how": "After The Castle in the Ice, get it from roaming merchant Aymond. At Gagana's Grotto, kill three Nokken (lizards) nearby and drop their bodies at the cave entrance to lure the gagana out. Hit it until it flees, cling on, and it carries you to its nest; take the feather from the center. Give it to Aymond, rest at the settlement inn, then talk to him again to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "After handing over the feather, rest at the Norgandian Inn, then talk to Aymond again for the Firebird Cloak.",
+  "rewards": "20,000 G, 50,000 XP, Firebird Cloak",
+  "warnings": [
+   "Handing over the feather is not the end: rest at the inn until the objective says the reward is ready, then talk to Aymond again.",
+   "The nest is too high to climb; the only way up is clinging to the gagana as it flees.",
+   "Aymond roams, usually at the Norgandian Settlement; after The Stranger in the Snowfield he stays at Northwall Campground."
+  ],
+  "follow_ups": "Unlocks Back to the Temple (escort into Mordria Temple, branching rewards); Aymond starts selling Lv 4 spoils.",
+  "confidence": "medium",
+  "sources": [
+   "https://patchcrazy.co.uk/how-to-reach-gaganas-nest-dragons-dogma-2-dark-arisen/",
+   "https://xboxplay.games/dragons-dogma-2-dark-arisen/how-to-find-gaganas-nest-in-dragons-dogma-2-dark-arisen-76612",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/",
+   "https://gamersocialclub.ca/2026/10/12/dragons-dogma-2-dark-arisen-where-to-find-the-travelling-merchant-aymond/"
+  ],
+  "item_hints": {
+   "Firebird's Plume": "Guides also call it Gagana's feather; exact item name unconfirmed. Taken from the center of the gagana's nest above Gagana's Grotto, reached only by clinging to the fleeing gagana."
+  }
+ },
+ {
+  "id": 50050,
+  "name": "No Spoils Get Left Behind",
+  "how": "After The Castle in the Ice, talk to commission soldier Chrona; she dropped her haul fleeing an ambush near Putrid Copse. Go to Putrid Copse, recover the spoils at the quest marker and bring them back to Chrona to finish. Guides do not document the steps in detail yet.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "50,000 G, 80,000 XP",
+  "warnings": [],
+  "follow_ups": "",
+  "confidence": "low",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/"
+  ]
+ },
+ {
+  "id": 50060,
+  "name": "Beyond Ruin-Night",
+  "how": "Post-story quest that opens after Reunion. Read the letter left on the spare bed in the Norgandian Inn to start it, then follow the quest marker; guides do not document the later steps yet.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "100,000 XP, 8,000 RC",
+  "warnings": [
+   "Only appears after the main quest Reunion is completed."
+  ],
+  "follow_ups": "",
+  "confidence": "low",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-ruin-night-and-the-blade-of-rancor-explained/",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/"
+  ]
+ },
+ {
+  "id": 50070,
+  "name": "Sticks and Stones",
+  "how": "After Chilling Tidings, talk to Morgus on the Lake Norgan shore by the sunken stone bridge (northwest of the settlement). Throw a Climbing Hook at the tether post, climb, follow him to the camp past the ruined arch, kill the Beorcans and wolves and smash the firepit for Heatstones. Deliver 3 Heatstones to Ryatt near the well in the settlement (set quantity to 3) to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Any Heatstones you already carry count toward the three, wherever you got them.",
+  "rewards": "10,000 G, 3,000 XP, Sunstone, Molten Ore",
+  "warnings": [
+   "Sources disagree: one says the first firepit gives all three Heatstones, another says one each and Morgus marks more firepits on your map.",
+   "Clear the enemies before smashing a firepit, or the Pick Up prompt won't appear.",
+   "You need a Climbing Hook for the tether post at the start.",
+   "Have three Heatstones on you when you talk to Ryatt; don't use them up first."
+  ],
+  "follow_ups": "Unlocks A Howl in the Dark (track the blackdog that took Morgus's pendant).",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/?p=261548",
+   "https://nightlygamingbinge.com/dragons-dogma-ii-sticks-and-stones-walkthrough/",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/"
+  ],
+  "item_hints": {
+   "Heatstone": "Smash Beorcan firepits (the camp with Morgus, a standing-stone clearing south-southeast of the settlement, a ruined fort terrace above Lake Norgan). Also at campsites like Rivercave Campground, sold by Aymond and Ilda (3,000 G, limited), or crafted from Sunstone + Molten Ore or Sunstone + Warming Salve.",
+   "Climbing Hook": "Sold by Aymond; Dorin also gives one during Seeking the Sage."
+  }
+ },
+ {
+  "id": 50080,
+  "name": "The Stranger in the Snowfield",
+  "how": "Some in-game days after The Truant Soldier, walk up to Amos in the Northwall Campground cave; he starts it on his own. Go to the map circle (about 400 m E, 300 m S of camp) and walk NW from its center into Frozen Ravine Hollow. Kill every Bugaboo around Aymond, then he talks automatically. Walk back to Amos in the campground cave; the reunion scene ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "Worth doing early: Aymond then trades at Northwall Campground (Climbing Hooks, Regeneration Elixirs, Norgan Ducats) at 5% off.",
+  "rewards": "15,000 G, 30,000 XP",
+  "warnings": [
+   "Aymond will not talk until every Bugaboo in the hollow is dead.",
+   "No pin until you spot him: walk NW from the circle center until the 'caught sight of a stranger' banner appears.",
+   "Talking to Aymond is not the end; you must walk back to Amos in the campground cave."
+  ],
+  "follow_ups": "Aymond sells at Northwall Campground: Climbing Hook 5,000 G, Regeneration Elixir 10,000 G, Norgan Ducat 10,000 G, rings 10,000-20,000 G. After Quilt Me Down with a Feather he also sells Lv 4 spoils.",
+  "confidence": "high",
+  "sources": [
+   "https://allthings.how/the-stranger-in-the-snowfield-walkthrough-dragon-s-dogma-2-dark-arisen/",
+   "https://gamersocialclub.ca/2026/10/12/dragons-dogma-2-dark-arisen-where-to-find-the-travelling-merchant-aymond/"
+  ]
+ },
+ {
+  "id": 50090,
+  "name": "The Snatching-Beast",
+  "how": "After Rumbles in the North, talk to Wash (hooded archer) in the Mountain Stronghold pillared hall. Take the stronghold elevator into the snowfield and follow the dropped loot to the lair cave. Pick up the five Commission Supplies packs (two before the boss, three in the boss room), kill the sleeping snowfoot, then deliver the packs to Wash in the Northwall Campground cave or at Castletown Campground.",
+  "decision": false,
+  "choices": [],
+  "best": "Collect all five packs and hand them in unopened for the top payout: 30,000 G, three Lv 3 Ancient spoils and 3 rare Abandoned Supplies.",
+  "rewards": "40,000 XP always. All five packs: 30,000 G, Abandoned Supplies (Rare) x3, Lv 3 Ancient spoils (Bowstaff, Long Weaponry, Light Weaponry). Fewer packs: 25,000 or 20,000 G and fewer supplies.",
+  "warnings": [
+   "Delivery accepts partial batches, but the gold and spoils tier depends on how many packs you return; bring all five before finishing.",
+   "Opening a pack gives its contents (heatstones, cures) but costs you the top payout.",
+   "Snowfoot: about 240,000 HP, weak to lightning, resists fire; pawn lightning can stagger it into a wall.",
+   "Guides disagree on exact pack spots near the entrance; check ledges and behind breakable crates and barrels."
+  ],
+  "follow_ups": "",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-the-snatching-beast-walkthrough-and-all-five-supply-pack-locations/",
+   "https://www.videogameschronicle.com/guide/dd2-dark-arisen-all-commission-supply-locations-the-snatching-beast-quest-guide/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/"
+  ],
+  "item_hints": {
+   "Commission Supplies (Thermal)": "Snatching-Beast's lair, first chamber past two saurians: floor corner by a leaning crate (VGC: lower level, behind breakable barrels). Deliver to Wash.",
+   "Commission Supplies (Curatives)": "Lair hall, on a stone block/ledge topped with crates (allthings: left side; VGC: right side, breakable crate up on a ledge). Deliver to Wash.",
+   "Commission Supplies (Rare Armor)": "Boss room, rear rock ledge behind the snowfoot's dais, beside a small keg. Deliver to Wash.",
+   "Comm. Supplies (Rare Curatives)": "Boss room, same rear ledge as the Rare Armor pack, other side of the keg. Deliver to Wash.",
+   "Comm. Supplies (Rare Weaponry)": "Boss room floor against the cave wall, behind stacked breakable crates. Deliver to Wash."
+  }
+ },
+ {
+  "id": 50100,
+  "name": "Flight in the Night",
+  "how": "After Oh, to Be in Vermund, Ilda approaches you in the Norgandian Settlement; pick 'Wait for nightfall' (time skips to night). Walk her to three markers where she gathers Norgan salmon, winterweed blossom and coldstools herself; kill the ambush at the coldstools. Escort her to Polyeidus in the Sealed Study, take the Letter to Dorin, and deliver it to Dorin at the settlement bonfire to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "Stay within about 15 m of Ilda and clear the coldstool ambush; arriving after dawn does not fail the quest.",
+  "rewards": "70,000 XP, 2,000 RC; one listed outcome adds Regeneration Elixir x1 (condition unknown).",
+  "warnings": [
+   "Reaching the Sealed Study needs main quest Sealed History, and the quest only ends when you deliver the Letter to Dorin, not at the study.",
+   "Ilda stops if you get about 15 m ahead; keep her alive against Beorcans, direwolves, undead and aethons at the coldstools.",
+   "Guides disagree: VGC has you fish, climb a ladder for the blossom and Ferrystone her to the Commission camp. Follow your quest markers."
+  ],
+  "follow_ups": "Ilda later sells her gathered goods at Northwall Campground.",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/flight-in-the-night-walkthrough-for-dragon-s-dogma-2-dark-arisen-ilda-s-gifts/",
+   "https://allthings.how/?p=264149",
+   "https://www.videogameschronicle.com/guide/dd2-dark-arisen-flight-in-the-night-quest-guide-all-ilda-item-locations/",
+   "https://allthings.how/?p=265680",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/"
+  ],
+  "item_hints": {
+   "Letter to Dorin": "Given by Ilda when Polyeidus accepts her at the Sealed Study. Deliver to Dorin at the Norgandian Settlement bonfire (he walks up to you)."
+  }
+ },
+ {
+  "id": 50110,
+  "name": "A Keepsake, for Your Sake",
+  "how": "Post-story, after the main quest Reunion. Consult Polyeidus at the Sealed Study about a tremor to the north and follow the quest markers. Guides do not yet document the steps in detail; the quest ends with a choice between two rewards.",
+  "decision": true,
+  "choices": [
+   {
+    "option": "Take the Treatise on Proficiency",
+    "outcome": "Teaches the Proficiency augment: the top-level version of weapon skills costs less Stamina (partly stacks with Zeal).",
+    "rewards": "80,000 XP, 3,000 RC, Treatise on Proficiency"
+   },
+   {
+    "option": "Take 10 Norgan Ducats",
+    "outcome": "Half of the 20 Ducats Dwayne charges for Augmentum Scriptura (7th augment slot).",
+    "rewards": "80,000 XP, 3,000 RC, Norgan Ducat x10"
+   }
+  ],
+  "best": "Take the Treatise on Proficiency: it only comes from this quest, while Ducats come from appraisals, rubble, enemies and Aymond (10,000 G each).",
+  "rewards": "",
+  "warnings": [
+   "The two rewards are exclusive; you get one or the other.",
+   "Augmentum Scriptura (20 Ducats) is in Dwayne's Trade Norgan Ducats menu at the Norgandian Inn."
+  ],
+  "follow_ups": "",
+  "confidence": "low",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-the-five-new-augments-and-a-seventh-augment-slot/",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/"
+  ]
+ },
+ {
+  "id": 50120,
+  "name": "Village Defense",
+  "how": "After Rumbles in the North, tell Dorin at the settlement bonfire 'I am ready to defend the village' (daytime). Meet Dwayne by a boulder in Valgr Ravine; talking to him turns it to night. Clear wolves and harpies in the ravine, then wolves breaching the south palisade, then three large beasts inside the village. The quest ends when the last beast dies and the bonfire scene plays.",
+  "decision": false,
+  "choices": [],
+  "best": "Shop, store and swap pawns before accepting (fast travel locks), then keep Dwayne alive; ice and lightning help on the big beasts.",
+  "rewards": "Ring of Toppling (more knockdown power bare-handed) plus 90,000 XP and 5,000 RC, 90,000 XP and 3,000 RC, or 10,000 XP and 500 RC depending on how the night goes. No gold.",
+  "warnings": [
+   "Fast travel is locked from accepting until the last beast dies; Ferrystones fail (not consumed). Prepare first.",
+   "Keep Dwayne alive; he fights beside you all night and calls you to each breach.",
+   "What decides the reward tier is undocumented; a clean defense gives the top one."
+  ],
+  "follow_ups": "Hal recovers and offers a wider range of equipment at his workshop.",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-village-defense-walkthrough-ring-of-toppling/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/"
+  ]
+ },
+ {
+  "id": 50130,
+  "name": "Relics of the Past",
+  "how": "Starts when you pick up your first unappraised spoil (relic) in Norgan. Take it to Jiera in the Norgandian Settlement and have her appraise it. Appraisal costs a few Rift Crystals per spoil, but she hands you 300 RC the first time, so it is free. The first appraisal ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "3,000 XP; unlocks Jiera's appraisal service.",
+  "warnings": [
+   "The relic only sets the gear category; the exact piece, stats and skill are random.",
+   "Norgan relic gear cannot be upgraded with the usual smithing (e.g. Dwarven forge); replace it with better appraisals."
+  ],
+  "follow_ups": "Jiera keeps appraising spoils for RC; appraisals are also a source of Norgan Ducats.",
+  "confidence": "high",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-spoils-and-relic-appraisal-in-norgan-explained/",
+   "https://www.videogameschronicle.com/guide/dd2-dark-arisen-relics-spoils-and-appraisal-explained",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/"
+  ]
+ },
+ {
+  "id": 50140,
+  "name": "When the Culling Gets Tough",
+  "how": "Once in Norgan, talk to Dwayne at the Norgandian Inn entrance, pick 'I am', and kill the beorcan and white direwolves SE of the settlement. Then wait (no marker): keep playing; he asks for a second outing outside the inn, and later Dorin walks up to you at the bonfire. Follow Dwayne to Valgr Ravine, kill two saurians and a white griffin; Dwayne carrying Ilsa home ends it.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "25,000 XP, 500 RC, Ring of Brawling (boosts Strength when fighting bare-handed).",
+  "warnings": [
+   "The wait has no marker or timer (about a day in-game in one run); do other quests and return to the settlement, Dorin finds you at the bonfire.",
+   "The white griffin must die to progress; grab its wings and use pawn lightning.",
+   "Prerequisite differs by guide: Chilling Tidings or Seeking the Sage."
+  ],
+  "follow_ups": "Unlocks Bout of Passage: Dorin stops you outside the inn at night. Keep the Ring of Brawling for it.",
+  "confidence": "high",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-when-the-culling-gets-tough-walkthrough-and-ring-of-brawling-reward/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/"
+  ]
+ },
+ {
+  "id": 50150,
+  "name": "Oh, to Be in Vermund",
+  "how": "After Rumbles in the North, Ilda approaches you (or talk to her at her cart in the Norgandian Settlement). She wants three Vermund goods, asked for one at a time: a Rabbit Pelt, then a Noonbloom, then a Courtly Tunic. Hand each over on the Deliver screen; delivering the tunic ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "5,000 XP, 1,000 RC, Boreal Tuber x1, Frigid Fungus x1.",
+  "warnings": [
+   "Ilda wants three items, not just the pelt. Check inn storage first; you may already own them.",
+   "Do not buy the Courtly Tunic (listed at 155,000 G); loot one from a Vernworth chest instead."
+  ],
+  "follow_ups": "Unlocks Flight in the Night (helping Ilda leave with the Commission).",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/?p=262643",
+   "https://patchcrazy.co.uk/?p=60873",
+   "https://dragonsdogma2.wiki.fextralife.com/Courtly+Tunic",
+   "https://dragonsdogma2.wiki.fextralife.com/Noonbloom",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/"
+  ],
+  "item_hints": {
+   "Rabbit Pelt": "Kill a rabbit in Vermund (fields around Vernworth) and examine the body; Choppers can also drop it. Deliver first.",
+   "Noonbloom": "Wild flower, e.g. behind Myrddin's House near the cliff or on the hill NE of the Bridge of Theodracus the Second; also 600 G at the Flower Stand in Bakbattahl.",
+   "Courtly Tunic": "Vernworth: chest on the 2nd floor of Allard's Estate, master bedroom upstairs in the Comptroller's Home, or a chest in a corner room of Sven's Chambers (castle). Also a reward from The Ornate Box."
+  }
+ },
+ {
+  "id": 50160,
+  "name": "Reaching the Far Shore",
+  "how": "Talk to Jiera; Polyeidus at the Sealed Study sends you to Ser Ryatt in the same room. Jiera marks a Fimbl north of the Mountain Stronghold: beat it twice until it flees to Lake Norgan, then kill it with the ballistas at the Deserted Lakeside Estate. Wait for the lake to freeze, cross the ice south to the cave chest for the Taillour-Crafte Treatise, and give it to Hal.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "10,000 G, 50,000 XP, 1,000 RC; unlocks transmog (Tailor Equipment) at Hal.",
+  "warnings": [
+   "Freezing the lake: Await Weather Change alone did not work in one run. Camp at the fire ring NE of the estate, talk to Jiera, then check the lake.",
+   "Ballistas: hold the draw about 15 s; Fimbl attacks break them, so move to another (seven in total).",
+   "Do not swim the lake (Brine); on the ice, avoid the open water next to the ballista platforms."
+  ],
+  "follow_ups": "Hal's Tailor Equipment changes gear appearance without changing stats. Delivering the treatise also makes Village Defense your priority quest.",
+  "confidence": "high",
+  "sources": [
+   "https://allthings.how/reaching-the-far-shore-walkthrough-unlocking-transmog-in-dragon-s-dogma-2-dark-arisen/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-village-defense-walkthrough-ring-of-toppling/"
+  ],
+  "item_hints": {
+   "Taillour-Crafte Treatise": "In a chest in a cave across Lake Norgan. After the lake freezes, step onto the ice just north of the ballista platforms, go round the west side of the Fimbl's remains and follow the ice south. Give to Hal (Jiera's husband, the smith)."
+  }
+ },
+ {
+  "id": 50170,
+  "name": "Hal's Treasure Hunt",
+  "how": "After The Castle in the Ice, talk to Hal. Walk close to each of four posts in Norgan Snowfield: W (west circle), N (Beorcan-patrolled ruins), S (hill by Riftstone of the Beloved), E (by a ruined castle's grand entrance). Where the E-W and N-S lines cross, drop through soft snow into a cave (or enter Snowslide Pass from the north), take the Rusted Ring and deliver it to Hal.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "20,000 G, 35,000 XP, Frostbright Ring (Hal restores the Rusted Ring: no freezing or blizzard stamina drain in Norgan).",
+  "warnings": [
+   "Posts only register when you get close: search the slope by the riftstone (not the road) and outside the castle, not inside.",
+   "Give the ring to Hal himself, not Jiera's appraisal counter."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://www.videogameschronicle.com/guide/dd2-dark-arisen-hals-treasure-hunt-quest-guide/",
+   "https://www.theclick.gg/dragons-dogma-2-hals-treasure-hunt/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/"
+  ],
+  "item_hints": {
+   "Rusted Ring": "On the ground near the center of the cave under the crossing of the E-W and N-S post lines (drop through soft snow, or enter Snowslide Pass from the north). Deliver to Hal."
+  }
+ },
+ {
+  "id": 50180,
+  "name": "A Howl in the Dark",
+  "how": "After Sticks and Stones, Morgus in the Northwall Campground cave gives you the beast's hairs for the spirit compass. At night, follow the compass to a rocky hollow on the east side of Norgan Snowfield near the Obelisk of Benediction. Break the blackdog's aura with holy magick, kill it, loot the Fallen Pendant, then deliver it to Morgus.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "30,000 G, 55,000 XP.",
+  "warnings": [
+   "The blackdog only appears at night; sit on the bench at the nearby ruined hut and Doze Off, or camp, to reach dark.",
+   "Its aura blocks all damage: break it with holy (Mage's Anodyne field, Holy grimoire, High Empyrean, Virtuous Bolt, The Exalted), strike fast, repeat when it returns.",
+   "About 150,000 HP; double damage from holy, resists fire.",
+   "If the Commission has moved to Lorade Castletown (mid Soul Searching), deliver to Morgus there."
+  ],
+  "follow_ups": "",
+  "confidence": "high",
+  "sources": [
+   "https://allthings.how/?p=262693",
+   "https://www.videogameschronicle.com/guide/dd2-dark-arisen-how-to-damage-blackdog-enemies-a-howl-in-the-dawk-quest-guide/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/"
+  ],
+  "item_hints": {
+   "Fallen Pendant": "Dropped by the blackdog (night only) in a rocky hollow, east Norgan Snowfield near the Obelisk of Benediction. Deliver to Morgus via the Deliver screen."
+  }
+ },
+ {
+  "id": 50190,
+  "name": "A Direwolf Delicacy",
+  "how": "After In for a Hare, in for a Hound, talk to Ilsa in the Norgandian Settlement. The hounds want a Snowdeer Bone: kill a snowdeer (easy spot: north of the settlement along the river's south bank), examine the corpse to loot the bone, then deliver it to Ilsa to finish.",
+  "decision": false,
+  "choices": [],
+  "best": "",
+  "rewards": "20,000 XP, Beast-Steak x3, Hound's Scent Pouch x1.",
+  "warnings": [
+   "Wrong items only earn hints, and after enough misses Ilsa names the treat; no penalty for guessing."
+  ],
+  "follow_ups": "Unlocks A Hound and His Bone.",
+  "confidence": "high",
+  "sources": [
+   "https://www.videogameschronicle.com/guide/dd2-dark-arisen-treat-for-the-hounds-a-direwolf-delicacy-quest-guide/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/"
+  ],
+  "item_hints": {
+   "Snowdeer Bone": "Loot from a snowdeer corpse (shows as a rare item). Snowdeer roam most of Norgan; reliable spot north of the Norgandian Settlement along the river's south bank. Give to Ilsa."
+  }
+ },
+ {
+  "id": 50200,
+  "name": "A Hound and His Bone",
+  "how": "Hail Ilsa at her fire basket: 'Have Freki search for her pup'. Ask Dorin (bonfire), Hal (forge, from the front) and Ilsa; Hal, once recovered, leads you NE of the forge to Skoll's Snowdeer Bone. Show it to Ilsa, use Freki's 'Give bone', follow her to a cave about 350 m SSW, pick up Skoll and walk him to Ilsa's fire basket; her scene ends the quest.",
+  "decision": false,
+  "choices": [],
+  "best": "If offered a choice, take the Treatise on Lupinity: with Freki along, jumping and dashing cost 0.4x Stamina.",
+  "rewards": "60,000 XP, Alpine Hare Meat x3, Treatise on Lupinity. Quest lists say you pick the Treatise or a Hound's Scent Pouch; the walkthrough saw no choice.",
+  "warnings": [
+   "Walk, do not jump, while carrying Skoll; jumping or falling drops him. Hold Grab to lift him again.",
+   "A Beorcan may wait at the cave entrance; be ready to fight.",
+   "Freki cannot go on walks with you during the search."
+  ],
+  "follow_ups": "Final quest of Ilsa's hound chain.",
+  "confidence": "medium",
+  "sources": [
+   "https://allthings.how/a-hound-and-his-bone-walkthrough-finding-skoll-in-dragon-s-dogma-2-dark-arisen/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-the-five-new-augments-and-a-seventh-augment-slot/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/"
+  ],
+  "item_hints": {
+   "Skoll's Snowdeer Bone": "Clearing NE of Hal's forge: squared grey stones on bare rock by a young fir, a few steps east of where Hal stops. Deliver to Ilsa (you keep it), then Freki's menu: Give bone."
+  }
+ },
+ {
+  "id": 50210,
+  "name": "Bout of Passage",
+  "how": "After When the Culling Gets Tough, Dorin stops you outside the Norgandian Inn at night and asks you to join Dwayne's coming-of-age bout (or speak to Dwayne). You lay down your weapons and fight Dwayne with your fists. Guides do not yet document how the bout ends or what decides the reward.",
+  "decision": false,
+  "choices": [],
+  "best": "Wear the Ring of Brawling (bare-handed Strength) and Ring of Toppling (bare-handed knockdown) for the fist fight.",
+  "rewards": "One of five outcomes: 75,000 XP + 3,000 RC, or 50,000 XP + 1,500 RC (each with or without Regeneration Elixir x3 and Fungal Cure-All x3), or 20,000 XP only.",
+  "warnings": [
+   "You get only one reward outcome, and what decides it (winning, losing, how you fight) is undocumented.",
+   "No weapons in this fight; only bare-handed damage counts."
+  ],
+  "follow_ups": "",
+  "confidence": "low",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-when-the-culling-gets-tough-walkthrough-and-ring-of-brawling-reward/",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-village-defense-walkthrough-ring-of-toppling/",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/"
+  ]
+ },
+ {
+  "id": 50220,
+  "name": "The Obelisks of Benediction",
+  "how": "Starts when you touch any Obelisk of Benediction in Norgan (nine, one per vocation). At each obelisk, offer an Offering Flame (earned by clearing Lost Rite trials) to unlock that vocation's superior skill and a one-time permanent stat boost.",
+  "decision": false,
+  "choices": [],
+  "best": "Clear Lost Rites first so you carry a flame whenever you reach an obelisk.",
+  "rewards": "Per obelisk: a vocation skill pair (e.g. Warrior: Iron Cleave/Steel Cleave) plus a one-time stat boost (e.g. Warrior: Health). No fixed XP/gold confirmed.",
+  "warnings": [
+   "One list marks this quest losable. Lost Rites, the Offering Flame source, can be permanently failed once red clouds settle over the Sacred Arbor; start it early.",
+   "Warrior obelisk is in Mad-Lord's Chapel (cave just before the Shrine of Wisdom sage), guarded by strong enemies.",
+   "Trickster obelisk is east of the Magick Archer one; go around the chasm and up the mountain pass, not across."
+  ],
+  "follow_ups": "",
+  "confidence": "medium",
+  "sources": [
+   "https://games.gg/dragon-s-dogma-2/guides/dragons-dogma-2-dark-arisen-all-obelisk-locations/",
+   "https://allthings.how/?p=252510",
+   "https://allthings.how/?p=259468",
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/"
+  ],
+  "item_hints": {
+   "Offering Flame": "Reward for each Lost Rite trial (challenge dungeons). Start: Captain Brant at The Stardrop Inn, Vernworth, after dark, option 'About the uncovered ruins'; the first trial gives the Proving Ground Compass to find the rest."
+  }
+ },
+ {
+  "id": 50230,
+  "name": "Back to the Temple",
+  "how": "After Quilt Me Down with a Feather, meet Aymond at Castletown Campground (Lorade Castletown) and escort him and his party into Mordria Temple. Guides do not yet document the steps or how the escort ends; follow the markers and stay with Aymond.",
+  "decision": false,
+  "choices": [],
+  "best": "Rest and restock first, then protect Aymond's party the whole way; what decides the reward tier is undocumented.",
+  "rewards": "One of four outcomes: 100,000 G, 200,000 XP, 5,000 RC, Lv 4 Ancient Helm, Plastron and Greaves; 30,000 G, 100,000 XP, 2,000 RC, three Lv 4 spoils; 10,000 G, 50,000 XP, 1,000 RC, two Lv 4 spoils; or 20,000 XP, 500 RC.",
+  "warnings": [
+   "Only one reward outcome; the conditions are undocumented (likely how well the escort goes).",
+   "Mordria Temple is dangerous; prepare as for a boss dungeon."
+  ],
+  "follow_ups": "",
+  "confidence": "low",
+  "sources": [
+   "https://allthings.how/dragon-s-dogma-2-dark-arisen-all-23-norgan-side-quests-prerequisites-and-rewards/",
+   "https://www.theclick.gg/dragons-dogma-2-norgan-side-quests/",
+   "https://patchcrazy.co.uk/?p=60766"
+  ]
+ }
+]

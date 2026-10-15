@@ -1,0 +1,47 @@
+name: Quest note correction
+description: A walkthrough note is wrong, missing something, or unclear
+labels: [quest-notes]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Corrections from people who just played a quest are the most valuable thing this project gets.
+        Please keep spoilers to what's needed to fix the note.
+  - type: input
+    id: quest
+    attributes:
+      label: Quest name
+      placeholder: e.g. Saint of the Slums
+    validations:
+      required: true
+  - type: dropdown
+    id: part
+    attributes:
+      label: What's wrong?
+      multiple: true
+      options:
+        - Steps / how to finish
+        - A choice or its outcome
+        - Rewards
+        - Timing or a time limit
+        - Where to get an item
+        - A warning is wrong or missing
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What the note says
+      description: Copy the text from the ledger or tracker if you can.
+  - type: textarea
+    id: right
+    attributes:
+      label: What actually happened in your game
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source (optional)
+      description: A guide or video that confirms it, if you have one.

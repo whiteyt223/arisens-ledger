@@ -1,0 +1,37 @@
+name: Bug report
+description: Something in the HUD, tracker, minimap or ledger misbehaves
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Where / how to see it
+      description: Quest, location, time of day, what you were doing. A screenshot helps a lot.
+  - type: input
+    id: version
+    attributes:
+      label: Arisen's Ledger version
+      description: Shown at the bottom of the ledger's Settings page.
+      placeholder: "1.0.0"
+  - type: input
+    id: reframework
+    attributes:
+      label: REFramework build
+      placeholder: e.g. nightly 1432
+  - type: input
+    id: screen
+    attributes:
+      label: Resolution and in-game HUD scale
+      placeholder: e.g. 2560x1440, default HUD
+  - type: textarea
+    id: log
+    attributes:
+      label: REFramework log
+      description: Lines mentioning "Arisen's Ledger" from re2_framework_log.txt in the game folder, if any.
+      render: text

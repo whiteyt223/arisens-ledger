@@ -1,0 +1,7 @@
+# your personal settings, written by the mod at runtime
+reframework/data/arisens_ledger.json
+# build output
+dist/
+*.zip
+.DS_Store
+Thumbs.db
