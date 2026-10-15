@@ -59,6 +59,7 @@ It is a [REFramework](https://github.com/praydog/REFramework) Lua script. It onl
 ## Requirements
 
 - Dragon's Dogma 2 on PC (Steam). Tested on the Dark Arisen update.
+- Dark Arisen is **optional**. Without it, the mod should simply ignore the expansion's quests. That case is untested, so please open an issue if expansion quests show up anyway.
 - [REFramework](https://github.com/praydog/REFramework-nightly/releases) for DD2: a **nightly build recent enough for the current game patch**. Tested with nightly 1432. Older stable builds may not run on the Dark Arisen patch.
 
 ## Install
