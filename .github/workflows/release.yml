@@ -1,0 +1,44 @@
+name: Release
+
+# Push a tag like v1.0.2 and this builds the download zip and publishes the GitHub release,
+# using that version's section of CHANGELOG.md as the release notes.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check quest notes
+        run: python3 tools/check_guide.py
+
+      - name: Build zip
+        run: |
+          VER="${GITHUB_REF_NAME#v}"
+          zip -qr "ArisensLedger-${VER}.zip" reframework README.md LICENSE CREDITS.md CHANGELOG.md
+          echo "VER=${VER}" >> "$GITHUB_ENV"
+
+      - name: Release notes from CHANGELOG
+        run: |
+          python3 - <<'PY'
+          import os, re
+          ver = os.environ["VER"]
+          text = open("CHANGELOG.md", encoding="utf-8").read()
+          m = re.search(r"^## " + re.escape(ver) + r"\b.*?$(.*?)(?=^## |\Z)", text, re.S | re.M)
+          body = (m.group(1).strip() if m else "See CHANGELOG.md.")
+          body += ("\n\n**Install:** download `ArisensLedger-" + ver + ".zip` below and copy its `reframework` folder into your "
+                   "Dragon's Dogma 2 game folder. Needs a recent [REFramework](https://github.com/praydog/REFramework-nightly/releases) "
+                   "nightly. Full steps in the [README](https://github.com/" + os.environ["GITHUB_REPOSITORY"] + "#install).")
+          open("notes.md", "w", encoding="utf-8").write(body)
+          PY
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" "ArisensLedger-${VER}.zip" --title "Arisen's Ledger ${VER}" --notes-file notes.md --verify-tag

@@ -66,6 +66,10 @@ Ground rules:
 
 CI checks that every Lua file compiles (`luac -p`), but it can't run the game, so in-game testing is on you.
 
+## Releasing (maintainer)
+
+Bump `VERSION` in `core.lua`, add a `## x.y.z` section at the top of `CHANGELOG.md`, commit, then push a tag: `git tag vx.y.z && git push origin vx.y.z`. The Release workflow builds the zip and publishes the GitHub release with that changelog section as its notes.
+
 ## Reporting bugs
 
 Use the [Bug report](../../issues/new?template=bug-report.yml) template. Include your resolution, HUD scale and REFramework build. A screenshot plus any "Arisen's Ledger" lines from the REFramework log help enormously.
