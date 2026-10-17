@@ -7,7 +7,7 @@ local T = require("arisens_ledger/tokens")
 local H = require("arisens_ledger/hud")
 local ok_ui, UI = pcall(require, "arisens_ledger/ui")
 
-local VERSION = "1.0.0"
+local VERSION = "1.0.1"
 local CFG_FILE = "arisens_ledger.json"
 local DEFAULTS = {
     hud = true, compass = true, tracker = true, radar = true, markers = true, toasts = true, token_arrow = true,

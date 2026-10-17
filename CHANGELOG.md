@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 (2026-10-17)
+
+- The compass, minimap and tracker now point to the most likely **next** stop when a quest names several people or places, not just the nearest one. Order of preference: items you still need (storage or shop), the game's own objective for the step, open journal leads (newest first) and people with a quest conversation ready, then everyone else involved, then places a later journal entry names.
+- The tracker card shows that stop under **NEXT** and lists the rest under **ALSO IN THIS QUEST**, each with the reason it's there ("journal lead", "ready to talk", "involved"...). The ledger's Where list uses the same order.
+- Pinned and other in-progress quests on the compass also use the best stop instead of the nearest.
+
 ## 1.0.0 (2026-10-15)
 
 First public release.
