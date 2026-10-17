@@ -68,7 +68,7 @@ CI checks that every Lua file compiles (`luac -p`), but it can't run the game, s
 
 ## Releasing (maintainer)
 
-Bump `VERSION` in `core.lua`, add a `## x.y.z` section at the top of `CHANGELOG.md`, commit, then push a tag: `git tag vx.y.z && git push origin vx.y.z`. The Release workflow builds the zip and publishes the GitHub release with that changelog section as its notes.
+Bump `VERSION` in `core.lua` and add a `## x.y.z` section at the top of `CHANGELOG.md`, then push to `main`. The Release workflow notices the new version, builds the zip and publishes release `vx.y.z` with that changelog section as its notes.
 
 ## Reporting bugs
 

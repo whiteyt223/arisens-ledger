@@ -1,10 +1,17 @@
 name: Release
 
-# Push a tag like v1.0.2 and this builds the download zip and publishes the GitHub release,
-# using that version's section of CHANGELOG.md as the release notes.
+# Publishes a GitHub release (tag vX.Y.Z + download zip) whenever the VERSION in core.lua
+# changes on main and no release exists for it yet. Release notes come from that version's
+# section of CHANGELOG.md. Pushing a tag vX.Y.Z by hand works too.
 on:
   push:
+    branches: [main]
+    paths:
+      - reframework/autorun/arisens_ledger/core.lua
+      - CHANGELOG.md
+      - .github/workflows/release.yml
     tags: ["v*"]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,16 +22,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Work out the version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VER=$(sed -n 's/^local VERSION = "\(.*\)".*/\1/p' reframework/autorun/arisens_ledger/core.lua)
+          if [ -z "$VER" ]; then echo "no VERSION in core.lua"; exit 1; fi
+          echo "VER=$VER" >> "$GITHUB_ENV"
+          if gh release view "v$VER" >/dev/null 2>&1; then
+            echo "Release v$VER already exists; nothing to do."
+            echo "SKIP=1" >> "$GITHUB_ENV"
+          fi
+
       - name: Check quest notes
+        if: env.SKIP != '1'
         run: python3 tools/check_guide.py
 
       - name: Build zip
-        run: |
-          VER="${GITHUB_REF_NAME#v}"
-          zip -qr "ArisensLedger-${VER}.zip" reframework README.md LICENSE CREDITS.md CHANGELOG.md
-          echo "VER=${VER}" >> "$GITHUB_ENV"
+        if: env.SKIP != '1'
+        run: zip -qr "ArisensLedger-${VER}.zip" reframework README.md LICENSE CREDITS.md CHANGELOG.md
 
       - name: Release notes from CHANGELOG
+        if: env.SKIP != '1'
         run: |
           python3 - <<'PY'
           import os, re
@@ -39,6 +58,7 @@ jobs:
           PY
 
       - name: Publish release
+        if: env.SKIP != '1'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release create "$GITHUB_REF_NAME" "ArisensLedger-${VER}.zip" --title "Arisen's Ledger ${VER}" --notes-file notes.md --verify-tag
+        run: gh release create "v${VER}" "ArisensLedger-${VER}.zip" --target "$GITHUB_SHA" --title "Arisen's Ledger ${VER}" --notes-file notes.md --latest
