@@ -518,7 +518,7 @@ local function read_journal(q, nm)
                     end
                     if label and not seen[label] then
                         seen[label] = true
-                        leads[#leads + 1] = { label = label, pos = pos, from = base }
+                        leads[#leads + 1] = { label = label, pos = pos, from = base, order = idx }
                     end
                 end
             end
@@ -859,15 +859,23 @@ end
 function M.waypoints(q)
     local out = {}
     if not q then return out end
+    -- rank = how sure we are this is the next stop, best first:
+    --   0 items you still need (storage / shop)   1 the game's own objective marker for this step
+    --   2 an open journal lead, or someone with a quest conversation ready right now
+    --   4 someone involved in the quest           5 a place a later journal entry names (probably not yet)
     if q.cat == CAT.PROGRESS and q.item_wps then
-        for _, w in ipairs(q.item_wps) do out[#out + 1] = { pos = w.pos, label = w.label, kind = "objective", quest = q.id, priority = true } end
+        for _, w in ipairs(q.item_wps) do out[#out + 1] = { pos = w.pos, label = w.label, kind = "objective", quest = q.id, priority = true, rank = 0, why = "you need items" } end
     end
     if q.cat == CAT.PROGRESS and q.dests then
-        for _, d in ipairs(q.dests) do out[#out + 1] = { pos = d.pos, label = d.label, kind = "objective", quest = q.id } end
+        for _, d in ipairs(q.dests) do out[#out + 1] = { pos = d.pos, label = d.label, kind = "objective", quest = q.id, rank = 1, why = "quest objective" } end
     end
     if q.cat == CAT.PROGRESS and q.leads then
         for _, l in ipairs(q.leads) do
-            if l.pos then out[#out + 1] = { pos = l.pos, label = l.label, kind = "objective", quest = q.id, lead = true } end
+            if l.pos then
+                local open = l.from ~= nil
+                out[#out + 1] = { pos = l.pos, label = l.label, kind = "objective", quest = q.id, lead = true, order = l.order or -1,
+                    rank = open and 2 or 5, why = open and "journal lead" or "later step" }
+            end
         end
     end
     if (q.cat == CAT.PROGRESS or q.cat == CAT.AVAILABLE) and q.npcs then
@@ -879,6 +887,7 @@ function M.waypoints(q)
                         dup = true
                         -- two people standing together: keep the one who will actually talk
                         if n.ready and not w.ready and w.kind ~= "objective" then w.label, w.ready = n.name, true end
+                        if n.ready and (w.rank or 9) > 2 then w.rank, w.why = 2, "ready to talk" end
                     end
                 end
                 -- the same person can be listed under two character IDs (e.g. a home copy and the live one):
@@ -887,17 +896,41 @@ function M.waypoints(q)
                     if not dup and w.label == n.name then
                         dup = true
                         -- a journal lead naming this person: follow the person themself, where they stand now
-                        if w.kind == "objective" then w.pos, w.ready, w.loaded = n.pos, n.ready, n.loaded
+                        if w.kind == "objective" then
+                            w.pos, w.ready, w.loaded = n.pos, n.ready, n.loaded
+                            if n.ready and (w.rank or 9) > 2 then w.rank, w.why = 2, "ready to talk" end
                         elseif (n.loaded and not w.loaded) or (n.ready and not w.ready and n.loaded == w.loaded) then
                             w.pos, w.ready, w.loaded = n.pos, n.ready, n.loaded
+                            if n.ready and (w.rank or 9) > 2 then w.rank, w.why = 2, "ready to talk" end
                         end
                     end
                 end
-                if not dup then out[#out + 1] = { pos = n.pos, label = n.name, kind = (q.cat == CAT.AVAILABLE) and "giver" or "person", quest = q.id, ready = n.ready, loaded = n.loaded } end
+                if not dup then
+                    local avail = q.cat == CAT.AVAILABLE
+                    out[#out + 1] = { pos = n.pos, label = n.name, kind = avail and "giver" or "person", quest = q.id, ready = n.ready, loaded = n.loaded,
+                        rank = n.ready and (avail and 1 or 2) or 4, why = n.ready and (avail and "starts the quest" or "ready to talk") or "involved" }
+                end
             end
         end
     end
     return out
+end
+
+-- best first: by rank, then the newest journal lead, then distance
+function M.rank_sort(list)
+    table.sort(list, function(a, b)
+        local ra, rb = a.rank or 4, b.rank or 4
+        if ra ~= rb then return ra < rb end
+        if ra == 2 and (a.order or -1) ~= (b.order or -1) then return (a.order or -1) > (b.order or -1) end
+        return G.dist(a.pos) < G.dist(b.pos)
+    end)
+    return list
+end
+function M.next_waypoint(q)
+    local l = {}
+    for _, w in ipairs(M.waypoints(q)) do if w.pos then l[#l + 1] = w end end
+    M.rank_sort(l)
+    return l[1], l[1] and G.dist(l[1].pos)
 end
 
 function M.nearest_waypoint(q)

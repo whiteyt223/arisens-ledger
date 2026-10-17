@@ -80,7 +80,7 @@ local function pick_focus(cfg)
         for _, id in ipairs(M.order) do
             q = M.quests[id]
             if q.cat == CAT.PROGRESS then
-                local _, d = M.nearest_waypoint(q)
+                local _, d = M.next_waypoint(q)
                 if d and (not bd or d < bd) then best, bd = q, d end
             end
         end
@@ -100,7 +100,7 @@ local function build(now, cfg)
     local wps, seen = {}, {}
     local function push(w, role)
         local d = G.dist(w.pos)
-        wps[#wps + 1] = { pos = w.pos, label = w.label, kind = w.kind, quest = w.quest, role = role, dist = d, ready = w.ready, priority = w.priority,
+        wps[#wps + 1] = { pos = w.pos, label = w.label, kind = w.kind, quest = w.quest, role = role, dist = d, ready = w.ready, priority = w.priority, rank = w.rank, why = w.why, order = w.order,
             brg = U.bearing(G.upos, w.pos), dy = w.pos.y - G.upos.y }
     end
     if focus then
@@ -117,7 +117,7 @@ local function build(now, cfg)
         if q and not seen[id] and (q.cat == CAT.PROGRESS or q.cat == CAT.AVAILABLE) then
             seen[id] = true
             if people_due then M.refresh_people(q) end
-            local w = M.nearest_waypoint(q)
+            local w = M.next_waypoint(q)
             if w then
                 w.label = q.name
                 if w.kind == "giver" then w.kind = "person" end
@@ -131,7 +131,7 @@ local function build(now, cfg)
             local q = M.quests[id]
             if q.cat == CAT.PROGRESS and not seen[id] then
                 seen[id] = true
-                local w, d = M.nearest_waypoint(q)
+                local w, d = M.next_waypoint(q)
                 if w and d <= max_r then w.label = q.name push(w, "other") end
             end
         end
@@ -171,15 +171,11 @@ local function build(now, cfg)
     H.wps = wps
     -- the single waypoint the tracker and compass call out
     local main, md
-    -- an errand for missing items (storage or a shop) leads; otherwise the nearest goal
-    for _, w in ipairs(wps) do
-        if w.role == "focus" and w.priority and (not md or w.dist < md) then main, md = w, w.dist end
-    end
-    if not main then
-        for _, w in ipairs(wps) do
-            if w.role == "focus" and (not md or w.dist < md) then main, md = w, w.dist end
-        end
-    end
+    -- the one to follow: best ranked (items you need, the game's objective, open leads...), then nearest
+    local cands = {}
+    for _, w in ipairs(wps) do if w.role == "focus" then cands[#cands + 1] = w end end
+    M.rank_sort(cands)
+    main = cands[1]
     H.main = main
 end
 
@@ -313,10 +309,11 @@ local function tracker_lines(cfg, L)
             elseif gd.warnings[1] then add(F.body, 14.5, C.amber, "Heads up: " .. gd.warnings[1], 3, nil, 6) end
         end
         local m = H.main
-        -- every person and place for this quest, nearest first, stacked; the one the compass follows is bright
+        -- every person and place for this quest, best first: the one to go to now on top (bright, "Next"),
+        -- then the rest with why they're listed
         local all = {}
         for _, w in ipairs(M.waypoints(q) or {}) do if w.pos then all[#all + 1] = w end end
-        table.sort(all, function(a, b) return G.dist(a.pos) < G.dist(b.pos) end)
+        M.rank_sort(all)
         local shown = 0
         for _, w in ipairs(all) do
             if shown >= 8 then add(F.body, 13.5, C.text_faint, "+" .. (#all - shown) .. " more in the ledger (F8)", 2) break end
@@ -324,7 +321,11 @@ local function tracker_lines(cfg, L)
             local is_main = m and m.pos and math.abs(m.pos.x - w.pos.x) < 0.5 and math.abs(m.pos.z - w.pos.z) < 0.5
             local txt = F.fit(F.bold, 15.5 * s, w.label or "?", W * 0.55) .. "   " .. U.fmt_dist(dist) .. " " .. U.dir_name(U.bearing(G.upos, w.pos))
             if dy > 6 then txt = txt .. ", up " .. math.floor(dy) .. " m" elseif dy < -6 then txt = txt .. ", down " .. math.floor(-dy) .. " m" end
-            add(is_main and F.bold or F.body, is_main and 16 or 15, is_main and C.gold_hi or C.text, txt, 2, w.kind)
+            if shown == 0 and #all > 1 then add(F.body, 12, C.text_faint, "NEXT", 0) end
+            if shown == 1 then add(F.body, 12, C.text_faint, "ALSO IN THIS QUEST", 0) end
+            if #all > 1 and w.why then txt = txt .. "  -  " .. w.why end
+            local col = is_main and C.gold_hi or ((w.rank or 4) <= 2 and C.text or C.text_dim)
+            add(is_main and F.bold or F.body, is_main and 16 or 14.5, col, txt, 2, w.kind)
             shown = shown + 1
         end
         if shown > 0 then

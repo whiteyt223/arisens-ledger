@@ -465,8 +465,9 @@ local function detail_pane(w, hgt, now)
     end
     if q.cat == CAT.AVAILABLE or q.cat == CAT.PROGRESS then
         head("Where")
-        local wps = M.waypoints(q)
-        table.sort(wps, function(a, b) return G.dist(a.pos) < G.dist(b.pos) end)
+        local wps = {}
+        for _, wp in ipairs(M.waypoints(q)) do if wp.pos then wps[#wps + 1] = wp end end
+        M.rank_sort(wps)
         if #wps == 0 then
             line(C.text_dim, (q.cat == CAT.AVAILABLE) and "No one to talk to. It starts the way the description above says: a letter, a notice, an event, or the story." or "No marked destination for this step.")
         end
@@ -477,7 +478,8 @@ local function detail_pane(w, hgt, now)
             local extra = (dy > 6) and (", up " .. math.floor(dy) .. " m") or ((dy < -6) and (", down " .. math.floor(-dy) .. " m") or "")
             block("##wp" .. i, w, px(24), function(x, y)
                 dl:add_quad_filled(V(x + px(16), y + px(5)), V(x + px(22), y + px(11)), V(x + px(16), y + px(17)), V(x + px(10), y + px(11)), (wp.kind == "objective") and C.gold or C.gold_hi)
-                text(F.body, 15, x + px(32), y + px(2), C.text, F.fit(F.body, 15 * s, wp.label or "?", w * 0.5))
+                local lbl = (wp.label or "?") .. (wp.why and ("  -  " .. wp.why) or "")
+                text(i == 1 and F.bold or F.body, 15, x + px(32), y + px(2), i == 1 and C.gold_hi or ((wp.rank or 4) <= 2 and C.text or C.text_dim), F.fit(F.body, 15 * s, lbl, w * 0.62))
                 local rt = U.fmt_dist(d) .. " " .. U.dir_name(U.bearing(G.upos, wp.pos)) .. extra
                 text(F.body, 14.5, x + w - text_w(F.body, 14.5, rt) - px(6), y + px(2), C.text_dim, rt)
             end)
